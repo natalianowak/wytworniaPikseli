@@ -1,12 +1,43 @@
-body{
+body {
     font-size: 100%;
     font-size: 16px;
+    font-family: 'Raleway Regular';
+    height:auto;
 }
+
+.heavy {
+    font-family: 'Raleway Heavy';
+}
+.contain{
+    display: block;
+}
+
+.videoClass {
+    width: 100%;
+    position: relative;
+}
+
 .video {
     width: 100%;
-    /*position: absolute;*/
     top: 0;
     z-index: 0;
+
+}
+
+.blueSymbol {
+    z-index: 0;
+    position: absolute;
+    padding-left: 20%;
+    width: 36%;
+    bottom: -12%;
+}
+.kropki{
+    z-index: 0;
+    position: absolute;
+    padding-left: 20%;
+    width: 61%;
+    right: 1%;
+    top: 13%;
 }
 
 .menuGorne {
@@ -37,8 +68,9 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.logoTop{
-    width:13%;
+
+.logoTop {
+    width: 13%;
 }
 
 .nav {
@@ -57,20 +89,204 @@ body{
 
 .nav a {
     color: #3d3c3d;
+    text-decoration: none;
+}
+
+#active {
+    color: #009fe4;
+    font-weight: bold;
 }
 
 .nav a:hover {
     color: #009fe4;
     text-decoration: none;
+    font-family: 'Raleway Heavy';
 }
-.blueSymbol{
-    z-index: 0;
-    position: absolute;
+
+
+
+.yellowBackground {
+    width: 100%;
+    position: relative;
+
+}
+
+.yellowSectionContent {
+    position: relative;
+
+    width: 100%;
+}
+
+.section1Text {
     padding-left: 20%;
-    width: 36%;
-    top: 42%;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
 }
-.yellowBackground{
+
+.longText {
+    text-align: justify;
+    padding-right: 50%;
+    padding-top: 1%;
+}
+
+.fajneHaslo {
+    display: flex;
+}
+.fajneHaslo2{
+    display: flex;
+    align-items: baseline;
+}
+
+.blue {
+    color: #009fe4;
+}
+
+h3 {
+    /*position: absolute;*/
+    font-size: larger;
+}
+
+.co {
+    display: -webkit-inline-box;
+    /* display: inherit; */
+    padding-left: 20%;
+    position: absolute;
+    left: 0;
+    top: 15%;
+    display: flex;
+    align-items: center;
+
+}
+
+.co h3 {
+    margin-bottom: 0;
+}
+
+.dalej {
+    padding-right: 20%;
+    position: absolute;
+    right: 0;
+    bottom: 3%;
+    cursor: pointer;
+}
+
+.elipsy {
+    padding-right: 20%;
+    padding-left: 20%;
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.elip {
+
+}
+
+.elip p {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.elip img {
+    width: 100%;
+}
+
+.elipMargin {
+    margin-right: 4%;
+}
+
+.kropka {
+    width: 12px;
+    height: 12px;
+    margin-right: 7px;
+}
+.section3{
+    position: relative;
+
+}
+.backgroundSection3{
+    width:100%;
+    position: relative;
+}
+.section3Content{
+    position: relative;
+    width: 100%;
+}
+.textSection3{
+    padding-left: 20%;
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+.yellow{
+    color: #fbb900;
+}
+.dalej2{
+    padding-right: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 3%;
+    cursor: pointer;
+}
+.white{
+    color: white;
+}
+
+
+.section4{
+    position: relative;
+
+}
+.section4Content{
+    position: relative;
+    width: 100%;
+}
+.backgroundSection4{
     width:100%;
     position: absolute;
+}
+
+.my{
+    align-items: flex-start;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    top: -7px;
+
+}
+.losiu{
+    /* flex: 1; */
+    width: 37.6%;
+    margin-right: -4.9%;
+    position: relative;
+
+}
+.danka{
+    /* flex: 1; */
+    width: 38.8%;
+    margin-right: -4.9%;
+    position: relative;
+
+}
+.stodi{
+    /* flex: 1; */
+    width: 33.41%;
+    position: relative;
 }
