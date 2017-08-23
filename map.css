@@ -96,7 +96,7 @@ body {
 
 .nav {
     color: #3d3c3d;
-    width: 420px;
+    width: 397px;
 }
 
 .nav li {
@@ -239,6 +239,9 @@ h3 {
     font-size: 10px;
     font-weight: normal;
 }
+#prjektowanieMargin{
+    margin-top: 0;
+}
 
 .elip img {
     width: 100%;
@@ -247,6 +250,8 @@ h3 {
 .elipMargin {
     margin-right: 4%;
 }
+
+
 
 .kropka {
     width: 12px;
@@ -372,11 +377,12 @@ h3 {
     margin-bottom: 4%;
 }
 .blueDolny{
-    width:70%;
+    width:100%;
+    padding-right: 15%;
 }
 .middle{
     width: 60%;
-    margin-top: 4%;
+    margin-top: 3%;
     margin-bottom: 4%;
 }
 .middleTop{
@@ -394,6 +400,9 @@ h3 {
 width: 50%;
     float: left;
     line-height: 16px;
+}
+.middleDownLeft p:first-child{
+    padding-bottom: 1%;
 }
 .middleDownRight{
     width:50%;
@@ -443,4 +452,31 @@ p{
     height: 100%;
     position: relative;
     overflow: hidden;;
+}
+
+
+@media only screen and (max-width: 1100px){
+    body{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+
+    .textSection3 p {
+        font-size: 13px;
+        bottom:2px;
+    }
+    .elip img {
+        width: 70px;
+    }
+    .elip p{
+        font-size: 9px;
+    }
+    .elipsy{
+        justify-content: space-between;
+    }
 }
