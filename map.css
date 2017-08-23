@@ -22,6 +22,17 @@ body {
     height:auto;
     overflow: scroll;
 }
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -9999;
+    transform: translateX(-50%) translateY(-50%);
+    background: #000;
+    background-repeat: no-repeat;
+}
 
 .heavy {
     font-weight: 900;
@@ -229,7 +240,7 @@ h3 {
 
 }
 
-.elip {
+.elip:hover {
 
 }
 
@@ -265,6 +276,7 @@ h3 {
     background-image: url(img/tloZdjecie.png);
     background-size: 100%;
     background-position-y: center;
+    background-attachment: fixed;
 
 }
 .backgroundSection3{
