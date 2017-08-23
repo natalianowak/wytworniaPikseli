@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900');
 
 @font-face {
     font-family: 'Raleway Medium';
@@ -24,7 +24,7 @@ body {
 }
 
 .heavy {
-    font-weight: bold;
+    font-weight: 900;
 }
 .contain{
     display: block;
