@@ -299,6 +299,8 @@ h3 {
     text-align: center;
     font-size: 10px;
     font-weight: normal;
+    font-family: "Open", sans-serif;
+    /*font-style:  ;*/
 }
 
 #prjektowanieMargin {
@@ -545,6 +547,8 @@ h3 {
     float: right;
     width: 50%;
     font-size: 20px;
+    font-family: "Open", sans-serif;
+    font-weight: lighter;
 }
 
 .zNami {
@@ -631,4 +635,14 @@ p {
     .podpis {
         bottom: 2%;
     }
+}
+
+@media only screen and (max-width: 900px) {
+/*.middleDownRight{*/
+    /*clear: both;*/
+    /*float: left;*/
+/*}*/
+    /*.inline{*/
+        /*margin-left: 0;*/
+    /*}*/
 }
