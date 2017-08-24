@@ -84,6 +84,10 @@ video {
 .belkaGorna {
     z-index: 2;
     position: absolute;
+    width: 100%;
+    /*background-image: url("img/menuGórne2.png");*/
+    /*background-repeat: repeat-x;*/
+    /*background-size: cover;*/
 }
 
 /*div z logo i nav*/
@@ -375,7 +379,7 @@ h3 {
     right: 0;
     position: absolute;
     padding-right: 20%;
-    height: 700px;
+    width: 20.51%;
     top: 0;
 }
 
