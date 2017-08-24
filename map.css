@@ -166,7 +166,7 @@ video {
 .yellowSectionContent {
     position: relative;
     background-color: #fbb900;
-    height: 40%;
+    height: 350px;
     width: 100%;
     z-index: 1;
 }
@@ -298,7 +298,7 @@ h3 {
 .section3{
     position: relative;
     background-color: #009fe4;
-    height: 40%;
+    height:350px;
     background-image: url(img/zdjecieWtle.png);
     background-size: cover;
     background-position-y: center;
@@ -432,51 +432,141 @@ h3 {
 }
 
 .section5{
-    width:100%;
-    height:40%;
+    width: 100%;
+    height: 350px;
     background-color: #fbb900;
-    display: inline-flex;
+    position: relative;
+
 
 }
-.leftSybmol{
-    width:20%;
-    display: flex;
-    align-items: center;
-    margin-top: 3%;
-    margin-bottom: 4%;
-}
 .blueDolny{
-    width:100%;
-    padding-right: 15%;
+width: 15%;
+    height:100%;
+    background-image:url("img/blueSymbolDolny.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
 }
-.middle{
-    width: 60%;
-    margin-top: 3%;
-    margin-bottom: 4%;
+.kropkiJasne{
+    right: 0;
+    /* float: right; */
+    height: 100%;
+    width: 13%;
+    background-image: url(img/kropkiJasne.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left 160px;
+
 }
-.middleTop{
+.kontakt{
+   padding-left: 20%;
+}
+.kropkiCzarne{
+
+}
+.kropkiCzarneImg{
+    width:100%
+}
+.opakownie{
+    display: flex;
+    align-items:baseline;
+}
+.srodkowanieWpionie{
     width: 100%;
-    margin-bottom: 4%;
+    height: fit-content;
+    /* overflow: auto; */
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
-.middleTop h2:first-child{
-    /*background-image: url("img/kontaktKropkiCzarne.png");*/
-    /*background-repeat: repeat-x;*/
-    /*background-position:bottom ;*/
-    /*background-position: right;*/
-    /*background-size: 90%;*/
+.bottom{
+    width:100%;
+    padding-right: 20%;
+    padding-left: 20%;
+    height: 70px;
 }
 .middleDownLeft{
-width: 50%;
     float: left;
-    line-height: 16px;
-}
-.middleDownLeft p:first-child{
-    padding-bottom: 1%;
+    line-height: 17px;
+    width: 50%;
 }
 .middleDownRight{
-    width:50%;
     float: right;
+    width: 50%;
+    font-size: 20px;
 }
+.zNami{
+    padding-left: 20%;
+    padding-bottom: 30px;
+}
+/*.leftSybmol{*/
+    /*width:20%;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*margin-top: 3%;*/
+    /*margin-bottom: 4%;*/
+/*}*/
+/*.blueDolny{*/
+    /*width:100%;*/
+    /*padding-right: 15%;*/
+/*}*/
+/*.middle{*/
+    /*width: 60%;*/
+    /*margin-top: 3%;*/
+    /*margin-bottom: 4%;*/
+/*}*/
+/*.middleTop{*/
+    /*width: 100%;*/
+    /*margin-bottom: 4%;*/
+/*}*/
+/*.middleTop h2:first-child{*/
+    /*!*background-image: url("img/kontaktKropkiCzarne.png");*!*/
+    /*!*background-repeat: repeat-x;*!*/
+    /*!*background-position:bottom ;*!*/
+    /*!*background-position: right;*!*/
+    /*!*background-size: 90%;*!*/
+/*}*/
+/*.kropkiNapis{*/
+    /*display: inline-flex;*/
+    /*align-items:baseline;*/
+    /*width: 134%;*/
+/*}*/
+/*.kontaktCzarneKropki{*/
+    /*float: right;*/
+    /*!*display: block;*!*/
+    /*!*!* position: absolute; *!*!*/
+    /*!*!* width: 100%; *!*!*/
+    /*!*!* left: 206px; *!*!*/
+/*!*right: 2px;*!*/
+    /*!*font-size: 70px;*!*/
+    /*!*letter-spacing: 6px;*!*/
+/*}*/
+/*.skontaktujSie{*/
+    /*background-color: yellow;*/
+    /*!* position: absolute; *!*/
+    /*background-size: 59px;*/
+
+    /**/
+    /*float: left;*/
+
+/*}*/
+/*.middleDownLeft{*/
+/*width: 50%;*/
+    /*float: left;*/
+    /*line-height: 16px;*/
+/*}*/
+/*.middleDownLeft p:first-child{*/
+    /*padding-bottom: 1%;*/
+/*}*/
+/*.middleDownRight{*/
+    /*width:50%;*/
+    /*float: right;*/
+/*}*/
 .inline{
     display: flex;
     align-items: center;
