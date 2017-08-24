@@ -64,7 +64,7 @@ video {
     /*bottom:0px;*/
 }
 .kropki{
-    z-index: 0;
+    z-index: 1;
     position: absolute;
     padding-left: 20%;
     width: 61%;
@@ -113,6 +113,7 @@ video {
 .nav li {
     list-style: none;
     display: inline;
+    text-align: center;
     /*margin-left: 10px;*/
 }
 
@@ -167,6 +168,7 @@ video {
     background-color: #fbb900;
     height: 40%;
     width: 100%;
+    z-index: 1;
 }
 
 .section1Text {
@@ -239,9 +241,32 @@ h3 {
     align-items: flex-start;
 
 }
+.elip{
+    opacity: 1;
+    transform: scale(1,1);
+    /*transition-timing-function: ease-out;*/
+    /*transition-duration: 250ms;*/
+    /*-webkit-transform: scale(1,1);*/
+    /*-webkit-transition-timing-function: ease-out;*/
+    /*-webkit-transition-duration: 250ms;*/
+    /*-moz-transform: scale(1,1);*/
+    /*-moz-transition-timing-function: ease-out;*/
+    /*-moz-transition-duration: 250ms;*/
+}
 
 .elip:hover {
-
+    opacity: 1;
+    transform: scale(1.05,1.07);
+    /*transition-timing-function: ease-out;*/
+    /*transition-duration: 250ms;*/
+    /*-webkit-transform: scale(1.05,1.07);*/
+    /*-webkit-transition-timing-function: ease-out;*/
+    /*-webkit-transition-duration: 250ms;*/
+    /*-moz-transform: scale(1.05,1.07);*/
+    /*-moz-transition-timing-function: ease-out;*/
+    /*-moz-transition-duration: 250ms;*/
+    /*position: relative;*/
+    /*z-index: 99;*/
 }
 
 .elip p {
@@ -258,6 +283,7 @@ h3 {
     width: 100%;
 }
 
+
 .elipMargin {
     margin-right: 4%;
 }
@@ -273,8 +299,8 @@ h3 {
     position: relative;
     background-color: #009fe4;
     height: 40%;
-    background-image: url(img/tloZdjecie.png);
-    background-size: 100%;
+    background-image: url(img/zdjecieWtle.png);
+    background-size: cover;
     background-position-y: center;
     background-attachment: fixed;
 
@@ -318,6 +344,13 @@ h3 {
 .yellow{
     color: #fbb900;
 }
+.pionoweKropki{
+    right: 0;
+    position: absolute;
+    padding-right: 20%;
+    height: 700px;
+    top: 0;
+}
 .dalej2{
     /*padding-right: 50%;*/
     padding-top: 3%;
@@ -357,23 +390,47 @@ h3 {
 }
 .losiu{
     /* flex: 1; */
+    height:100%;
     width: 37.6%;
     margin-right: -4.9%;
     position: relative;
+    background-image: url("img/losiu1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 
 }
 .danka{
+    height:100%;
     /* flex: 1; */
     width: 38.8%;
     margin-right: -4.9%;
     position: relative;
+    background-image: url("img/danka.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 
 }
 .stodi{
+    height:100%;
     /* flex: 1; */
     width: 33.41%;
     position: relative;
+    background-image: url("img/stodi.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
+.podpis{
+    text-align: center;
+    position: absolute;
+    bottom: 4%;
+
+    right: 0;
+    left: 0;
+}
+
 .section5{
     width:100%;
     height:40%;
@@ -490,5 +547,8 @@ p{
     }
     .elipsy{
         justify-content: space-between;
+    }
+    .podpis{
+        bottom: 2%;
     }
 }
