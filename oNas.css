@@ -32,7 +32,7 @@ body {
 /*ten jasniejszy pasek u gory*/
 .belkaGorna {
     z-index: 2;
-    position: absolute;
+    position: relative;
     width: 100%;
     /*background-image: url("img/menuGórne2.png");*/
     /*background-repeat: repeat-x;*/
@@ -118,3 +118,296 @@ body {
 
 }
 
+
+.blueFotoSection{
+    height:350px;
+    width: 100%;
+    background-color: #009fe4;
+    background-image: url(img/zdjecieWtle.png);
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+}
+.opisy{
+    height:800px;
+    width:100%;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.osoba{
+    height:33.33%;
+    width:100%;
+    display: -webkit-inline-box;
+}
+.zdjecie{
+    width:30%;
+    height:33.33%;
+}
+.zdjecie img{
+    width: 190px;
+
+}
+.zdjecie img:hover{
+
+}
+.opis{
+    width:70%;
+    height:100%;
+}
+.blueM{
+    color: #009fe4;
+    font-family: "Myriad Pro",sans-serif;
+    text-align: justify;
+}
+.just{
+    text-align: justify;
+}
+.opisOsoby h4 {
+    font-weight:900 ;
+    margin-bottom: 0;
+
+}
+.opisOsoby{
+    width:70%;
+    padding-top: 10px;
+}
+.opisOsoby p {
+    font-size:14px;
+    margin-top: 0;
+}
+
+
+
+.section5 {
+    width: 100%;
+    height: 350px;
+    background-color: #fbb900;
+    position: relative;
+
+}
+
+.blueDolny {
+    width: 15%;
+    height: 100%;
+    background-image: url("img/blueSymbolDolny.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+}
+
+.kropkiJasne {
+    right: 0;
+    /* float: right; */
+    height: 100%;
+    width: 13%;
+    background-image: url(img/kropkiJasne.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left 160px;
+
+}
+
+.kontakt {
+    padding-left: 20%;
+    padding-right: 0.5%;
+}
+
+.kropkiCzarne {
+
+}
+
+.kropkiCzarneImg {
+    width: 100%;
+}
+
+.opakownie {
+    display: flex;
+    align-items: baseline;
+    width:100%;
+    padding-left: 20%;
+}
+.skontaktuj{
+    width:100%
+
+}
+
+.srodkowanieWpionie {
+    width: 100%;
+    height: 65%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.bottom {
+    width: 100%;
+    padding-right: 20%;
+    padding-left: 20%;
+    height: 70px;
+}
+
+.middleDownLeft {
+    float: left;
+    line-height: 17px;
+    width: 50%;
+}
+
+.middleDownRight {
+    float: right;
+    width: 50%;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+.zNami {
+    padding-left: 20%;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.inline {
+    display: flex;
+    align-items: center;
+    margin-left: 17%;
+}
+
+.inline img {
+    display: inline;
+    height: 22px;
+    margin-right: 3%;
+    width: 22px;
+
+}
+
+.img p {
+    display: inline;
+}
+
+p {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.rightKropki {
+    width: 20%;
+    position: relative;
+}
+
+.jasneKropki {
+    width: 70%;
+    position: absolute;
+    right: 0;
+    top: 40%;
+}
+
+.section6 {
+    width: 100%;
+    height: 350px;
+}
+
+#map {
+    height: 100%;
+    position: relative;
+    overflow: hidden;;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .yellowSectionContent{
+        height: 250px;
+    }
+    .middleDownRight{
+        font-size:19px
+    }
+    .section5{
+        height:270px;
+    }
+
+    .kropkiJasne{
+        background-position: left 130px;
+    }
+
+    .nav{
+        width: 386px;
+    }
+    .nav li:first-child {
+        width: 123px;
+        /*color: #3d3c3d;*/
+    }
+
+    .nav li:nth-child(2) {
+        width: 46px;
+    }
+
+    .nav li:nth-child(3) {
+        width: 52px;
+    }
+
+    .nav li:nth-child(4) {
+        width: 72px;
+    }
+
+    .nav li:nth-child(5) {
+        width: 55px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .nav{
+        width: 375px;
+    }
+    .nav li:first-child {
+        width: 120px;
+        /*color: #3d3c3d;*/
+    }
+
+    .nav li:nth-child(2) {
+        width: 43px;
+    }
+
+    .nav li:nth-child(3) {
+        width: 49px;
+    }
+
+    .nav li:nth-child(4) {
+        width: 69px;
+    }
+
+    .nav li:nth-child(5) {
+        width: 52px;
+    }
+    .zNami{
+        padding-bottom: 20px;
+    }
+    .zNami p{
+        font-size: 13px;
+
+    }
+    .middleDownRight {
+        font-size: 17px;
+    }
+    .middleDownLeft{
+        font-size: 13px;
+    }
+}
