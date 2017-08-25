@@ -250,15 +250,17 @@ h3 {
 }
 
 .dalej {
-    margin-right: 20.5%;
-    position: absolute;
-    right: 0;
-    bottom: 3%;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width:135px;
+}
+.dalejDiv{
+    position: absolute;
+    right: 0;
+    bottom: 3%;
+    margin-right: 20.5%;
 }
 
 .elipsy {
@@ -669,20 +671,76 @@ p {
     .section5{
         height:270px;
     }
-    .srodkowanieWpionie{
-        height: 77%;
-    }
+    /*.srodkowanieWpionie{*/
+        /*height: 77%;*/
+    /*}*/
     .kropkiJasne{
         background-position: left 130px;
+    }
+
+.nav{
+    width: 386px;
+}
+    .nav li:first-child {
+        width: 123px;
+        /*color: #3d3c3d;*/
+    }
+
+    .nav li:nth-child(2) {
+        width: 46px;
+    }
+
+    .nav li:nth-child(3) {
+        width: 52px;
+    }
+
+    .nav li:nth-child(4) {
+        width: 72px;
+    }
+
+    .nav li:nth-child(5) {
+        width: 55px;
     }
 }
 
 @media only screen and (max-width: 900px) {
-/*.middleDownRight{*/
-    /*clear: both;*/
-    /*float: left;*/
-/*}*/
-    /*.inline{*/
-        /*margin-left: 0;*/
-    /*}*/
+.longText p{
+    font-size: 13px;
+}
+    .nav{
+        width: 375px;
+    }
+    .nav li:first-child {
+        width: 120px;
+        /*color: #3d3c3d;*/
+    }
+
+    .nav li:nth-child(2) {
+        width: 43px;
+    }
+
+    .nav li:nth-child(3) {
+        width: 49px;
+    }
+
+    .nav li:nth-child(4) {
+        width: 69px;
+    }
+
+    .nav li:nth-child(5) {
+        width: 52px;
+    }
+    .zNami{
+        padding-bottom: 20px;
+    }
+    .zNami p{
+        font-size: 13px;
+
+    }
+    .middleDownRight {
+        font-size: 17px;
+    }
+    .middleDownLeft{
+        font-size: 13px;
+    }
 }
