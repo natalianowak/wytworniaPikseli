@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 
 @font-face {
     font-family: 'Raleway Medium';
@@ -297,9 +298,9 @@ h3 {
 .elip p {
     margin-top: 10%;
     text-align: center;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: normal;
-    font-family: "Open", sans-serif;
+    font-family: 'Open Sans';
     /*font-style:  ;*/
 }
 
@@ -504,6 +505,7 @@ h3 {
 
 .kontakt {
     padding-left: 20%;
+    padding-right: 0.5%;
 }
 
 .kropkiCzarne {
@@ -511,7 +513,7 @@ h3 {
 }
 
 .kropkiCzarneImg {
-    width: 100%
+    width: 100%;
 }
 
 .opakownie {
@@ -547,8 +549,8 @@ h3 {
     float: right;
     width: 50%;
     font-size: 20px;
-    font-family: "Open", sans-serif;
-    font-weight: lighter;
+    font-family: 'Open Sans';
+    font-weight: 300;
 }
 
 .zNami {
@@ -634,6 +636,21 @@ p {
 
     .podpis {
         bottom: 2%;
+    }
+    .yellowSectionContent{
+        height: 250px;
+    }
+    .middleDownRight{
+        font-size:19px
+    }
+    .section5{
+        height:270px;
+    }
+    .srodkowanieWpionie{
+        height: 77%;
+    }
+    .kropkiJasne{
+        background-position: left 130px;
     }
 }
 
