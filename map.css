@@ -193,13 +193,17 @@ video {
 }
 
 .longText {
+    position: absolute;
+    top: 20%;
     text-align: justify;
-    padding-right: 60%;
-    padding-top: 1%;
+    padding-right: 50%;
 }
 
 .fajneHaslo {
-    display: flex;
+    /*display: flex;*/
+}
+.hasloReklamowe{
+    width:100%;
 }
 .kropkiBlue{
     right: 0;
@@ -246,11 +250,15 @@ h3 {
 }
 
 .dalej {
-    padding-right: 20%;
+    margin-right: 20.5%;
     position: absolute;
     right: 0;
     bottom: 3%;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:135px;
 }
 
 .elipsy {
@@ -385,6 +393,10 @@ h3 {
     width: 20.51%;
     top: 0;
 }
+.big{
+    font-size:35px;
+    padding-bottom: 5px;
+}
 
 .dalej2 {
     /*padding-right: 50%;*/
@@ -393,6 +405,10 @@ h3 {
     right: 3px;
     cursor: pointer;
     z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:130px;
 }
 
 .white {
