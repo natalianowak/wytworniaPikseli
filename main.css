@@ -707,6 +707,10 @@ p {
 .longText p{
     font-size: 13px;
 }
+    .podpis{
+        font-size: 12px;
+        margin-bottom: -1%;
+    }
     .nav{
         width: 375px;
     }
