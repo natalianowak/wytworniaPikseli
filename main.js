@@ -109,3 +109,31 @@ var wow = new WOW(
     }
 );
 wow.init();
+
+
+$( document ).ready(function() {
+    $(".losiuYellow").on({
+        "mouseover" : function() {
+            this.src = 'img/yellowLosiu.png';
+        },
+        "mouseout" : function() {
+            this.src='img/kolkoLosiu.png';
+        }
+    });
+    $(".dankaYellow").on({
+        "mouseover" : function() {
+            this.src = 'img/yellowDanka.png';
+        },
+        "mouseout" : function() {
+            this.src='img/kolkoDanka.png';
+        }
+    });
+    $(".stodiYellow").on({
+        "mouseover" : function() {
+            this.src = 'img/yellowStodi.png';
+        },
+        "mouseout" : function() {
+            this.src='img/kolkoStodi.png';
+        }
+    });
+});
