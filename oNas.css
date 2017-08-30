@@ -128,9 +128,11 @@ body {
     background-size: cover;
     /*background-position-y: -113px;*/
     /*background-attachment: fixed;*/
+    overflow: hidden;
 }
 .blueFotoImg{
     width: 100%;
+    overflow: hidden;
 }
 .text{
     position: absolute;

@@ -136,4 +136,24 @@ $( document ).ready(function() {
             this.src='img/kolkoStodi.png';
         }
     });
+
+
+    // $(".czytaj").click(function(){
+    //     // $(".hidden").removeClass("hidden");
+    //
+    //     $( ".hidden" ).switchClass( "hidden", "show");
+    //
+    // });
+
+
+    $( ".czytaj" ).click(function() {
+
+        $('.additional-info').toggleClass('hidden');
+        $('.additional-info').toggleClass('fadeIn');
+
+        // $( ".hidden" ).slideToggle( "slow", function() {
+        //     $( ".hidden" ).css( "display","inline" )
+        //
+        // });
+    });
 });
