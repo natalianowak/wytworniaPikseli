@@ -138,37 +138,45 @@ $(document).ready(function () {
     });
 
 
-    // $(".czytaj").click(function(){
-    //     // $(".hidden").removeClass("hidden");
-    //
-    //     $( ".hidden" ).switchClass( "hidden", "show");
-    //
-    // });
 
-
-    $(".czytaj").click(function () {
-
-        // $('.additional-info').toggleClass('hidden');
-        // $('.additional-info').toggleClass('fadeIn');
-
-        // $( ".hidden" ).slideToggle( "slow", function() {
-        //     $( ".hidden" ).switchClass( "hidden", "show");
-        //
-        // });
-        console.log($(this));
-        // console.log($(this).innerText());
-
-        // if($( "this" ).text()=="Więcej >>"){
-        $(".opisOferty").css("height", "auto");
-        // $(".opisOferty p").stop().slideToggle();
-
-        $(".ofer").css("padding-bottom", "8%");
-        $(".czytaj").html("Mniej <<")
-        // }else {
-        //     $(".opisOferty ").css("height", "126px");
-        //     $(".czytaj").html("Więcej >>")
-        // }
-
-
+    $("p.button1").click(function () {
+        $("div.expand1").animate({
+            height: $("div.expand1")[0].scrollHeight
+        }, 1000);
+        $("p.button1").css("padding-bottom", "15px");
     });
+    $("p.button2").click(function () {
+        $("div.expand2").animate({
+            height: $("div.expand2")[0].scrollHeight
+        }, 1000);
+        $("p.button2").css("padding-bottom", "15px");
+    });
+
+    $("p.button3").click(function () {
+        $("div.expand3").animate({
+            height: $("div.expand3")[0].scrollHeight
+        }, 1000);
+        $("p.button3").css("padding-bottom", "15px");
+    });
+
+    $("p.button4").click(function () {
+        $("div.expand4").animate({
+            height: $("div.expand4")[0].scrollHeight
+        }, 1000);
+        $("p.button4").css("padding-bottom", "15px");
+    });
+    $("p.button5").click(function () {
+        $("div.expand5").animate({
+            height: $("div.expand5")[0].scrollHeight
+        }, 1000);
+        $("p.button5").css("padding-bottom", "15px");
+    });
+    $("p.button6").click(function () {
+        $("div.expand6").animate({
+            height: $("div.expand6")[0].scrollHeight
+        }, 1000);
+        $("p.button6").css("padding-bottom", "15px");
+    });
+
+
 });
