@@ -1,14 +1,14 @@
 var map;
-var lat=49.9751544;
-var lng=20.4217713;
-var zoom=15;
+var lat = 49.9751544;
+var lng = 20.4217713;
+var zoom = 15;
 
 function initialize() {
     var myOptions = {
         zoom: zoom,
         center: new google.maps.LatLng(lat, lng),
         mapTypeId: google.maps.MapTypeId.ROADMAP,
-        styles:[
+        styles: [
             {
                 "featureType": "administrative",
                 "elementType": "labels.text.fill",
@@ -96,12 +96,12 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 var wow = new WOW(
     {
-        boxClass:     'wow',      // animated element css class (default is wow)
+        boxClass: 'wow',      // animated element css class (default is wow)
         animateClass: 'animated', // animation css class (default is animated)
-        offset:       0,          // distance to the element when triggering the animation (default is 0)
-        mobile:       true,       // trigger animations on mobile devices (default is true)
-        live:         true,       // act on asynchronously loaded content (default is true)
-        callback:     function(box) {
+        offset: 0,          // distance to the element when triggering the animation (default is 0)
+        mobile: true,       // trigger animations on mobile devices (default is true)
+        live: true,       // act on asynchronously loaded content (default is true)
+        callback: function (box) {
             // the callback is fired every time an animation is started
             // the argument that is passed in is the DOM node being animated
         },
@@ -111,29 +111,29 @@ var wow = new WOW(
 wow.init();
 
 
-$( document ).ready(function() {
+$(document).ready(function () {
     $(".losiuYellow").on({
-        "mouseover" : function() {
+        "mouseover": function () {
             this.src = 'img/yellowLosiu.png';
         },
-        "mouseout" : function() {
-            this.src='img/kolkoLosiu.png';
+        "mouseout": function () {
+            this.src = 'img/kolkoLosiu.png';
         }
     });
     $(".dankaYellow").on({
-        "mouseover" : function() {
+        "mouseover": function () {
             this.src = 'img/yellowDanka.png';
         },
-        "mouseout" : function() {
-            this.src='img/kolkoDanka.png';
+        "mouseout": function () {
+            this.src = 'img/kolkoDanka.png';
         }
     });
     $(".stodiYellow").on({
-        "mouseover" : function() {
+        "mouseover": function () {
             this.src = 'img/yellowStodi.png';
         },
-        "mouseout" : function() {
-            this.src='img/kolkoStodi.png';
+        "mouseout": function () {
+            this.src = 'img/kolkoStodi.png';
         }
     });
 
@@ -146,14 +146,29 @@ $( document ).ready(function() {
     // });
 
 
-    $( ".czytaj" ).click(function() {
+    $(".czytaj").click(function () {
 
         // $('.additional-info').toggleClass('hidden');
         // $('.additional-info').toggleClass('fadeIn');
 
-        $( ".hidden" ).slideToggle( "slow", function() {
-            $( ".hidden" ).switchClass( "hidden", "show");
+        // $( ".hidden" ).slideToggle( "slow", function() {
+        //     $( ".hidden" ).switchClass( "hidden", "show");
+        //
+        // });
+        console.log($(this));
+        // console.log($(this).innerText());
 
-        });
+        // if($( "this" ).text()=="Więcej >>"){
+        $(".opisOferty").css("height", "auto");
+        // $(".opisOferty p").stop().slideToggle();
+
+        $(".ofer").css("padding-bottom", "8%");
+        $(".czytaj").html("Mniej <<")
+        // }else {
+        //     $(".opisOferty ").css("height", "126px");
+        //     $(".czytaj").html("Więcej >>")
+        // }
+
+
     });
 });
