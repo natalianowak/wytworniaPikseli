@@ -148,12 +148,12 @@ $( document ).ready(function() {
 
     $( ".czytaj" ).click(function() {
 
-        $('.additional-info').toggleClass('hidden');
-        $('.additional-info').toggleClass('fadeIn');
+        // $('.additional-info').toggleClass('hidden');
+        // $('.additional-info').toggleClass('fadeIn');
 
-        // $( ".hidden" ).slideToggle( "slow", function() {
-        //     $( ".hidden" ).css( "display","inline" )
-        //
-        // });
+        $( ".hidden" ).slideToggle( "slow", function() {
+            $( ".hidden" ).switchClass( "hidden", "show");
+
+        });
     });
 });
