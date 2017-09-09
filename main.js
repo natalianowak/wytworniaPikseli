@@ -143,39 +143,46 @@ $(document).ready(function () {
         $("div.expand1").animate({
             height: $("div.expand1")[0].scrollHeight
         }, 1000);
-        $("p.button1").css("padding-bottom", "15px");
+        // $("p.button1").css("padding-bottom", "15px");
+        $("p.button1").css("display", "none");
+
     });
     $("p.button2").click(function () {
         $("div.expand2").animate({
             height: $("div.expand2")[0].scrollHeight
         }, 1000);
-        $("p.button2").css("padding-bottom", "15px");
+        // $("p.button2").css("padding-bottom", "15px");
+        $("p.button2").css("display", "none");
     });
 
     $("p.button3").click(function () {
         $("div.expand3").animate({
             height: $("div.expand3")[0].scrollHeight
         }, 1000);
-        $("p.button3").css("padding-bottom", "15px");
+        // $("p.button3").css("padding-bottom", "15px");
+        $("p.button3").css("display", "none");
     });
 
     $("p.button4").click(function () {
         $("div.expand4").animate({
             height: $("div.expand4")[0].scrollHeight
         }, 1000);
-        $("p.button4").css("padding-bottom", "15px");
+        // $("p.button4").css("padding-bottom", "15px");
+        $("p.button4").css("display", "none");
     });
     $("p.button5").click(function () {
         $("div.expand5").animate({
             height: $("div.expand5")[0].scrollHeight
         }, 1000);
-        $("p.button5").css("padding-bottom", "15px");
+        // $("p.button5").css("padding-bottom", "15px");
+        $("p.button5").css("display", "none");
     });
     $("p.button6").click(function () {
         $("div.expand6").animate({
             height: $("div.expand6")[0].scrollHeight
         }, 1000);
-        $("p.button6").css("padding-bottom", "15px");
+        // $("p.button6").css("padding-bottom", "15px");
+        $("p.button6").css("display", "none");
     });
 
 
