@@ -160,16 +160,16 @@ $(document).ready(function () {
         $("div.expand2").animate({
             height: $("div.expand2")[0].scrollHeight
         }, 900);
-        // $("p.button2").css("padding-bottom", "15px");
-        $("p.button2").css("display", "none");
+        $("p.button2").css("padding-bottom", "15px");
+        // $("p.button2").css("display", "none");
     });
 
     $("p.button3").click(function () {
         $("div.expand3").animate({
             height: $("div.expand3")[0].scrollHeight
         }, 900);
-        // $("p.button3").css("padding-bottom", "15px");
-        $("p.button3").css("display", "none");
+        $("p.button3").css("padding-bottom", "15px");
+        // $("p.button3").css("display", "none");
     });
 
     $("p.button4").click(function () {
