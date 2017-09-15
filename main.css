@@ -258,6 +258,14 @@ h3 {
     right: 0;
     bottom: 3%;
     margin-right: 19.5%;
+    color: #009fe4;
+}
+.dalejDiv a{
+    color: #009fe4;
+}
+.dalejDiv a:hover{
+    text-decoration: none;
+    color: #009fe4;
 }
 
 .elipsy {
@@ -290,6 +298,7 @@ h3 {
 .elip:hover {
     opacity: 1;
     transform: scale(1.05, 1.07);
+    transition: all 1s;
     /*transition-timing-function: ease-out;*/
     /*transition-duration: 250ms;*/
     /*-webkit-transform: scale(1.05,1.07);*/
@@ -413,6 +422,13 @@ h3 {
     align-items: center;
     justify-content: space-between;
     width:130px;
+}
+.dalej2 a{
+    color: white;
+}
+.dalej2 a:hover{
+    color: white;
+    text-decoration: none;
 }
 
 .white {
