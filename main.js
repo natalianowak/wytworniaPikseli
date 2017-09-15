@@ -154,7 +154,7 @@ $(document).ready(function () {
         }, 900);
         $("p.button1").css("padding-bottom", "15px");
         // $("p.button1").css("display", "none");
-        $("p.button1").html("Mniej <<")
+        $("p.button1").html("Mniej <<");
 
     });
     $("p.button2").click(function () {
@@ -163,7 +163,7 @@ $(document).ready(function () {
         }, 900);
         $("p.button2").css("padding-bottom", "15px");
         // $("p.button2").css("display", "none");
-        $("p.button1").html("Mniej <<")
+        $("p.button2").html("Mniej <<");
     });
 
     $("p.button3").click(function () {
@@ -172,7 +172,7 @@ $(document).ready(function () {
         }, 900);
         $("p.button3").css("padding-bottom", "15px");
         // $("p.button3").css("display", "none");
-        $("p.button1").html("Mniej <<")
+        $("p.button3").html("Mniej <<");
     });
 
     $("p.button4").click(function () {
