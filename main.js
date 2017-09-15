@@ -137,6 +137,15 @@ $(document).ready(function () {
         }
     });
 
+    $(".losiu").on({
+        "mouseover": function () {
+            this.css(" background-image", "url('img/zoomLosiu.png');")
+        },
+        "mouseout": function () {
+            this.src = 'img/kolkoStodi.png';
+        }
+    });
+
 
 
     $("p.button1").click(function () {

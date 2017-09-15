@@ -49,8 +49,8 @@ body {
     bottom: 0;
     right: 0;
     left: 0;
-    padding-right: 20%;
-    padding-left: 20%;
+    padding-right: 19%;
+    padding-left: 19%;
     width: 100%;
     align-items: center;
     justify-content: space-between;
@@ -169,7 +169,7 @@ body {
     display: flex;
     align-items: baseline;
     width:100%;
-    padding-left: 20%;
+    padding-left: 19%;
 }
 .skontaktuj{
     width:100%
@@ -189,8 +189,8 @@ body {
 
 .bottom {
     width: 100%;
-    padding-right: 20%;
-    padding-left: 20%;
+    padding-right: 19%;
+    padding-left: 19%;
     height: 70px;
 }
 
@@ -209,7 +209,7 @@ body {
 }
 
 .zNami {
-    padding-left: 20%;
+    padding-left: 19%;
     padding-bottom: 30px;
     padding-top: 10px;
 }
