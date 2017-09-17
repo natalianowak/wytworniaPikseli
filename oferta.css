@@ -294,6 +294,9 @@ p {
     padding-bottom: 25px;
     font-family: "Myriad Pro", sans-serif;
 }
+.czytajta{
+    display: inline-block;
+}
 .hidden{
     display: none;
     opacity: 0;
@@ -419,12 +422,14 @@ p {
         height: 122px;
     }
     .czytaj{
-        padding-bottom: 53px;
+        padding-bottom: 45px;
     }
     .ofer{
         padding-bottom: 9%;
     }
-
+.less{
+    display: none;
+}
 }
 
 @media only screen and (max-width: 900px) {
@@ -466,7 +471,7 @@ p {
         font-size: 13px;
     }
     .czytaj{
-        padding-bottom: 45px;
+        padding-bottom: 35px;
     }
     .ofer{
         padding-bottom: 9%;

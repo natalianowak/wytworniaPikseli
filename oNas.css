@@ -157,22 +157,56 @@ body {
 }
 .zdjecie{
     flex-grow: 1;
-    height:33.33%;
-    padding-right: 5%;
+    /*height:33.33%;*/
+    padding-right: 220px;
 }
 .zdjecie img{
     width: 190px;
     /*padding-right: 45px;*/
-
 }
-/*.zdjecie img:hover{*/
-
-/*}*/
 
 .losiuYellow{
     transition: all 1s;
+}
+.zdjecieLosiu{
+    background-image: url(img/kolkoLosiu.png);
+    transition: background-image 1s ease-in-out;
+    -webkit-transition: background-image 1s ease-in-out;
+    background-size: 190px;
+    background-repeat: no-repeat;
 
 }
+.zdjecieLosiu:hover{
+    background-image: url("img/yellowLosiu.png");
+    transition: background-image 1s ease-in-out;
+    -webkit-transition: background-image 1s ease-in-out;
+
+}
+.zdjecieDanka{
+    background-image: url(img/kolkoDanka.png);
+    transition: background-image 1s ease-in-out;
+    -webkit-transition: background-image 1s ease-in-out;
+    background-size: 190px;
+    background-repeat: no-repeat;
+}
+.zdjecieDanka:hover{
+    background-image: url("img/yellowDanka.png");
+    transition: background-image 1s ease-in-out;
+    -webkit-transition: background-image 1s ease-in-out;
+}
+.zdjecieStodi{
+    background-image: url(img/kolkoStodi.png);
+    transition: background-image 1s ease-in-out;
+    -webkit-transition: background-image 1s ease-in-out;
+    background-size: 190px;
+    background-repeat: no-repeat;
+}
+.zdjecieStodi:hover{
+    background-image: url("img/yellowStodi.png");
+    transition: background-image 1s ease-in-out;
+    -webkit-transition: background-image 1s ease-in-out;
+}
+
 .opis{
     width:70%;
     height:100%;
