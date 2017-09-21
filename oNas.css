@@ -157,54 +157,62 @@ body {
 }
 .zdjecie{
     flex-grow: 1;
-    /*height:33.33%;*/
     padding-right: 220px;
 }
-.zdjecie img{
+/*.zdjecie img{*/
+    /*width: 190px;*/
+/*}*/
+.bottomPhoto{
     width: 190px;
-    /*padding-right: 45px;*/
+}
+.top{
+    width: 192px;
+    margin-top: -0.5px;
+    margin-left: -0.5px;
 }
 
 .losiuYellow{
-    transition: all 1s;
+    position: absolute;
 }
-.zdjecieLosiu{
-    background-image: url(img/kolkoLosiu.png);
-    transition: background-image 1s ease-in-out;
-    -webkit-transition: background-image 1s ease-in-out;
-    background-size: 190px;
-    background-repeat: no-repeat;
+.zdjecieLosiu img{
+    position:absolute;
+    left:19%;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+.zdjecieLosiu img.top:hover {
+    opacity:0;
+}
 
+.dankaYellow{
+    position: absolute;
 }
-.zdjecieLosiu:hover{
-    background-image: url("img/yellowLosiu.png");
-    transition: background-image 1s ease-in-out;
-    -webkit-transition: background-image 1s ease-in-out;
-
+.zdjecieDanka img{
+    position:absolute;
+    left:19%;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
 }
-.zdjecieDanka{
-    background-image: url(img/kolkoDanka.png);
-    transition: background-image 1s ease-in-out;
-    -webkit-transition: background-image 1s ease-in-out;
-    background-size: 190px;
-    background-repeat: no-repeat;
+.zdjecieDanka img.top:hover {
+    opacity:0;
 }
-.zdjecieDanka:hover{
-    background-image: url("img/yellowDanka.png");
-    transition: background-image 1s ease-in-out;
-    -webkit-transition: background-image 1s ease-in-out;
+.stodiYellow{
+    position: absolute;
 }
-.zdjecieStodi{
-    background-image: url(img/kolkoStodi.png);
-    transition: background-image 1s ease-in-out;
-    -webkit-transition: background-image 1s ease-in-out;
-    background-size: 190px;
-    background-repeat: no-repeat;
+.zdjecieStodi img {
+    position:absolute;
+    left:19%;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
 }
-.zdjecieStodi:hover{
-    background-image: url("img/yellowStodi.png");
-    transition: background-image 1s ease-in-out;
-    -webkit-transition: background-image 1s ease-in-out;
+.zdjecieStodi img.top:hover {
+    opacity:0;
 }
 
 .opis{
@@ -428,8 +436,16 @@ p {
         width: 55px;
     }
 
-    .zdjecie img {
+    /*.zdjecie img {*/
+        /*width: 160px;*/
+    /*}*/
+    .bottomPhoto{
         width: 160px;
+    }
+    .top{
+        width: 162px;
+        margin-top: -0.5px;
+        margin-left: -0.5px;
     }
     .opisOsoby p {
         font-size: 12px;
@@ -475,9 +491,18 @@ p {
         font-size: 13px;
     }
 
-    .zdjecie img {
+    /*.zdjecie img {*/
+        /*width: 150px;*/
+    /*}*/
+    .bottomPhoto{
         width: 150px;
     }
+    .top{
+        width: 152px;
+        margin-top: -0.5px;
+        margin-left: -0.5px;
+    }
+
     .opisOsoby p {
         font-size: 11px;
     }
