@@ -294,9 +294,16 @@ p {
     cursor: pointer;
     position: absolute;
     bottom: 0;
-    left: 184px;
+    /*left: 184px;*/
     padding-bottom: 25px;
     font-family: "Myriad Pro", sans-serif;
+}
+.less{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 25px;
 }
 .czytajta{
     display: inline-block;

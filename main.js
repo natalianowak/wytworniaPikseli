@@ -116,14 +116,14 @@ $(document).ready(function () {
 
 
 
-    $("p.button1").click(function () {
-        $("div.expand1").animate({
-            height: $("div.expand1")[0].scrollHeight
+    $(".button1").click(function () {
+        $(".expand1").animate({
+            height: $(".expand1")[0].scrollHeight
         }, 900);
 
-        $("p.button1").css("display", "none");
+        $(".button1").css("display", "none");
 
-        $("p.mniej1").css("display", "block");
+        $(".mniej1").css("display", "block");
 
     });
     $("p.button2").click(function () {
@@ -180,10 +180,10 @@ $(document).ready(function () {
     }
 
 
-    $("p.mniej1").click(function () {
-        $("div.expand1").animate(createHeight(), 900);
-        $("p.mniej1").css("display", "none");
-        $("p.button1").css("display", "block");
+    $(".mniej1").click(function () {
+        $(".expand1").animate(createHeight(), 900);
+        $(".mniej1").css("display", "none");
+        $(".button1").css("display", "block");
 
     });
     $("p.mniej2").click(function () {
