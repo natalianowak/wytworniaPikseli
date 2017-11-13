@@ -134,10 +134,10 @@ wow.init();
 
 
 $(document).ready(function () {
-    console.log($(".expand1").height());
-    console.log($(".expand1")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList);
-    console.log($(".expand2").height());
-    console.log($(".expand3").height());
+    // console.log($(".expand1").height());
+    // console.log($(".expand1")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList);
+    // console.log($(".expand2").height());
+    // console.log($(".expand3").height());
 
     $(window).bind('resizeEnd', function() {
         if($(".expand1").height() >= 129){
