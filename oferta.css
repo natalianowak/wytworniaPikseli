@@ -272,19 +272,20 @@ p {
 .opisOferty{
 
     flex-grow: 3;
-    height: 129px;
-    min-height: 129px;
+    /*height: 129px;*/
+    /*min-height: 129px;*/
 
     overflow: hidden;
 }
+
 .opisOferty h4{
     font-family: "Open",sans-serif;
     font-weight: 900;
 
 }
-.expand1{
-    height: 129px;
-}
+/*.expand1{*/
+    /*height: 129px;*/
+/*}*/
 .opisOferty p{
 
     font-family: "Myriad Pro", sans-serif;
@@ -411,7 +412,7 @@ p {
         width: 55px;
     }
     .opisOferty {
-        height: 122px;
+        /*height: 122px;*/
     }
     .czytaj{
         padding-bottom: 45px;
@@ -421,6 +422,9 @@ p {
     }
 .less{
     display: none;
+}
+.opisOferty{
+    /*min-height: 122px;*/
 }
 }
 

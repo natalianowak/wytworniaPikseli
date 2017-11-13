@@ -1,12 +1,20 @@
+$(window).resize(function() {
+    if(this.resizeTO) clearTimeout(this.resizeTO);
+    this.resizeTO = setTimeout(function() {
+        $(this).trigger('resizeEnd');
+    }, 500);
+});
+
 var map;
-var lat = 49.9751544;
-var lng = 20.4217713;
+var myLatlng = new google.maps.LatLng(49.9751544,20.4217713);
+// var lat = 49.9751544;
+// var lng = 20.4217713;
 var zoom = 15;
 
 function initialize() {
     var myOptions = {
         zoom: zoom,
-        center: new google.maps.LatLng(lat, lng),
+        center: myLatlng,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         styles: [
             {
@@ -89,7 +97,21 @@ function initialize() {
             }
         ]
     };
+
+    var image = {
+        url: 'img/sygnet.png',
+        scaledSize : new google.maps.Size(30, 35)
+    };
+
+    var marker = new google.maps.Marker({
+        position: myLatlng,
+        title:"Wytwórnia Pikseli",
+        icon: image
+    });
+
     map = new google.maps.Map(document.getElementById('map'), myOptions);
+    // To add the marker to the map, call setMap();
+    marker.setMap(map);
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
@@ -112,11 +134,66 @@ wow.init();
 
 
 $(document).ready(function () {
+    console.log($(".expand1").height());
+    console.log($(".expand1")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList);
+    console.log($(".expand2").height());
+    console.log($(".expand3").height());
 
+    $(window).bind('resizeEnd', function() {
+        if($(".expand1").height() >= 129){
+            $(".expand1")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
+            $(".expand1").css( createHeight());
+        }
+        if($(".expand2").height() >= 159){
+            $(".expand2")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
+            $(".expand2").css(createHeight());
+        }
+        if($(".expand3").height() >= 159){
+            $(".expand3")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
+            $(".expand3").css(createHeight());
+        }
+        if($(".expand4").height() >= 159){
+            $(".expand4")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
+            $(".expand4").css(createHeight());
+        }
+        if($(".expand5").height() >= 159){
+            $(".expand5")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
+            $(".expand5").css(createHeight());
+        }
+        if($(".expand6").height() >= 159){
+            $(".expand6")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
+            $(".expand6").css(createHeight());
+        }
+    });
 
+    if($(".expand1").height() >= 159){
+        $(".expand1")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
+        $(".expand1").css(createHeight());
+    }
+    if($(".expand2").height() >= 159){
+        $(".expand2")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
+        $(".expand2").css(createHeight());
+    }
+    if($(".expand3").height() >= 159){
+        $(".expand3")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
+        $(".expand3").css(createHeight());
+    }
+    if($(".expand4").height() >= 159){
+        $(".expand4")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
+        $(".expand4").css(createHeight());
+    }
+    if($(".expand5").height() >= 159){
+        $(".expand5")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
+        $(".expand5").css(createHeight());
+    }
+    if($(".expand6").height() >= 159){
+        $(".expand6")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
+        $(".expand6").css(createHeight());
+    }
 
 
     $(".button1").click(function () {
+
         $(".expand1").animate({
             height: $(".expand1")[0].scrollHeight
         }, 900);
