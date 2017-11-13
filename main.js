@@ -228,7 +228,7 @@ $(document).ready(function () {
            return hight = { height: 129};
         } else {
            return hight = { height: 122};
-        }             // The function returns the product of p1 and p2
+        }
     }
 
 
