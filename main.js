@@ -133,11 +133,16 @@ var wow = new WOW(
 wow.init();
 
 
+
+
 $(document).ready(function () {
     console.log($(".expand1").height());
     console.log($(".expand1")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList);
     console.log($(".expand2").height());
     console.log($(".expand3").height());
+    console.log($(".expand4").height());
+    console.log($(".expand5").height());
+    console.log($(".expand6").height());
 
 
 
@@ -166,6 +171,33 @@ $(document).ready(function () {
         $(".expand6").css(createHeight());
     }
 
+    // $(window).bind('resizeEnd', function() {
+    //     if($(".expand1").height() >= 159){
+    //         $(".expand1")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
+    //         $(".expand1").css( createHeight());
+    //     }
+    //     if($(".expand2").height() >= 159){
+    //         $(".expand2")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
+    //         $(".expand2").css(createHeight());
+    //     }
+    //     if($(".expand3").height() >= 159){
+    //         $(".expand3")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
+    //         $(".expand3").css(createHeight());
+    //     }
+    //     if($(".expand4").height() >= 159){
+    //         $(".expand4")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
+    //         $(".expand4").css(createHeight());
+    //     }
+    //     if($(".expand5").height() >= 159){
+    //         $(".expand5")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
+    //         $(".expand5").css(createHeight());
+    //     }
+    //     if($(".expand6").height() >= 159){
+    //         $(".expand6")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
+    //         $(".expand6").css(createHeight());
+    //     }
+    // });
+
 
     $(".button1").click(function () {
 
@@ -174,7 +206,6 @@ $(document).ready(function () {
         }, 900);
 
         $(".button1").css("display", "none");
-
         $(".mniej1").css("display", "block");
 
     });
@@ -232,6 +263,8 @@ $(document).ready(function () {
     }
 
 
+
+
     $(".mniej1").click(function () {
         $(".expand1").animate(createHeight(), 900);
         $(".mniej1").css("display", "none");
@@ -265,31 +298,6 @@ $(document).ready(function () {
         $("p.mniej6").css("display", "none");
         $("p.button6").css("display", "block");
     });
-    // $(window).bind('resizeEnd', function() {
-    //     if($(".expand1").height() >= 159){
-    //         $(".expand1")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
-    //         $(".expand1").css( createHeight());
-    //     }
-    //     if($(".expand2").height() >= 159){
-    //         $(".expand2")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
-    //         $(".expand2").css(createHeight());
-    //     }
-    //     if($(".expand3").height() >= 159){
-    //         $(".expand3")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
-    //         $(".expand3").css(createHeight());
-    //     }
-    //     if($(".expand4").height() >= 159){
-    //         $(".expand4")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
-    //         $(".expand4").css(createHeight());
-    //     }
-    //     if($(".expand5").height() >= 159){
-    //         $(".expand5")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
-    //         $(".expand5").css(createHeight());
-    //     }
-    //     if($(".expand6").height() >= 159){
-    //         $(".expand6")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
-    //         $(".expand6").css(createHeight());
-    //     }
-    // });
+
 
 });
