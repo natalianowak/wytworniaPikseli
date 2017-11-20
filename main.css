@@ -25,7 +25,15 @@ body {
 
 video {
 
-left: 0px; top: 0px; min-width: 100%; min-height: 100%; width: auto; height: auto; overflow: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -9999;
+    transform: translateX(-50%) translateY(-50%);
+    background: #000;
+    background-repeat: no-repeat;
 }
 
 .heavy {
@@ -37,13 +45,14 @@ left: 0px; top: 0px; min-width: 100%; min-height: 100%; width: auto; height: aut
 }
 
 .videoClass {
-    width: 100%;
+    padding-top: 50%;
+    /*width: 100%;*/
     position: relative;
     /*height: 473px;*/
 }
 
 .video {
-    width: 100%;
+    /*width: 100%;*/
     /*top: 237px;*/
     z-index: 0;
     opacity: 0.2;
@@ -52,7 +61,7 @@ left: 0px; top: 0px; min-width: 100%; min-height: 100%; width: auto; height: aut
 
 .blueSymbol {
     z-index: 0;
-    position: absolute;
+    position: fixed;
     padding-left: 19%;
     width: 36%;
     bottom: -12%;
@@ -177,7 +186,9 @@ left: 0px; top: 0px; min-width: 100%; min-height: 100%; width: auto; height: aut
     width: 100%;
     z-index: 1;
 }
-
+.firstSection{
+    height:100vh;
+}
 .section1Text {
     padding-left: 19%;
     width: 100%;
