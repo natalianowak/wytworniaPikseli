@@ -136,13 +136,13 @@ wow.init();
 
 
 $(document).ready(function () {
-    console.log($(".expand1").height());
-    console.log($(".expand1")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList);
-    console.log($(".expand2").height());
-    console.log($(".expand3").height());
-    console.log($(".expand4").height());
-    console.log($(".expand5").height());
-    console.log($(".expand6").height());
+    // console.log($(".expand1").height());
+    // console.log($(".expand1")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList);
+    // console.log($(".expand2").height());
+    // console.log($(".expand3").height());
+    // console.log($(".expand4").height());
+    // console.log($(".expand5").height());
+    // console.log($(".expand6").height());
 
 
 
@@ -300,4 +300,19 @@ $(document).ready(function () {
     });
 
 
+
+});
+
+$(function() {
+    var selectedClass = "";
+    $("p").click(function(){
+        selectedClass = $(this).attr("data-rel");
+        $("#portfolio").fadeTo(100, 0.1);
+        $("#portfolio div").not("."+ selectedClass).fadeOut();
+        setTimeout(function() {
+            $("."+ selectedClass).fadeIn();
+            $("#portfolio").fadeTo(500, 1);
+        }, 500);
+
+    });
 });

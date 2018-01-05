@@ -118,6 +118,27 @@ body {
 
 }
 
+.portfolioSection{
+    padding-right: 19%;
+    padding-left: 19%;
+}
+.portfolioNav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#portfolio { width:100%; margin:20px 0px;}
+.tile { float:left; min-height:100px; max-height:150px; width:20%; border:1px #fff solid; }
+.tile:hover { opacity: 0.5; }
+.graphics { background:#00C5CD;}
+.foto { background: #CC3232;}
+.video { background: #ddd; }
+.websites{background: #fbb900;}
+.portfolioSection p{background:#fbb900; padding:10px; text-decoration: none; font-family: Arial; font-size: 12px; color: #333; display:block; float:left;}
+.portfolioSection p:hover { cursor:pointer; background: #009fe4; color:#eee; font-weight: bold }
+
+
 
 
 
