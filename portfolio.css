@@ -22,6 +22,7 @@ body {
     height: auto;
     overflow: scroll;
 }
+
 .menuGorne {
     z-index: 1;
     position: relative;
@@ -114,40 +115,162 @@ body {
     color: #009fe4;
     text-decoration: none;
     font-family: 'Raleway';
-    font-weight:900;
+    font-weight: 900;
 
 }
 
-.portfolioSection{
+.portfolioSection {
+
+}
+
+.portfolioNav {
     padding-right: 19%;
     padding-left: 19%;
-}
-.portfolioNav{
     display: flex;
     justify-content: space-between;
 }
 
+.blueFotoSection {
+    position: relative;
+    height: 350px;
+    width: 100%;
+    background-color: #009fe4;
+    background-image: url(img/zdjecieWtle.png);
+    background-size: cover;
+    /*background-position-y: -113px;*/
+    background-attachment: fixed;
+    overflow: hidden;
+}
 
-#portfolio { width:100%; margin:20px 0px;}
-.tile { float:left; min-height:100px; max-height:150px; width:20%; border:1px #fff solid; }
-.tile:hover { opacity: 0.5; }
-.graphics { background:#00C5CD;}
-.foto { background: #CC3232;}
-.video { background: #ddd; }
-.websites{background: #fbb900;}
-.portfolioSection p{background:#fbb900; padding:10px; text-decoration: none; font-family: Arial; font-size: 12px; color: #333; display:block; float:left;}
-.portfolioSection p:hover { cursor:pointer; background: #009fe4; color:#eee; font-weight: bold }
+.blueFotoImg {
+    width: 100%;
+}
 
+.yellow {
+    color: #fbb900;
+}
 
+.text {
+    position: absolute;
+    bottom: 5%;
+    padding-left: 19%;
+    padding-right: 50%;
+    color: white;
+    text-align: justify;
+}
 
+#portfolio {
+    padding-right: 18.56%;
+    padding-left: 18.56%;
+    width: 100%;
+    margin: 20px 0px;
+}
 
+.tile {
+    float: left;
+    width: 25%;
+    border: 5px #fff solid;
+    position: relative;
+}
+
+.tile:before {
+    content: "";
+    display: block;
+    padding-top: 100%; /* initial ratio of 1:1*/
+}
+
+.tile:hover {
+    opacity: 0.5;
+}
+
+.graphics {
+    background: #00C5CD;
+}
+
+.foto {
+    background: #CC3232;
+}
+
+.video {
+    background: #ddd;
+}
+
+.websites {
+    background: #fbb900;
+}
+
+.portfolioSection {
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.portfolioSection p {
+    background: #fbb900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 16px;
+    color: #333;
+    display: block;
+    float: left;
+}
+
+.portfolioSection p:first-child {
+    background: #009fe4;
+    color: #eee;
+    font-weight: bold
+}
+
+/*.portfolioSection p:nth-child(2){*/
+/*width:251px;*/
+/*text-align: center;*/
+/*}*/
+/*.portfolioSection p:nth-child(3){*/
+/*width:137px;*/
+/*text-align: center;*/
+/*}*/
+/*.portfolioSection p:nth-child(4){*/
+/*width:104px;*/
+/*text-align: center;*/
+/*}*/
+/*.portfolioSection p:nth-child(5){*/
+/*width:157px;*/
+/*text-align: center;*/
+/*}*/
+.portfolioSection p:hover {
+    cursor: pointer;
+    background: #009fe4;
+    color: #eee;
+    font-weight: bold;
+}
+
+.content {
+    display: inline;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.simplyPoland {
+    display: none;
+    margin-right: 19%;
+    margin-left: 19%;
+    margin-top: 30px;
+}
+.simplyPoland img{
+    width: 100%;
+}
 
 .section5 {
     width: 100%;
     height: 350px;
     background-color: #fbb900;
     position: relative;
-
 }
 
 .blueDolny {
@@ -162,7 +285,6 @@ body {
 
 .kropkiJasne {
     right: 0;
-    /* float: right; */
     height: 100%;
     width: 13%;
     background-image: url(img/kropkiJasne.png);
@@ -170,7 +292,6 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: left 160px;
-
 }
 
 .kontakt {
@@ -179,7 +300,6 @@ body {
 }
 
 .kropkiCzarne {
-
 }
 
 .kropkiCzarneImg {
@@ -189,12 +309,12 @@ body {
 .opakownie {
     display: flex;
     align-items: baseline;
-    width:100%;
+    width: 100%;
     padding-left: 19%;
 }
-.skontaktuj{
-    width:100%
 
+.skontaktuj {
+    width: 100%
 }
 
 .srodkowanieWpionie {
@@ -280,8 +400,33 @@ p {
     position: relative;
     overflow: hidden;;
 }
+
 .heavy {
     font-weight: 900;
+}
+
+@media only screen and (max-width: 1400px) {
+    .portfolioSection p {
+        padding-right: 30px;
+        padding-left: 30px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .portfolioSection p {
+        padding-right: 25px;
+        padding-left: 25px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .portfolioSection p {
+        padding-right: 19px;
+        padding-left: 19px;
+        font-size: 16px;
+    }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -297,23 +442,26 @@ p {
         font-size: 1.5rem;
     }
 
-    .yellowSectionContent{
+    .yellowSectionContent {
         height: 250px;
     }
-    .middleDownRight{
-        font-size:19px
-    }
-    .section5{
-        height:270px;
+
+    .middleDownRight {
+        font-size: 19px
     }
 
-    .kropkiJasne{
+    .section5 {
+        height: 270px;
+    }
+
+    .kropkiJasne {
         background-position: left 130px;
     }
 
-    .nav{
+    .nav {
         width: 386px;
     }
+
     .nav li:first-child {
         width: 123px;
         /*color: #3d3c3d;*/
@@ -334,13 +482,32 @@ p {
     .nav li:nth-child(5) {
         width: 55px;
     }
+
+    .tile {
+        border: 3px #fff solid;
+    }
+
+    .portfolioSection p {
+        padding-right: 14px;
+        padding-left: 14px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .portfolioSection p {
+        padding-right: 14px;
+        padding-left: 14px;
+        font-size: 14px;
+    }
 }
 
 @media only screen and (max-width: 900px) {
 
-    .nav{
+    .nav {
         width: 375px;
     }
+
     .nav li:first-child {
         width: 120px;
         /*color: #3d3c3d;*/
@@ -361,17 +528,27 @@ p {
     .nav li:nth-child(5) {
         width: 52px;
     }
-    .zNami{
+
+    .zNami {
         padding-bottom: 20px;
     }
-    .zNami p{
+
+    .zNami p {
         font-size: 13px;
 
     }
+
     .middleDownRight {
         font-size: 17px;
     }
-    .middleDownLeft{
+
+    .middleDownLeft {
         font-size: 13px;
+    }
+
+    .portfolioSection p {
+        padding-right: 12px;
+        padding-left: 12px;
+        font-size: 16px;
     }
 }

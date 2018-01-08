@@ -306,6 +306,9 @@ $(document).ready(function () {
 $(function() {
     var selectedClass = "";
     $("p").click(function(){
+
+        $(".simplyPoland").css("display", "none");
+
         selectedClass = $(this).attr("data-rel");
         $("#portfolio").fadeTo(100, 0.1);
         $("#portfolio div").not("."+ selectedClass).fadeOut();
@@ -314,5 +317,16 @@ $(function() {
             $("#portfolio").fadeTo(500, 1);
         }, 500);
 
+    });
+});
+
+$(function() {
+
+    $(".simplyPolandClick").click(function(){
+
+        $("#portfolio").css("display", "none");
+        console.log("cotojest");
+        $(".simplyPoland").css("display", "block");
+        console.log("cotojest");
     });
 });
