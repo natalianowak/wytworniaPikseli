@@ -164,11 +164,13 @@ body {
     padding-left: 18.56%;
     width: 100%;
     margin: 20px 0px;
+    min-height:165px;
 }
 
 .tile {
     float: left;
     width: 25%;
+    /*padding-top: 24%;*/
     border: 5px #fff solid;
     position: relative;
 }
@@ -264,6 +266,40 @@ body {
 }
 .simplyPoland img{
     width: 100%;
+}
+.onglow{
+    display: none;
+    margin-right: 19%;
+    margin-left: 19%;
+    margin-top: 30px;
+}
+.onglow img{
+    width: 100%;
+    margin-bottom: 1.9%;
+}
+.locomotiva{
+    display: none;
+    margin-right: 19%;
+    margin-left: 19%;
+    margin-top: 30px;
+}
+.locomotiva img{
+    width: 100%;
+    margin-bottom: 1.9%;
+}
+.kopalnia{
+    display: none;
+    margin-right: 19%;
+    margin-left: 19%;
+    margin-top: 30px;
+}
+.kopalnia img{
+    width: 100%;
+    margin-bottom: 1.9%;
+}
+.kopalniaSmall{
+    width: 60%;
+    margin: 0 auto;
 }
 
 .section5 {
@@ -404,6 +440,7 @@ p {
 .heavy {
     font-weight: 900;
 }
+
 
 @media only screen and (max-width: 1400px) {
     .portfolioSection p {

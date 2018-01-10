@@ -308,12 +308,20 @@ $(function() {
     $("p").click(function(){
 
         $(".simplyPoland").css("display", "none");
+        $(".onglow").css("display", "none");
+        $(".locomotiva").css("display", "none");
+        $(".kopalnia").css("display", "none");
 
         selectedClass = $(this).attr("data-rel");
-        $("#portfolio").fadeTo(100, 0.1);
-        $("#portfolio div").not("."+ selectedClass).fadeOut();
+        console.log(selectedClass)
+        $("#portfolio").fadeTo(100, 0.1);  //znikaja kwadraty
+
+        $("#portfolio div").not("."+ selectedClass).fadeOut(); //pojawiaja sie te ktore maja wybrana klase np allwebsite graphic
+
         setTimeout(function() {
             $("."+ selectedClass).fadeIn();
+            $("."+ selectedClass+" .content").fadeIn();
+
             $("#portfolio").fadeTo(500, 1);
         }, 500);
 
@@ -323,10 +331,22 @@ $(function() {
 $(function() {
 
     $(".simplyPolandClick").click(function(){
-
         $("#portfolio").css("display", "none");
-        console.log("cotojest");
         $(".simplyPoland").css("display", "block");
-        console.log("cotojest");
+    });
+
+    $(".onglowClick").click(function(){
+        $("#portfolio").css("display", "none");
+        $(".onglow").css("display", "block");
+    });
+
+    $(".locomotivaClick").click(function(){
+        $("#portfolio").css("display", "none");
+        $(".locomotiva").css("display", "block");
+    });
+
+    $(".kopalniaClick").click(function(){
+        $("#portfolio").css("display", "none");
+        $(".kopalnia").css("display", "block");
     });
 });
