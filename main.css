@@ -87,8 +87,8 @@ video {
 
 /*ten jasniejszy pasek u gory*/
 .belkaGorna {
-    z-index: 2;
-    position: absolute;
+    z-index: 3;
+    position: fixed;
     width: 100%;
     /*background-image: url("img/menuGórne2.png");*/
     /*background-repeat: repeat-x;*/
@@ -182,7 +182,7 @@ video {
 .yellowSectionContent {
     position: relative;
     background-color: #fbb900;
-    height: 350px;
+    height: 370px;
     width: 100%;
     z-index: 1;
 }
@@ -272,7 +272,7 @@ h3 {
 .dalejDiv {
     position: absolute;
     right: 0;
-    bottom: 3%;
+    bottom: 4%;
     margin-right: 19.5%;
     color: #009fe4;
 }
@@ -485,6 +485,7 @@ h3 {
 }
 
 .losiu {
+    overflow: hidden;
     margin-top: 0%;
     z-index: 2;
     /* flex: 1; */
@@ -498,9 +499,9 @@ h3 {
 
     transition: all 1s;
     /*background-image:url("/images/Windows%20Logo.jpg");*/
-    box-shadow:0px 19px 50px -10px grey;
-    /*przesuniecie w posiomie - przesuniecie w pionie - rozmycie promienia - rozprzestrzenienie promienia - color*/
 
+    /*przesuniecie w posiomie - przesuniecie w pionie - rozmycie promienia - rozprzestrzenienie promienia - color*/
+    box-shadow:8px 10px 50px -20px;
 }
 
 .losiu:hover {
@@ -510,6 +511,7 @@ h3 {
 }
 
 .danka {
+    overflow: hidden;
     margin-top: 0%;
     z-index: 2;
     height: 100%;
@@ -520,7 +522,7 @@ h3 {
     background-size: 100%;
     /*background-position: center;*/
     transition: all 1s;
-    box-shadow:0px 19px 50px -10px grey;
+    box-shadow:8px 10px 50px -20px;
 }
 
 .danka:hover {
@@ -530,6 +532,7 @@ h3 {
 }
 
 .stodi {
+    overflow: hidden;
     margin-top: 0%;
     height: 100%;
     /* flex: 1; */
@@ -540,7 +543,7 @@ h3 {
     background-repeat: no-repeat;
     background-size: 100%;
     /*background-position: center;*/
-    box-shadow:0px 19px 50px -10px grey;
+    box-shadow:8px 10px 50px -20px;
 }
 
 .stodi:hover {
@@ -561,6 +564,7 @@ h3 {
     transform: scale(1, 1);
     /*background-image: url("img/tloDanka.png");*/
     /*opacity: 0.5;*/
+
 }
 
 .podpisLosiu {

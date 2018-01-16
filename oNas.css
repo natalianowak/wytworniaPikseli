@@ -28,11 +28,15 @@ body {
     width: 100%;
     height: 84px;
 }
-
+.firstSection{
+    height: 84px;
+}
 /*ten jasniejszy pasek u gory*/
 .belkaGorna {
+    height: 84px;
+    top:0;
     z-index: 2;
-    position: relative;
+    position: fixed;
     width: 100%;
     /*background-image: url("img/menuGórne2.png");*/
     /*background-repeat: repeat-x;*/
@@ -120,6 +124,7 @@ body {
 
 
 .blueFotoSection{
+    /*top:84px;*/
     position: relative;
     height:350px;
     width: 100%;
@@ -143,6 +148,7 @@ body {
     text-align: justify;
 }
 .opisy{
+    position: relative;
     height:800px;
     width:100%;
     padding-right: 19%;
@@ -177,10 +183,10 @@ body {
 .zdjecieLosiu img{
     position:absolute;
     left:19%;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 .zdjecieLosiu img.top:hover {
     opacity:0;
@@ -192,10 +198,10 @@ body {
 .zdjecieDanka img{
     position:absolute;
     left:19%;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 .zdjecieDanka img.top:hover {
     opacity:0;
@@ -206,10 +212,10 @@ body {
 .zdjecieStodi img {
     position:absolute;
     left:19%;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 .zdjecieStodi img.top:hover {
     opacity:0;

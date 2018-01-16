@@ -28,11 +28,14 @@ body {
     width: 100%;
     height: 84px;
 }
-
+.firstSection{
+    height:84px;
+}
 /*ten jasniejszy pasek u gory*/
 .belkaGorna {
-    z-index: 2;
-    position: relative;
+    z-index: 3;
+    position: fixed;
+
     width: 100%;
     /*background-image: url("img/menuGórne2.png");*/
     /*background-repeat: repeat-x;*/
@@ -348,6 +351,7 @@ p {
 
 
 .section6 {
+    position: relative;
     width: 100%;
     height: 350px;
 }

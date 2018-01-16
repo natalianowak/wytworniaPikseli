@@ -350,3 +350,13 @@ $(function() {
         $(".kopalnia").css("display", "block");
     });
 });
+
+
+// zmiana koloru nav na bialy
+$(window).scroll(function () {
+    if ($(window).scrollTop() >= 5) {
+        $('.menuGorne').css('background','white');
+    } else {
+        $('.menuGorne').css('background','transparent');
+    }
+});
