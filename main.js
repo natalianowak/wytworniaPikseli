@@ -300,7 +300,7 @@ $(document).ready(function () {
 $(function () {
     var selectedClass = "";
     $("p").click(function () {
-
+        $(".navButton").css("display", "none");
         $(".simplyPoland").css("display", "none");
         $(".onglow").css("display", "none");
         $(".locomotiva").css("display", "none");
@@ -326,21 +326,25 @@ $(function () {
 
     $(".simplyPolandClick").click(function () {
         $("#portfolio").css("display", "none");
+        $(".navButton").css("display", "block");
         $(".simplyPoland").css("display", "block");
     });
 
     $(".onglowClick").click(function () {
         $("#portfolio").css("display", "none");
+        $(".navButton").css("display", "block");
         $(".onglow").css("display", "block");
     });
 
     $(".locomotivaClick").click(function () {
         $("#portfolio").css("display", "none");
+        $(".navButton").css("display", "block");
         $(".locomotiva").css("display", "block");
     });
 
     $(".kopalniaClick").click(function () {
         $("#portfolio").css("display", "none");
+        $(".navButton").css("display", "block");
         $(".kopalnia").css("display", "block");
     });
 });
@@ -358,4 +362,8 @@ $(window).scroll(function () {
         $('.menuGorne').css('background', 'transparent');
 
     }
+});
+
+jQuery(document).ready(function($) {
+    $('a[data-rel^=lightcase]').lightcase();
 });

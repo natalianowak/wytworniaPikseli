@@ -204,7 +204,25 @@ body {
 .websites {
     background: #fbb900;
 }
-
+/*a[class*='lightcase-icon-'].lightcase-icon-next {*/
+    /*color: black;*/
+/*}*/
+/*[class*='lightcase-icon-'].lightcase-icon-close {*/
+    /*color: black;*/
+/*}*/
+/*[class*='lightcase-icon-'].lightcase-icon-prev {*/
+    /*color: black;*/
+/*}*/
+.navButton{
+    padding-right: 19%;
+    height:20px;
+    width: 100%;
+    display: none;
+    margin-top: 30px;
+}
+.navButton button{
+    float: right;
+}
 .portfolioSection {
     margin-top: 40px;
     margin-bottom: 25px;
@@ -556,14 +574,31 @@ p {
         padding-left: 10%;
         bottom: 15%;
     }
-
+.navButton{
+    padding-right: 10%;
+}
     .portfolioNav {
         padding-right: 10%;
         padding-left: 10%;}
     #portfolio {
         padding-right: 9.56%;
         padding-left: 9.56%;}
-
+    .simplyPoland {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .locomotiva{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .onglow{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .kopalnia{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
 
     .opakownie{
         padding-left: 10%;

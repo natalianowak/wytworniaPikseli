@@ -920,3 +920,5 @@ p {
     /*display:inherit;*/
     /*}*/
 }
+
+@media only screen and (max-width: 812px) {}
