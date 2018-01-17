@@ -62,6 +62,7 @@ body {
 
 .logoTop {
     width: 121px;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav {
@@ -543,6 +544,43 @@ p {
 }
 
 @media only screen and (max-width: 900px) {
+    .baseline{
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .blueFotoImg{
+        margin-left: -11%;
+        width:110%;
+    }
+    .text{
+        padding-left: 10%;
+        bottom: 15%;
+    }
+
+    .portfolioNav {
+        padding-right: 10%;
+        padding-left: 10%;}
+    #portfolio {
+        padding-right: 9.56%;
+        padding-left: 9.56%;}
+
+
+    .opakownie{
+        padding-left: 10%;
+    }
+    .zNami {
+        padding-left: 10%;}
+    .bottom {
+
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .kropkiJasne{
+        width: 10%;
+    }
+    .blueDolny {
+        display: none}
+
 
     .nav {
         width: 375px;

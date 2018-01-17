@@ -114,6 +114,7 @@ video {
 
 .logoTop {
     width: 121px;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav {
@@ -815,6 +816,51 @@ p {
 }
 
 @media only screen and (max-width: 900px) {
+    .baseline{
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .section1Text {
+        padding-left: 10%;}
+
+    .elipsy {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .co{
+        padding-left: 10%;
+    }
+    .dalejDiv{
+        margin-right: 10.5%;
+    }
+    .textSection3{
+        padding-left: 10%;
+    }
+    .pionoweKropki{
+        padding-right: 10%;
+        width: 10.51%;
+    }
+    .opakownie{
+     padding-left: 10%;
+    }
+    .zNami {
+        padding-left: 10%;}
+    .bottom {
+
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .kropkiJasne{
+        width: 10%;
+    }
+    .blueDolny {
+      display: none}
+
+
+
+
+
+
     .longText p {
         font-size: 13px;
     }

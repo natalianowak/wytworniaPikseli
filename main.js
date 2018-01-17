@@ -1,12 +1,12 @@
-$(window).resize(function() {
-    if(this.resizeTO) clearTimeout(this.resizeTO);
-    this.resizeTO = setTimeout(function() {
+$(window).resize(function () {
+    if (this.resizeTO) clearTimeout(this.resizeTO);
+    this.resizeTO = setTimeout(function () {
         $(this).trigger('resizeEnd');
     }, 500);
 });
 
 var map;
-var myLatlng = new google.maps.LatLng(49.9751544,20.4217713);
+var myLatlng = new google.maps.LatLng(49.9751544, 20.4217713);
 // var lat = 49.9751544;
 // var lng = 20.4217713;
 var zoom = 15;
@@ -100,12 +100,12 @@ function initialize() {
 
     var image = {
         url: 'img/sygnet.png',
-        scaledSize : new google.maps.Size(30, 35)
+        scaledSize: new google.maps.Size(30, 35)
     };
 
     var marker = new google.maps.Marker({
         position: myLatlng,
-        title:"Wytwórnia Pikseli",
+        title: "Wytwórnia Pikseli",
         icon: image
     });
 
@@ -133,8 +133,6 @@ var wow = new WOW(
 wow.init();
 
 
-
-
 $(document).ready(function () {
     // console.log($(".expand1").height());
     // console.log($(".expand1")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList);
@@ -145,28 +143,27 @@ $(document).ready(function () {
     // console.log($(".expand6").height());
 
 
-
-    if($(".expand1").height() >= 159){
+    if ($(".expand1").height() >= 159) {
         $(".expand1")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
         $(".expand1").css(createHeight());
     }
-    if($(".expand2").height() >= 159){
+    if ($(".expand2").height() >= 159) {
         $(".expand2")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
         $(".expand2").css(createHeight());
     }
-    if($(".expand3").height() >= 159){
+    if ($(".expand3").height() >= 159) {
         $(".expand3")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
         $(".expand3").css(createHeight());
     }
-    if($(".expand4").height() >= 159){
+    if ($(".expand4").height() >= 159) {
         $(".expand4")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
         $(".expand4").css(createHeight());
     }
-    if($(".expand5").height() >= 159){
+    if ($(".expand5").height() >= 159) {
         $(".expand5")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
         $(".expand5").css(createHeight());
     }
-    if($(".expand6").height() >= 159){
+    if ($(".expand6").height() >= 159) {
         $(".expand6")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
         $(".expand6").css(createHeight());
     }
@@ -253,16 +250,14 @@ $(document).ready(function () {
     });
 
 
-    function createHeight(){
+    function createHeight() {
         var hight;
-        if($(window).width() > 1100){
-           return hight = { height: 129};
+        if ($(window).width() > 1100) {
+            return hight = {height: 129};
         } else {
-           return hight = { height: 122};
+            return hight = {height: 122};
         }
     }
-
-
 
 
     $(".mniej1").click(function () {
@@ -300,12 +295,11 @@ $(document).ready(function () {
     });
 
 
-
 });
 
-$(function() {
+$(function () {
     var selectedClass = "";
-    $("p").click(function(){
+    $("p").click(function () {
 
         $(".simplyPoland").css("display", "none");
         $(".onglow").css("display", "none");
@@ -316,11 +310,11 @@ $(function() {
         console.log(selectedClass)
         $("#portfolio").fadeTo(100, 0.1);  //znikaja kwadraty
 
-        $("#portfolio div").not("."+ selectedClass).fadeOut(); //pojawiaja sie te ktore maja wybrana klase np allwebsite graphic
+        $("#portfolio div").not("." + selectedClass).fadeOut(); //pojawiaja sie te ktore maja wybrana klase np allwebsite graphic
 
-        setTimeout(function() {
-            $("."+ selectedClass).fadeIn();
-            $("."+ selectedClass+" .content").fadeIn();
+        setTimeout(function () {
+            $("." + selectedClass).fadeIn();
+            $("." + selectedClass + " .content").fadeIn();
 
             $("#portfolio").fadeTo(500, 1);
         }, 500);
@@ -328,35 +322,40 @@ $(function() {
     });
 });
 
-$(function() {
+$(function () {
 
-    $(".simplyPolandClick").click(function(){
+    $(".simplyPolandClick").click(function () {
         $("#portfolio").css("display", "none");
         $(".simplyPoland").css("display", "block");
     });
 
-    $(".onglowClick").click(function(){
+    $(".onglowClick").click(function () {
         $("#portfolio").css("display", "none");
         $(".onglow").css("display", "block");
     });
 
-    $(".locomotivaClick").click(function(){
+    $(".locomotivaClick").click(function () {
         $("#portfolio").css("display", "none");
         $(".locomotiva").css("display", "block");
     });
 
-    $(".kopalniaClick").click(function(){
+    $(".kopalniaClick").click(function () {
         $("#portfolio").css("display", "none");
         $(".kopalnia").css("display", "block");
     });
 });
 
 
-// zmiana koloru nav na bialy
+// zmiana koloru nav na bialy + zmiejsznie logo
 $(window).scroll(function () {
-    if ($(window).scrollTop() >= 5) {
-        $('.menuGorne').css('background','white');
+    if ($(window).scrollTop() >= 10) {
+        $('.menuGorne').css('background', 'white');
+        $('.logoTop').css("width", "100px");
+
+
     } else {
-        $('.menuGorne').css('background','transparent');
+        $('.logoTop').css("width", "121px");
+        $('.menuGorne').css('background', 'transparent');
+
     }
 });

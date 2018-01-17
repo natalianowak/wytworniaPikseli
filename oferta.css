@@ -22,15 +22,18 @@ body {
     height: auto;
     overflow: scroll;
 }
+
 .menuGorne {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 84px;
 }
-.firstSection{
-    height:84px;
+
+.firstSection {
+    height: 84px;
 }
+
 /*ten jasniejszy pasek u gory*/
 .belkaGorna {
     z-index: 3;
@@ -61,6 +64,7 @@ body {
 
 .logoTop {
     width: 121px;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav {
@@ -117,13 +121,9 @@ body {
     color: #009fe4;
     text-decoration: none;
     font-family: 'Raleway';
-    font-weight:900;
+    font-weight: 900;
 
 }
-
-
-
-
 
 .section5 {
     width: 100%;
@@ -172,11 +172,12 @@ body {
 .opakownie {
     display: flex;
     align-items: baseline;
-    width:100%;
+    width: 100%;
     padding-left: 19%;
 }
-.skontaktuj{
-    width:100%
+
+.skontaktuj {
+    width: 100%
 
 }
 
@@ -252,7 +253,8 @@ p {
     right: 0;
     top: 40%;
 }
-.oferta{
+
+.oferta {
     width: 100%;
     padding-left: 19%;
     padding-right: 19%;
@@ -260,19 +262,23 @@ p {
     padding-top: 5%;
     padding-bottom: 5%;
 }
-.ofer{
+
+.ofer {
     display: flex;
     padding-bottom: 5%;
     position: relative;
 }
-.ofer img{
+
+.ofer img {
     padding-right: 30px;
 }
-.oferImg{
+
+.oferImg {
 
     flex-grow: 1;
 }
-.opisOferty{
+
+.opisOferty {
 
     flex-grow: 3;
     /*height: 129px;*/
@@ -281,20 +287,22 @@ p {
     overflow: hidden;
 }
 
-.opisOferty h4{
-    font-family: "Open",sans-serif;
+.opisOferty h4 {
+    font-family: "Open", sans-serif;
     font-weight: 900;
 
 }
+
 /*.expand1{*/
-    /*height: 129px;*/
+/*height: 129px;*/
 /*}*/
-.opisOferty p{
+.opisOferty p {
 
     font-family: "Myriad Pro", sans-serif;
     text-align: justify;
 }
-.czytaj{
+
+.czytaj {
     cursor: pointer;
     position: absolute;
     bottom: 0;
@@ -302,29 +310,31 @@ p {
     padding-bottom: 25px;
     font-family: "Myriad Pro", sans-serif;
 }
-.less{
+
+.less {
     display: none;
     cursor: pointer;
     position: absolute;
     bottom: 0;
     padding-bottom: 25px;
 }
-.czytajta{
+
+.czytajta {
     display: inline-block;
 }
-.hidden{
+
+.hidden {
     display: none;
     opacity: 0;
 }
-.show{
+
+.show {
     display: inline;
 }
 
-
-
-.blueFotoSection{
+.blueFotoSection {
     position: relative;
-    height:350px;
+    height: 350px;
     width: 100%;
     background-color: #009fe4;
     background-image: url(img/zdjecieWtle.png);
@@ -333,13 +343,16 @@ p {
     background-attachment: fixed;
     overflow: hidden;
 }
-.blueFotoImg{
+
+.blueFotoImg {
     width: 100%;
 }
+
 .yellow {
     color: #fbb900;
 }
-.text{
+
+.text {
     position: absolute;
     bottom: 5%;
     padding-left: 19%;
@@ -347,8 +360,6 @@ p {
     color: white;
     text-align: justify;
 }
-
-
 
 .section6 {
     position: relative;
@@ -361,6 +372,7 @@ p {
     position: relative;
     overflow: hidden;;
 }
+
 .heavy {
     font-weight: 900;
 }
@@ -378,23 +390,26 @@ p {
         font-size: 1.5rem;
     }
 
-    .yellowSectionContent{
+    .yellowSectionContent {
         height: 250px;
     }
-    .middleDownRight{
-        font-size:19px
-    }
-    .section5{
-        height:270px;
+
+    .middleDownRight {
+        font-size: 19px
     }
 
-    .kropkiJasne{
+    .section5 {
+        height: 270px;
+    }
+
+    .kropkiJasne {
         background-position: left 130px;
     }
 
-    .nav{
+    .nav {
         width: 386px;
     }
+
     .nav li:first-child {
         width: 123px;
         /*color: #3d3c3d;*/
@@ -415,28 +430,76 @@ p {
     .nav li:nth-child(5) {
         width: 55px;
     }
+
     .opisOferty {
         /*height: 122px;*/
     }
-    .czytaj{
+
+    .czytaj {
         padding-bottom: 45px;
     }
-    .ofer{
+
+    .ofer {
         padding-bottom: 9%;
     }
-.less{
-    display: none;
-}
-.opisOferty{
-    /*min-height: 122px;*/
-}
+
+    .less {
+        display: none;
+    }
+
+    .opisOferty {
+        /*min-height: 122px;*/
+    }
 }
 
 @media only screen and (max-width: 900px) {
 
-    .nav{
+    .baseline {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    .blueFotoImg {
+        margin-left: -11%;
+        width: 110%;
+    }
+
+    .text {
+        padding-left: 10%;
+        bottom: 15%;
+    }
+
+    .oferta {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .opakownie {
+        padding-left: 10%;
+    }
+
+    .zNami {
+        padding-left: 10%;
+    }
+
+    .bottom {
+
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    .kropkiJasne {
+        width: 10%;
+    }
+
+    .blueDolny {
+        display: none
+    }
+
+    .nav {
         width: 375px;
     }
+
     .nav li:first-child {
         width: 120px;
         /*color: #3d3c3d;*/
@@ -457,23 +520,29 @@ p {
     .nav li:nth-child(5) {
         width: 52px;
     }
-    .zNami{
+
+    .zNami {
         padding-bottom: 20px;
     }
-    .zNami p{
+
+    .zNami p {
         font-size: 13px;
 
     }
+
     .middleDownRight {
         font-size: 17px;
     }
-    .middleDownLeft{
+
+    .middleDownLeft {
         font-size: 13px;
     }
-    .czytaj{
+
+    .czytaj {
         padding-bottom: 35px;
     }
-    .ofer{
+
+    .ofer {
         padding-bottom: 9%;
     }
 }

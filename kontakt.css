@@ -61,6 +61,7 @@ body {
 
 .logoTop {
     width: 121px;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav {
@@ -319,6 +320,25 @@ p {
 }
 
 @media only screen and (max-width: 900px) {
+
+
+
+    .opakownie{
+        padding-left: 10%;
+    }
+    .zNami {
+        padding-left: 10%;}
+    .bottom {
+
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .kropkiJasne{
+        width: 10%;
+    }
+    .blueDolny {
+        display: none}
+
 
     .nav{
         width: 375px;
