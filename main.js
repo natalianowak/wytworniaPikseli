@@ -253,7 +253,7 @@ $(document).ready(function () {
     function createHeight() {
         var hight;
         if ($(window).width() > 1100) {
-            return hight = {height: 129};
+            return hight = {height: 126};
         } else {
             return hight = {height: 122};
         }
@@ -296,56 +296,115 @@ $(document).ready(function () {
 
 
 });
+var choosenCategory = "all";
 
+function removeClass() {
+    $(".navButton").css("display", "none");
+    $(".simplyPoland").css("display", "none");
+    $(".onglow").css("display", "none");
+    $(".locomotiva").css("display", "none");
+    $(".kopalnia").css("display", "none");
+}
 $(function () {
     var selectedClass = "";
     $("p").click(function () {
-        $(".navButton").css("display", "none");
-        $(".simplyPoland").css("display", "none");
-        $(".onglow").css("display", "none");
-        $(".locomotiva").css("display", "none");
-        $(".kopalnia").css("display", "none");
-
+        removeClass();
         selectedClass = $(this).attr("data-rel");
-        console.log(selectedClass)
+        console.log(selectedClass);
+        choosenCategory = selectedClass;
         $("#portfolio").fadeTo(100, 0.1);  //znikaja kwadraty
-
         $("#portfolio div").not("." + selectedClass).fadeOut(); //pojawiaja sie te ktore maja wybrana klase np allwebsite graphic
-
         setTimeout(function () {
             $("." + selectedClass).fadeIn();
             $("." + selectedClass + " .content").fadeIn();
-
             $("#portfolio").fadeTo(500, 1);
         }, 500);
-
     });
 });
 
+var choosenProjectClass = "";
 $(function () {
 
-    $(".simplyPolandClick").click(function () {
+    var fMap = {
+        "simplyPolandClick": simplyPolandClick,
+        "ongolowClick": ongolowClick,
+        "locomotivaClick":locomotivaClick,
+        "kopalniaClick":kopalniaClick
+
+    };
+
+    // fMap[nazwa]();
+
+    function simplyPolandClick() {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
         $(".simplyPoland").css("display", "block");
-    });
+        choosenProjectClass = $(".simplyPolandClick");
+        console.log(choosenProjectClass);
+    }
 
-    $(".onglowClick").click(function () {
+    $(".simplyPolandClick").click(simplyPolandClick);
+
+    function ongolowClick() {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
         $(".onglow").css("display", "block");
-    });
+        choosenProjectClass = $(".onglowClick");
+        console.log(choosenProjectClass);
+    }
 
-    $(".locomotivaClick").click(function () {
+    $(".onglowClick").click(ongolowClick);
+
+    function locomotivaClick() {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
         $(".locomotiva").css("display", "block");
-    });
+        choosenProjectClass = $(".locomotivaClick");
+        console.log(choosenProjectClass);
+    }
 
-    $(".kopalniaClick").click(function () {
+    $(".locomotivaClick").click(locomotivaClick);
+
+    function kopalniaClick() {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
         $(".kopalnia").css("display", "block");
+        choosenProjectClass = $(".kopalniaClick");
+        console.log(choosenProjectClass);
+    }
+
+    $(".kopalniaClick").click(kopalniaClick);
+
+
+    $(".closeButton").click(function () {
+        // console.log("nacisnietyClose");
+        // console.log(choosenCategory);
+        removeClass();
+        $("#portfolio").fadeTo(100, 0.1);
+        $("#portfolio div").not("." + choosenCategory).fadeOut();
+        setTimeout(function () {
+            $("." + choosenCategory).fadeIn();
+            $("." + choosenCategory + " .content").fadeIn();
+            $("#portfolio").fadeTo(500, 1);
+        }, 500);
+    });
+
+
+    $(".prevButton").click(function () {
+        console.log("nacisnietyPrev");
+        console.log($("." + choosenCategory).eq($("." + choosenCategory).index(choosenProjectClass) - 1));
+
+    });
+    $(".nextButton").click(function () {
+        console.log("nacisnietyNext");
+        var nextClass = $("." + choosenCategory).eq($("." + choosenCategory).index(choosenProjectClass) + 1);
+        console.log(nextClass[0].classList[3]);
+       var nextClassfunction= nextClass[0].classList[3];
+       // nextClassfunction();
+
+
+       fMap[nextClassfunction]();
+
     });
 });
 
@@ -364,6 +423,6 @@ $(window).scroll(function () {
     }
 });
 
-jQuery(document).ready(function($) {
-    $('a[data-rel^=lightcase]').lightcase();
-});
+
+// obsluga buttonow close nextprev w portfolio
+

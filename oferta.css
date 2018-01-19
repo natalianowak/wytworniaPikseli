@@ -259,13 +259,16 @@ p {
     padding-left: 19%;
     padding-right: 19%;
     /*height:900px;*/
-    padding-top: 5%;
-    padding-bottom: 5%;
+    /*padding-top: 5%;*/
+    /*padding-bottom: 5%;*/
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .ofer {
     display: flex;
-    padding-bottom: 5%;
+    /*padding-bottom: 5%;*/
+    padding-bottom: 40px;
     position: relative;
 }
 
@@ -440,7 +443,8 @@ p {
     }
 
     .ofer {
-        padding-bottom: 9%;
+        /*padding-bottom: 9%;*/
+        padding-bottom: 45px;
     }
 
     .less {
@@ -543,6 +547,7 @@ p {
     }
 
     .ofer {
-        padding-bottom: 9%;
+        /*padding-bottom: 9%;*/
+        padding-bottom: 45px;
     }
 }
