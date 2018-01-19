@@ -325,60 +325,67 @@ $(function () {
 var choosenProjectClass = "";
 $(function () {
 
-    var fMap = {
-        "simplyPolandClick": simplyPolandClick,
-        "ongolowClick": ongolowClick,
-        "locomotivaClick":locomotivaClick,
-        "kopalniaClick":kopalniaClick
-
-    };
-
-    // fMap[nazwa]();
-
-    function simplyPolandClick() {
+    $(".simplyPolandClick").click(function () {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
         $(".simplyPoland").css("display", "block");
         choosenProjectClass = $(".simplyPolandClick");
         console.log(choosenProjectClass);
-    }
+        checkIfThereIsNextClass();
+        checkIfThereIsPrevClass();
+    });
 
-    $(".simplyPolandClick").click(simplyPolandClick);
-
-    function ongolowClick() {
+    $(".onglowClick").click(function () {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
         $(".onglow").css("display", "block");
         choosenProjectClass = $(".onglowClick");
         console.log(choosenProjectClass);
-    }
+        checkIfThereIsNextClass();
+        checkIfThereIsPrevClass();
+    });
 
-    $(".onglowClick").click(ongolowClick);
 
-    function locomotivaClick() {
+    $(".locomotivaClick").click(function () {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
         $(".locomotiva").css("display", "block");
         choosenProjectClass = $(".locomotivaClick");
         console.log(choosenProjectClass);
-    }
+        checkIfThereIsNextClass();
+        checkIfThereIsPrevClass();
+    });
 
-    $(".locomotivaClick").click(locomotivaClick);
 
-    function kopalniaClick() {
+    $(".kopalniaClick").click(function () {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
         $(".kopalnia").css("display", "block");
         choosenProjectClass = $(".kopalniaClick");
-        console.log(choosenProjectClass);
+        console.log(choosenProjectClass + "kopalniaCkick on  to jest ");
+        console.log(choosenProjectClass + "to jestwybrna klasa object jquery");
+        checkIfThereIsNextClass();
+        checkIfThereIsPrevClass();
+    });
+
+    function checkIfThereIsPrevClass() {
+        var prevClass = $("." + choosenCategory).eq($("." + choosenCategory).index(choosenProjectClass) - 1);
+        if(prevClass[0].classList[3] === undefined){
+            $(".prevButton").css("color","red");
+        }else {
+            $(".prevButton").css("color","black");
+        }
+    }
+    function checkIfThereIsNextClass() {
+        var nextClass = $("." + choosenCategory).eq($("." + choosenCategory).index(choosenProjectClass) + 1);
+        if(nextClass[0].classList[3] === undefined){
+            $(".nextButton").css("color","red");
+        }else {
+            $(".nextButton").css("color","black");
+        }
     }
 
-    $(".kopalniaClick").click(kopalniaClick);
-
-
     $(".closeButton").click(function () {
-        // console.log("nacisnietyClose");
-        // console.log(choosenCategory);
         removeClass();
         $("#portfolio").fadeTo(100, 0.1);
         $("#portfolio div").not("." + choosenCategory).fadeOut();
@@ -390,21 +397,45 @@ $(function () {
     });
 
 
+
     $(".prevButton").click(function () {
         console.log("nacisnietyPrev");
-        console.log($("." + choosenCategory).eq($("." + choosenCategory).index(choosenProjectClass) - 1));
+        var prevClass = $("." + choosenCategory).eq($("." + choosenCategory).index(choosenProjectClass) - 1);
+        console.log(prevClass + " taka jest poprzednia klasa");
+        if(prevClass[0].classList[3] === undefined){
+            $(".prevButton").css("color","red");
+        }else{
+            var prevClassFunction = prevClass[0].classList[3].slice(0, -5);
+            console.log(prevClassFunction + " taka klasa bedzie odpalona");
+            removeClass();
+            $("#portfolio").css("display", "none");
+            $(".navButton").css("display", "block");
+            $("." + prevClassFunction).css("display", "block");
+            choosenProjectClass = $("." + prevClassFunction + "Click");
+            checkIfThereIsNextClass();
+            checkIfThereIsPrevClass();
+        }
 
     });
+
     $(".nextButton").click(function () {
         console.log("nacisnietyNext");
         var nextClass = $("." + choosenCategory).eq($("." + choosenCategory).index(choosenProjectClass) + 1);
+        console.log(nextClass + " taka jest nastepna klasa");
         console.log(nextClass[0].classList[3]);
-       var nextClassfunction= nextClass[0].classList[3];
-       // nextClassfunction();
-
-
-       fMap[nextClassfunction]();
-
+        if(nextClass[0].classList[3] === undefined){
+            $(".nextButton").css("color","red");
+        }else {
+            var nextClassfunction = nextClass[0].classList[3].slice(0, -5);
+            console.log(nextClassfunction + " taka klasa bedzie odpalona");
+            removeClass();
+            $("#portfolio").css("display", "none");
+            $(".navButton").css("display", "block");
+            $("." + nextClassfunction).css("display", "block");
+            choosenProjectClass = $("." + nextClassfunction + "Click");
+            checkIfThereIsNextClass();
+            checkIfThereIsPrevClass();
+        }
     });
 });
 
