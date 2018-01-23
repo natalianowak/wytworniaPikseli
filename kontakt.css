@@ -376,4 +376,33 @@ p {
     .middleDownLeft{
         font-size: 13px;
     }
+
+
+
+
+    .kropkiJasne{
+        background-position: left 60px;
+        width: 15%;
+    }
+    .opakownie{
+        display: none;
+
+    }
+    .zNami{
+        display: none;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .middleDownLeft{
+        width: 100%;
+    }
+    .middleDownRight{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .inline{
+        margin-left: 0;
+    }
 }

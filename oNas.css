@@ -558,9 +558,88 @@ p {
     .opisOsoby{
         padding-top: 5px;
     }
+    .text{
+        font-size: 13px;
+    }
 
 
 
 
 
+}
+@media only screen and (max-width: 700px) {
+    .baseline{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .blueFotoImg{
+        margin-left: -17%;
+        width: 116%;
+    }
+    .text{
+        padding-left: 5%;
+        bottom: 15%;
+    }
+    .opisy{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .zdjecieLosiu img{
+        left: 5%;
+    }
+    .zdjecieDanka img{
+        left: 5%;
+    }
+    .zdjecieStodi img{
+        left: 5%;
+    }
+    .zdjecie{
+        height:150px;
+        padding-right: 0;
+    }
+    .opakownie{
+        padding-left: 5%;
+    }
+    .zNami {
+        padding-left: 5%;}
+    .bottom {
+
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+.osoba{
+    flex-direction: column;
+    display: block;
+}
+.opisy{
+    height: 1100px;
+}
+
+
+
+    .kropkiJasne{
+        background-position: left 60px;
+        width: 15%;
+    }
+    .opakownie{
+        display: none;
+
+    }
+    .zNami{
+        display: none;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .middleDownLeft{
+        width: 100%;
+    }
+    .middleDownRight{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .inline{
+        margin-left: 0;
+    }
 }

@@ -320,7 +320,7 @@ body {
 }
 .kopalnia img{
     width: 100%;
-    margin-bottom: 1.9%;
+    margin-bottom: 20px;
 }
 .kopalniaSmall{
     width: 60%;
@@ -329,6 +329,7 @@ body {
 iframe{
     width: 100%;
     height:350px;
+    margin-bottom: 15px;
 }
 
 .section5 {
@@ -569,60 +570,76 @@ p {
 }
 
 @media only screen and (max-width: 900px) {
-    .baseline{
+    .baseline {
         padding-right: 10%;
         padding-left: 10%;
     }
-    .blueFotoImg{
+
+    .blueFotoImg {
         margin-left: -11%;
-        width:110%;
+        width: 110%;
     }
-    .text{
+
+    .text {
         padding-left: 10%;
         bottom: 15%;
     }
-.navButton{
-    padding-right: 10%;
-}
+
+    .navButton {
+        padding-right: 10%;
+    }
+
     .portfolioNav {
         padding-right: 10%;
-        padding-left: 10%;}
+        padding-left: 10%;
+    }
+
     #portfolio {
         padding-right: 9.56%;
-        padding-left: 9.56%;}
+        padding-left: 9.56%;
+    }
+
     .simplyPoland {
         margin-right: 10%;
         margin-left: 10%;
     }
-    .locomotiva{
-        margin-right: 10%;
-        margin-left: 10%;
-    }
-    .onglow{
-        margin-right: 10%;
-        margin-left: 10%;
-    }
-    .kopalnia{
+
+    .locomotiva {
         margin-right: 10%;
         margin-left: 10%;
     }
 
-    .opakownie{
+    .onglow {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .kopalnia {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .opakownie {
         padding-left: 10%;
     }
+
     .zNami {
-        padding-left: 10%;}
+        padding-left: 10%;
+    }
+
     .bottom {
 
         padding-right: 10%;
         padding-left: 10%;
     }
-    .kropkiJasne{
+
+    .kropkiJasne {
         width: 10%;
     }
-    .blueDolny {
-        display: none}
 
+    .blueDolny {
+        display: none
+    }
 
     .nav {
         width: 375px;
@@ -670,5 +687,105 @@ p {
         padding-right: 12px;
         padding-left: 12px;
         font-size: 16px;
+    }
+
+    .text {
+        font-size: 13px;
+    }
+}
+    @media only screen and (max-width: 900px) {
+        .baseline {
+            padding-right: 5%;
+            padding-left: 5%;
+        }
+
+        .blueFotoImg {
+            margin-left: -16%;
+            width: 115%;
+        }
+
+        .text {
+            padding-left: 5%;
+            bottom: 15%;
+        }
+
+        .navButton {
+            padding-right: 5%;
+        }
+
+        .portfolioNav {
+            padding-right: 5%;
+            padding-left: 5%;
+        }
+
+        #portfolio {
+            padding-right: 4.56%;
+            padding-left: 4.56%;
+        }
+
+        .simplyPoland {
+            margin-right: 5%;
+            margin-left: 5%;
+        }
+
+        .locomotiva {
+            margin-right: 5%;
+            margin-left: 5%;
+        }
+
+        .onglow {
+            margin-right: 5%;
+            margin-left: 5%;
+        }
+
+        .kopalnia {
+            margin-right: 5%;
+            margin-left: 5%;
+        }
+
+        .opakownie {
+            padding-left: 5%;
+        }
+
+        .zNami {
+            padding-left: 5%;
+        }
+
+        .bottom {
+
+            padding-right: 5%;
+            padding-left: 5%;
+        }
+
+        .portfolioSection p{
+            font-size: 13px;
+            padding-right: 9px;
+            padding-left: 9px;
+        }
+
+    .kropkiJasne{
+        background-position: left 60px;
+        width: 15%;
+    }
+    .opakownie{
+        display: none;
+
+    }
+    .zNami{
+        display: none;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .middleDownLeft{
+        width: 100%;
+    }
+    .middleDownRight{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .inline{
+        margin-left: 0;
     }
 }

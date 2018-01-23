@@ -502,7 +502,7 @@ h3 {
     /*background-image:url("/images/Windows%20Logo.jpg");*/
 
     /*przesuniecie w posiomie - przesuniecie w pionie - rozmycie promienia - rozprzestrzenienie promienia - color*/
-    box-shadow:8px 10px 50px -20px;
+    box-shadow: 8px 10px 50px -20px;
 }
 
 .losiu:hover {
@@ -523,7 +523,7 @@ h3 {
     background-size: 100%;
     /*background-position: center;*/
     transition: all 1s;
-    box-shadow:8px 10px 50px -20px;
+    box-shadow: 8px 10px 50px -20px;
 }
 
 .danka:hover {
@@ -544,7 +544,7 @@ h3 {
     background-repeat: no-repeat;
     background-size: 100%;
     /*background-position: center;*/
-    box-shadow:8px 10px 50px -20px;
+    box-shadow: 8px 10px 50px -20px;
 }
 
 .stodi:hover {
@@ -578,7 +578,7 @@ h3 {
     position: absolute;
     right: 0;
     left: 0;
-  padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .position {
@@ -816,50 +816,58 @@ p {
 }
 
 @media only screen and (max-width: 900px) {
-    .baseline{
+    .baseline {
         padding-right: 10%;
         padding-left: 10%;
     }
+
     .section1Text {
-        padding-left: 10%;}
+        padding-left: 10%;
+    }
 
     .elipsy {
         padding-right: 10%;
         padding-left: 10%;
     }
-    .co{
+
+    .co {
         padding-left: 10%;
     }
-    .dalejDiv{
+
+    .dalejDiv {
         margin-right: 10.5%;
     }
-    .textSection3{
+
+    .textSection3 {
         padding-left: 10%;
     }
-    .pionoweKropki{
+
+    .pionoweKropki {
         padding-right: 10%;
         width: 10.51%;
     }
-    .opakownie{
-     padding-left: 10%;
+
+    .opakownie {
+        padding-left: 10%;
     }
+
     .zNami {
-        padding-left: 10%;}
+        padding-left: 10%;
+    }
+
     .bottom {
 
         padding-right: 10%;
         padding-left: 10%;
     }
-    .kropkiJasne{
+
+    .kropkiJasne {
         width: 10%;
     }
+
     .blueDolny {
-      display: none}
-
-
-
-
-
+        display: none
+    }
 
     .longText p {
         font-size: 13px;
@@ -921,4 +929,149 @@ p {
     /*}*/
 }
 
-@media only screen and (max-width: 812px) {}
+@media only screen and (max-width: 700px) {
+    .baseline {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .section1Text {
+        padding-left: 5%;
+    }
+
+    .elipsy {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .co {
+        padding-left: 5%;
+    }
+
+    .dalejDiv {
+        margin-right: 5.5%;
+    }
+
+    .textSection3 {
+        padding-left: 5%;
+    }
+
+    .pionoweKropki {
+        padding-right: 5%;
+        width: 5.51%;
+    }
+
+    .opakownie {
+        padding-left: 5%;
+    }
+
+    .zNami {
+        padding-left: 5%;
+    }
+
+    .bottom {
+
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .kropkiJasne {
+        width: 10%;
+    }
+
+    .section3 {
+        background-image: none;
+    }
+
+    .textSection3 {
+        width: 100%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .zolteKropki {
+        width: 100%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .pionoweKropki {
+        display: none;
+    }
+
+    .name {
+        font-size: 12px;
+        padding-bottom: 11px;
+    }
+
+    .position {
+        font-size: 12px;
+        padding-top: 6px
+    }
+
+    .section1Text {
+        top: 70%;
+    }
+
+    .elip {
+        width: 25%;
+    }
+
+    .elipsy {
+        display: block;
+        top: 25%;
+    }
+
+    .elipUklad {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .elipUklad:nth-child(3) {
+        margin-right: 0;
+    }
+
+    .elipMargin {
+        margin-right: 0;
+    }
+
+    .co {
+        top: 10%
+    }
+
+    .yellowSectionContent {
+        height: 400px;
+    }
+
+    .blueSymbol {
+        padding-left: 5%;
+        bottom: -7%;
+    }
+
+.kropkiJasne{
+background-position: left 60px;
+    width: 15%;
+}
+.opakownie{
+    display: none;
+
+}
+.zNami{
+    display: none;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+}
+.middleDownLeft{
+   width: 100%;
+}
+.middleDownRight{
+    width: 100%;
+    margin-top: 20px;
+}
+.inline{
+    margin-left: 0;
+}
+}
