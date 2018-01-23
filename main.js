@@ -252,9 +252,13 @@ $(document).ready(function () {
 
     function createHeight() {
         var hight;
+        if($(window).width() < 700) {
+            return  hight = {height: 111};
+        }
         if ($(window).width() > 1100) {
             return hight = {height: 126};
-        } else {
+        }
+        else{
             return hight = {height: 122};
         }
     }

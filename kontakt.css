@@ -321,28 +321,32 @@ p {
 
 @media only screen and (max-width: 900px) {
 
-
-
-    .opakownie{
+    .opakownie {
         padding-left: 10%;
     }
+
     .zNami {
-        padding-left: 10%;}
+        padding-left: 10%;
+    }
+
     .bottom {
 
         padding-right: 10%;
         padding-left: 10%;
     }
-    .kropkiJasne{
+
+    .kropkiJasne {
         width: 10%;
     }
+
     .blueDolny {
-        display: none}
+        display: none
+    }
 
-
-    .nav{
+    .nav {
         width: 375px;
     }
+
     .nav li:first-child {
         width: 120px;
         /*color: #3d3c3d;*/
@@ -363,23 +367,32 @@ p {
     .nav li:nth-child(5) {
         width: 52px;
     }
-    .zNami{
+
+    .zNami {
         padding-bottom: 20px;
     }
-    .zNami p{
+
+    .zNami p {
         font-size: 13px;
 
     }
+
     .middleDownRight {
         font-size: 17px;
     }
-    .middleDownLeft{
+
+    .middleDownLeft {
         font-size: 13px;
     }
+}
 
-
-
-
+    @media only screen and (max-width: 900px) {
+        body{
+            font-size: 13px;
+        }
+    .logoTop{
+        width:100px;
+    }
     .kropkiJasne{
         background-position: left 60px;
         width: 15%;

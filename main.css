@@ -930,6 +930,15 @@ p {
 }
 
 @media only screen and (max-width: 700px) {
+    body{
+        font-size: 13px;
+    }
+    .nav a{
+        font-size: 13px;
+    }
+    .logoTop{
+        width:100px;
+    }
     .baseline {
         padding-right: 5%;
         padding-left: 5%;
@@ -937,6 +946,9 @@ p {
 
     .section1Text {
         padding-left: 5%;
+    }
+    .longText p{
+        font-size: 11px;
     }
 
     .elipsy {

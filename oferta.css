@@ -560,7 +560,12 @@ p {
 
 }
 @media only screen and (max-width: 700px) {
-
+    body{
+        font-size: 13px;
+    }
+    .logoTop{
+        width:100px;
+    }
     .baseline {
         padding-right: 5%;
         padding-left: 5%;
@@ -574,6 +579,7 @@ p {
     .text {
         padding-left: 5%;
         bottom: 15%;
+        font-size: 11px;
     }
 
     .oferta {
@@ -599,11 +605,19 @@ p {
     }
     .ofer img {
         padding-right: 0px;
+        width:30%;
+        margin: 0 auto;
+    }
+    .oferImg{
+        display: grid;
+        margin-bottom: 10px;
     }
     .czytaj {
         padding-bottom: 16px;
     }
-
+    .opisOferty {
+         /*height: 111px;*/
+    }
 
 
 
