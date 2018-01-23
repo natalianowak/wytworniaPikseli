@@ -22,19 +22,22 @@ body {
     height: auto;
     overflow: scroll;
 }
+
 .menuGorne {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 84px;
 }
-.firstSection{
+
+.firstSection {
     height: 84px;
 }
+
 /*ten jasniejszy pasek u gory*/
 .belkaGorna {
     height: 84px;
-    top:0;
+    top: 0;
     z-index: 2;
     position: fixed;
     width: 100%;
@@ -119,15 +122,14 @@ body {
     color: #009fe4;
     text-decoration: none;
     font-family: 'Raleway';
-    font-weight:900;
+    font-weight: 900;
 
 }
 
-
-.blueFotoSection{
+.blueFotoSection {
     /*top:84px;*/
     position: relative;
-    height:350px;
+    height: 350px;
     width: 100%;
     background-color: #009fe4;
     background-image: url(img/zdjecieWtle.png);
@@ -136,11 +138,13 @@ body {
     background-attachment: fixed;
     overflow: hidden;
 }
-.blueFotoImg{
+
+.blueFotoImg {
     width: 100%;
     overflow: hidden;
 }
-.text{
+
+.text {
     position: absolute;
     bottom: 5%;
     padding-left: 19%;
@@ -148,107 +152,122 @@ body {
     color: white;
     text-align: justify;
 }
-.opisy{
+
+.opisy {
     position: relative;
-    height:800px;
-    width:100%;
+    height: 800px;
+    width: 100%;
     padding-right: 19%;
     padding-left: 19%;
     margin-top: 70px;
     margin-bottom: 20px;
 }
-.osoba{
-    height:33.33%;
-    width:100%;
+
+.osoba {
+    height: 33.33%;
+    width: 100%;
     display: flex;
 }
-.zdjecie{
+
+.zdjecie {
     flex-grow: 1;
     padding-right: 220px;
 }
+
 /*.zdjecie img{*/
-    /*width: 190px;*/
+/*width: 190px;*/
 /*}*/
-.bottomPhoto{
+.bottomPhoto {
     width: 190px;
 }
-.top{
+
+.top {
     width: 192px;
     margin-top: -0.5px;
     margin-left: -0.5px;
 }
 
-.losiuYellow{
+.losiuYellow {
     position: absolute;
 }
-.zdjecieLosiu img{
-    position:absolute;
-    left:19%;
+
+.zdjecieLosiu img {
+    position: absolute;
+    left: 19%;
     -webkit-transition: opacity 0.3s ease-in-out;
     -moz-transition: opacity 0.3s ease-in-out;
     -o-transition: opacity 0.3s ease-in-out;
     transition: opacity 0.3s ease-in-out;
 }
+
 .zdjecieLosiu img.top:hover {
-    opacity:0;
+    opacity: 0;
 }
 
-.dankaYellow{
+.dankaYellow {
     position: absolute;
 }
-.zdjecieDanka img{
-    position:absolute;
-    left:19%;
+
+.zdjecieDanka img {
+    position: absolute;
+    left: 19%;
     -webkit-transition: opacity 0.3s ease-in-out;
     -moz-transition: opacity 0.3s ease-in-out;
     -o-transition: opacity 0.3s ease-in-out;
     transition: opacity 0.3s ease-in-out;
 }
+
 .zdjecieDanka img.top:hover {
-    opacity:0;
+    opacity: 0;
 }
-.stodiYellow{
+
+.stodiYellow {
     position: absolute;
 }
+
 .zdjecieStodi img {
-    position:absolute;
-    left:19%;
+    position: absolute;
+    left: 19%;
     -webkit-transition: opacity 0.3s ease-in-out;
     -moz-transition: opacity 0.3s ease-in-out;
     -o-transition: opacity 0.3s ease-in-out;
     transition: opacity 0.3s ease-in-out;
 }
+
 .zdjecieStodi img.top:hover {
-    opacity:0;
+    opacity: 0;
 }
 
-.opis{
-    width:70%;
-    height:100%;
+.opis {
+    width: 70%;
+    height: 100%;
 }
-.blueM{
+
+.blueM {
     color: #009fe4;
-    font-family: "Myriad Pro",sans-serif;
+    font-family: "Myriad Pro", sans-serif;
     text-align: justify;
 }
-.just{
+
+.just {
     text-align: justify;
 }
+
 .opisOsoby h4 {
-    font-weight:900 ;
+    font-weight: 900;
     margin-bottom: 0;
 
 }
-.opisOsoby{
+
+.opisOsoby {
     flex-grow: 2;
     padding-top: 10px;
 }
+
 .opisOsoby p {
-    font-size:14px;
+    font-size: 14px;
     margin-top: 0;
 }
-
-
 
 .section5 {
     width: 100%;
@@ -297,11 +316,12 @@ body {
 .opakownie {
     display: flex;
     align-items: baseline;
-    width:100%;
+    width: 100%;
     padding-left: 19%;
 }
-.skontaktuj{
-    width:100%
+
+.skontaktuj {
+    width: 100%
 
 }
 
@@ -388,6 +408,7 @@ p {
     position: relative;
     overflow: hidden;;
 }
+
 .heavy {
     font-weight: 900;
 }
@@ -405,25 +426,28 @@ p {
         font-size: 1.5rem;
     }
 
-    .yellowSectionContent{
+    .yellowSectionContent {
         height: 250px;
     }
-    .middleDownRight{
-        font-size:19px
-    }
-    .section5{
-        height:270px;
+
+    .middleDownRight {
+        font-size: 19px
     }
 
-    .kropkiJasne{
+    .section5 {
+        height: 270px;
+    }
+
+    .kropkiJasne {
         background-position: left 130px;
     }
 
-    .nav{
-        width: 386px;
+    .nav {
+        width: 380px;
     }
+
     .nav li:first-child {
-        width: 123px;
+        width: 113px;
         /*color: #3d3c3d;*/
     }
 
@@ -444,70 +468,84 @@ p {
     }
 
     /*.zdjecie img {*/
-        /*width: 160px;*/
+    /*width: 160px;*/
     /*}*/
-    .bottomPhoto{
+    .bottomPhoto {
         width: 160px;
     }
-    .top{
+
+    .top {
         width: 162px;
         margin-top: -0.5px;
         margin-left: -0.5px;
     }
+
     .opisOsoby p {
         font-size: 12px;
     }
 }
 
 @media only screen and (max-width: 900px) {
-    .baseline{
+    .baseline {
         padding-right: 10%;
         padding-left: 10%;
     }
-    .blueFotoImg{
+
+    .blueFotoImg {
         margin-left: -11%;
-        width:110%;
+        width: 110%;
     }
-    .text{
+
+    .text {
         padding-left: 10%;
         bottom: 15%;
     }
-    .opisy{
+
+    .opisy {
         padding-right: 10%;
         padding-left: 10%;
     }
-    .zdjecieLosiu img{
-       left: 10%;
-    }
-    .zdjecieDanka img{
+
+    .zdjecieLosiu img {
         left: 10%;
     }
-    .zdjecieStodi img{
+
+    .zdjecieDanka img {
         left: 10%;
     }
-    .opakownie{
+
+    .zdjecieStodi img {
+        left: 10%;
+    }
+
+    .opakownie {
         padding-left: 10%;
     }
+
     .zNami {
-        padding-left: 10%;}
+        padding-left: 10%;
+    }
+
     .bottom {
 
         padding-right: 10%;
         padding-left: 10%;
     }
-    .kropkiJasne{
+
+    .kropkiJasne {
         width: 10%;
     }
+
     .blueDolny {
-        display: none}
+        display: none
+    }
 
-
-
-    .nav{
+    .nav {
         width: 375px;
     }
+
     .nav li:first-child {
-        width: 120px;
+        width: 106px;
         /*color: #3d3c3d;*/
     }
 
@@ -526,27 +564,32 @@ p {
     .nav li:nth-child(5) {
         width: 52px;
     }
-    .zNami{
+
+    .zNami {
         padding-bottom: 20px;
     }
-    .zNami p{
+
+    .zNami p {
         font-size: 13px;
 
     }
+
     .middleDownRight {
         font-size: 17px;
     }
-    .middleDownLeft{
+
+    .middleDownLeft {
         font-size: 13px;
     }
 
     /*.zdjecie img {*/
-        /*width: 150px;*/
+    /*width: 150px;*/
     /*}*/
-    .bottomPhoto{
+    .bottomPhoto {
         width: 150px;
     }
-    .top{
+
+    .top {
         width: 152px;
         margin-top: -0.5px;
         margin-left: -0.5px;
@@ -555,98 +598,120 @@ p {
     .opisOsoby p {
         font-size: 11px;
     }
-    .opisOsoby{
+
+    .opisOsoby {
         padding-top: 5px;
     }
-    .text{
+
+    .text {
         font-size: 13px;
     }
-
-
-
-
 
 }
+
 @media only screen and (max-width: 700px) {
-    body{
+    body {
         font-size: 13px;
     }
-    .logoTop{
-        width:100px;
+
+    .logoTop {
+        width: 100px;
     }
-    .baseline{
+
+    .baseline {
         padding-right: 5%;
         padding-left: 5%;
     }
-    .blueFotoImg{
+
+    .blueFotoImg {
         margin-left: -17%;
         width: 116%;
     }
-    .text{
+
+    .text {
         padding-left: 5%;
         bottom: 15%;
-        font-size: 11px;
+
     }
-    .opisy{
+
+    .opisy {
         padding-right: 5%;
         padding-left: 5%;
     }
-    .zdjecieLosiu img{
+
+    .zdjecieLosiu img {
         left: 5%;
     }
-    .zdjecieDanka img{
+
+    .zdjecieDanka img {
         left: 5%;
     }
-    .zdjecieStodi img{
+
+    .zdjecieStodi img {
         left: 5%;
     }
-    .zdjecie{
-        height:150px;
+
+    .zdjecie {
+        height: 150px;
         padding-right: 0;
     }
-    .opakownie{
+
+    .opakownie {
         padding-left: 5%;
     }
+
     .zNami {
-        padding-left: 5%;}
+        padding-left: 5%;
+    }
+
     .bottom {
 
         padding-right: 5%;
         padding-left: 5%;
     }
-.osoba{
-    flex-direction: column;
-    display: block;
-}
-.opisy{
-    height: 1100px;
-}
 
+    .osoba {
+        flex-direction: column;
+        display: block;
+    }
 
+    .opisy {
+        height: 1300px;
+    }
 
-    .kropkiJasne{
+    .opisOsoby p {
+        font-size: 13px;
+    }
+
+    .kropkiJasne {
         background-position: left 60px;
         width: 15%;
     }
-    .opakownie{
+
+    .opakownie {
         display: none;
 
     }
-    .zNami{
+
+    .zNami {
         display: none;
     }
-    .bottom{
+
+    .bottom {
         display: flex;
         flex-direction: column;
     }
-    .middleDownLeft{
+
+    .middleDownLeft {
         width: 100%;
     }
-    .middleDownRight{
+
+    .middleDownRight {
         width: 100%;
         margin-top: 20px;
     }
-    .inline{
+
+    .inline {
         margin-left: 0;
     }
 }

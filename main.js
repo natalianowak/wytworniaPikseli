@@ -313,9 +313,14 @@ $(function () {
     var selectedClass = "";
     $("p").click(function () {
         removeClass();
+
         selectedClass = $(this).attr("data-rel");
+
+        $('.portfolioNav p').removeAttr('id');  // usuniety  kolorniebieski z nav
+
         console.log(selectedClass);
         choosenCategory = selectedClass;
+       $(this).attr("id","active2"); //dodoanie niebieskiego donavwybranej kategori
         $("#portfolio").fadeTo(100, 0.1);  //znikaja kwadraty
         $("#portfolio div").not("." + selectedClass).fadeOut(); //pojawiaja sie te ktore maja wybrana klase np allwebsite graphic
         setTimeout(function () {

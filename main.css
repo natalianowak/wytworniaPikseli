@@ -790,11 +790,11 @@ p {
     }
 
     .nav {
-        width: 386px;
+        width: 380px;
     }
 
     .nav li:first-child {
-        width: 123px;
+        width: 113px;
         /*color: #3d3c3d;*/
     }
 
@@ -883,7 +883,7 @@ p {
     }
 
     .nav li:first-child {
-        width: 120px;
+        width: 106px;
         /*color: #3d3c3d;*/
     }
 
@@ -947,9 +947,7 @@ p {
     .section1Text {
         padding-left: 5%;
     }
-    .longText p{
-        font-size: 11px;
-    }
+
 
     .elipsy {
         padding-right: 5%;
