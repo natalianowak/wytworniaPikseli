@@ -446,6 +446,23 @@ $(function () {
             checkIfThereIsPrevClass();
         }
     });
+
+
+
+
+
+
+    jQuery(document).ready(function() {
+        jQuery('#menuToggle').click(function () {
+            jQuery('#menuToggle').toggleClass('open');
+            if (jQuery('#menuToggle').hasClass('open')) {
+                jQuery('.nav').addClass('open');
+            } else {
+                jQuery('.nav').removeClass('open');
+            }
+        });
+    });
+
 });
 
 
