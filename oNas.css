@@ -640,20 +640,27 @@ p {
     }
 
     .zdjecieLosiu img {
-        left: 5%;
+        left:0;
+        right:0;
+        margin: 0 auto;
     }
 
     .zdjecieDanka img {
-        left: 5%;
+        left:0;
+        right:0;
+        margin: 0 auto;
     }
 
     .zdjecieStodi img {
-        left: 5%;
+        left:0;
+        right:0;
+        margin: 0 auto;
     }
 
     .zdjecie {
         height: 150px;
         padding-right: 0;
+        margin-bottom: 10px;
     }
 
     .opakownie {
@@ -676,7 +683,7 @@ p {
     }
 
     .opisy {
-        height: 1300px;
+        height: 1330px;
     }
 
     .opisOsoby p {

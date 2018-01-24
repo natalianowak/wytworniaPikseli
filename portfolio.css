@@ -29,8 +29,9 @@ body {
     width: 100%;
     height: 84px;
 }
-.firstSection{
-    height:84px;
+
+.firstSection {
+    height: 84px;
 }
 
 /*ten jasniejszy pasek u gory*/
@@ -168,7 +169,7 @@ body {
     padding-left: 18.56%;
     width: 100%;
     margin: 20px 0px;
-    min-height:165px;
+    min-height: 165px;
 }
 
 .tile {
@@ -204,28 +205,32 @@ body {
 .websites {
     background: #fbb900;
 }
+
 /*a[class*='lightcase-icon-'].lightcase-icon-next {*/
-    /*color: black;*/
+/*color: black;*/
 /*}*/
 /*[class*='lightcase-icon-'].lightcase-icon-close {*/
-    /*color: black;*/
+/*color: black;*/
 /*}*/
 /*[class*='lightcase-icon-'].lightcase-icon-prev {*/
-    /*color: black;*/
+/*color: black;*/
 /*}*/
-.navButton{
+.navButton {
     padding-right: 19%;
-    height:20px;
+    height: 20px;
     width: 100%;
     display: none;
     margin-top: 30px;
 }
-.navButton button:hover{
+
+.navButton button:hover {
     cursor: pointer;
 }
-.navButton button{
+
+.navButton button {
     float: right;
 }
+
 .portfolioSection {
     margin-top: 40px;
     margin-bottom: 25px;
@@ -244,12 +249,12 @@ body {
     display: block;
     float: left;
 }
+
 #active2 {
     background: #009fe4;
     color: #eee;
     font-weight: bold
 }
-
 
 /*.portfolioSection p:nth-child(2){*/
 /*width:251px;*/
@@ -289,46 +294,55 @@ body {
     margin-left: 19%;
     margin-top: 30px;
 }
-.simplyPoland img{
+
+.simplyPoland img {
     width: 100%;
 }
-.onglow{
+
+.onglow {
     display: none;
     margin-right: 19%;
     margin-left: 19%;
     margin-top: 30px;
 }
-.onglow img{
-    width: 100%;
-    margin-bottom: 1.9%;
-}
-.locomotiva{
-    display: none;
-    margin-right: 19%;
-    margin-left: 19%;
-    margin-top: 30px;
-}
-.locomotiva img{
+
+.onglow img {
     width: 100%;
     margin-bottom: 1.9%;
 }
-.kopalnia{
+
+.locomotiva {
     display: none;
     margin-right: 19%;
     margin-left: 19%;
     margin-top: 30px;
 }
-.kopalnia img{
+
+.locomotiva img {
+    width: 100%;
+    margin-bottom: 1.9%;
+}
+
+.kopalnia {
+    display: none;
+    margin-right: 19%;
+    margin-left: 19%;
+    margin-top: 30px;
+}
+
+.kopalnia img {
     width: 100%;
     margin-bottom: 20px;
 }
-.kopalniaSmall{
+
+.kopalniaSmall {
     width: 60%;
     margin: 0 auto;
 }
-iframe{
+
+iframe {
     width: 100%;
-    height:350px;
+    height: 350px;
     margin-bottom: 15px;
 }
 
@@ -471,7 +485,6 @@ p {
     font-weight: 900;
 }
 
-
 @media only screen and (max-width: 1400px) {
     .portfolioSection p {
         padding-right: 30px;
@@ -486,6 +499,9 @@ p {
         padding-left: 25px;
         font-size: 16px;
     }
+    iframe{
+        height:280px;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -494,9 +510,15 @@ p {
         padding-left: 19px;
         font-size: 16px;
     }
+    iframe{
+        height:250px;
+    }
 }
 
 @media only screen and (max-width: 1100px) {
+    iframe{
+        height:220px;
+    }
     body {
         font-size: 14px;
     }
@@ -566,6 +588,9 @@ p {
         padding-right: 14px;
         padding-left: 14px;
         font-size: 14px;
+    }
+    iframe{
+        /*height:200px;*/
     }
 }
 
@@ -693,105 +718,118 @@ p {
         font-size: 13px;
     }
 }
-    @media only screen and (max-width: 700px) {
-        body{
-            font-size: 13px;
-        }
-        .logoTop{
-            width:100px;
-        }
-        .baseline {
-            padding-right: 5%;
-            padding-left: 5%;
-        }
 
-        .blueFotoImg {
-            margin-left: -16%;
-            width: 115%;
-        }
+@media only screen and (max-width: 700px) {
+    body {
+        font-size: 13px;
+    }
 
-        .text {
-            padding-left: 5%;
-            bottom: 15%;
-        }
+    .logoTop {
+        width: 100px;
+    }
 
-        .navButton {
-            padding-right: 5%;
-        }
+    .baseline {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
 
-        .portfolioNav {
-            padding-right: 5%;
-            padding-left: 5%;
-        }
+    .blueFotoImg {
+        margin-left: -16%;
+        width: 115%;
+    }
 
-        #portfolio {
-            padding-right: 4.56%;
-            padding-left: 4.56%;
-        }
+    .text {
+        padding-left: 5%;
+        bottom: 15%;
+    }
 
-        .simplyPoland {
-            margin-right: 5%;
-            margin-left: 5%;
-        }
+    .navButton {
+        padding-right: 5%;
+    }
 
-        .locomotiva {
-            margin-right: 5%;
-            margin-left: 5%;
-        }
+    .portfolioNav {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
 
-        .onglow {
-            margin-right: 5%;
-            margin-left: 5%;
-        }
+    #portfolio {
+        padding-right: 4.56%;
+        padding-left: 4.56%;
+    }
 
-        .kopalnia {
-            margin-right: 5%;
-            margin-left: 5%;
-        }
+    .simplyPoland {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
 
-        .opakownie {
-            padding-left: 5%;
-        }
+    .locomotiva {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
 
-        .zNami {
-            padding-left: 5%;
-        }
+    .onglow {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
 
-        .bottom {
+    .kopalnia {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
 
-            padding-right: 5%;
-            padding-left: 5%;
-        }
+    .opakownie {
+        padding-left: 5%;
+    }
 
-        .portfolioSection p{
-            font-size: 9px;
-            padding-right: 5px;
-            padding-left: 5px;
-        }
+    .zNami {
+        padding-left: 5%;
+    }
 
-    .kropkiJasne{
+    .bottom {
+
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .portfolioSection p {
+        font-size: 9px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    iframe {
+        height: 150px;
+    }
+
+    .kropkiJasne {
         background-position: left 60px;
         width: 15%;
     }
-    .opakownie{
+
+    .opakownie {
         display: none;
 
     }
-    .zNami{
+
+    .zNami {
         display: none;
     }
-    .bottom{
+
+    .bottom {
         display: flex;
         flex-direction: column;
     }
-    .middleDownLeft{
+
+    .middleDownLeft {
         width: 100%;
     }
-    .middleDownRight{
+
+    .middleDownRight {
         width: 100%;
         margin-top: 20px;
     }
-    .inline{
+
+    .inline {
         margin-left: 0;
     }
 }
