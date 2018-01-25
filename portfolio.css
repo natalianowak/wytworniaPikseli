@@ -188,6 +188,7 @@ body {
 
 .tile:hover {
     opacity: 0.5;
+    cursor: pointer;
 }
 
 .graphics {

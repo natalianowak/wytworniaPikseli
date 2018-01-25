@@ -280,6 +280,14 @@ p {
 
     flex-grow: 1;
 }
+.size{
+    transform: scale(1, 1);
+    transition: all 0.5s;
+}
+.size:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 0.5s;
+}
 
 .opisOferty {
 
