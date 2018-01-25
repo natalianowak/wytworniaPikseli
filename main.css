@@ -966,13 +966,18 @@ p {
     }
     #menuToggle {
         /*border: 1px solid red;*/
+        margin: auto;
+        /*left: 0;*/
+        right: 5%;
+        bottom: 0;
+        top: 0;
         width: 32px;
         height: 32px;
         background: transparent;
         cursor: pointer;
         position: absolute;
-        top: 18px;
-        right: 25px;
+        /*top: 18px;*/
+        /*right: 25px;*/
         -webkit-transition: .3s ease-in-out;
         -moz-transition: .3s ease-in-out;
         -ms-transition: .3s ease-in-out;
