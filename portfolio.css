@@ -834,3 +834,11 @@ p {
         margin-left: 0;
     }
 }
+
+@media screen and (orientation:landscape) {
+    .portfolioSection p {
+        font-size: 10px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}

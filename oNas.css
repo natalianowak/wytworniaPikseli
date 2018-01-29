@@ -722,3 +722,9 @@ p {
         margin-left: 0;
     }
 }
+
+@media screen and (orientation:landscape) {
+    .opisy {
+        height: 1100px;
+    }
+}
