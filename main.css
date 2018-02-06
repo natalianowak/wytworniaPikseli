@@ -1337,37 +1337,41 @@ background-position: left 60px;
 
 }
 
-@media screen and (orientation:landscape) {
+
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
     /* Landscape styles */
-    /*.section1Text {*/
-        /*top: 42%;*/
-    /*}*/
-    /*.blueSymbol {*/
-       /*display: none;*/
-    /*}*/
-    /*.elipUklad {*/
-        /*display: inherit;*/
-        /*width: 50%;*/
-    /*}*/
+    .section1Text {
+    top: 42%;
+    }
+    .blueSymbol {
+    display: none;
+    }
+    .elipUklad {
+    display: inherit;
+    width: 50%;
+    }
 
-    /*.elipsy {*/
-        /*position: absolute;*/
-        /*top: 30%;*/
-        /*bottom: 0;*/
-        /*margin: auto;*/
-        /*right: 0;*/
-        /*left: 0;*/
-        /*display: flex;*/
-        /*align-items: flex-start;*/
-    /*}*/
-    /*.elipMargin {*/
-        /*margin-right: 4%;*/
-    /*}*/
-    /*.elip {*/
-         /*width: 100%;*/
-    /*}*/
-    /*.yellowSectionContent {*/
-        /*!*height: 300px;*!*/
-    /*}*/
-
+    .elipsy {
+    position: absolute;
+    top: 30%;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: flex-start;
+    }
+    .elipMargin {
+    margin-right: 4%;
+    }
+    .elip {
+    width: 100%;
+    }
+    .yellowSectionContent {
+    height: 300px;
+    }
 }
