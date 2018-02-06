@@ -41,9 +41,6 @@ body {
     z-index: 2;
     position: fixed;
     width: 100%;
-    /*background-image: url("img/menuGórne2.png");*/
-    /*background-repeat: repeat-x;*/
-    /*background-size: cover;*/
 }
 
 /*div z logo i nav*/
@@ -78,7 +75,6 @@ body {
     list-style: none;
     display: inline;
     text-align: center;
-    /*margin-left: 10px;*/
 }
 
 .nav ul {
@@ -88,7 +84,6 @@ body {
 
 .nav li:first-child {
     width: 126px;
-    /*color: #3d3c3d;*/
 }
 
 .nav li:nth-child(2) {
@@ -127,14 +122,12 @@ body {
 }
 
 .blueFotoSection {
-    /*top:84px;*/
     position: relative;
     height: 350px;
     width: 100%;
     background-color: #009fe4;
     background-image: url(img/zdjecieWtle.png);
     background-size: cover;
-    /*background-position-y: -113px;*/
     background-attachment: fixed;
     overflow: hidden;
 }
@@ -174,9 +167,6 @@ body {
     padding-right: 220px;
 }
 
-/*.zdjecie img{*/
-/*width: 190px;*/
-/*}*/
 .bottomPhoto {
     width: 190px;
 }
@@ -297,7 +287,6 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: left 160px;
-
 }
 
 .kontakt {
@@ -322,7 +311,6 @@ body {
 
 .skontaktuj {
     width: 100%
-
 }
 
 .srodkowanieWpionie {
@@ -448,7 +436,6 @@ p {
 
     .nav li:first-child {
         width: 113px;
-        /*color: #3d3c3d;*/
     }
 
     .nav li:nth-child(2) {
@@ -467,9 +454,6 @@ p {
         width: 55px;
     }
 
-    /*.zdjecie img {*/
-    /*width: 160px;*/
-    /*}*/
     .bottomPhoto {
         width: 160px;
     }
@@ -546,7 +530,6 @@ p {
 
     .nav li:first-child {
         width: 106px;
-        /*color: #3d3c3d;*/
     }
 
     .nav li:nth-child(2) {
@@ -582,9 +565,6 @@ p {
         font-size: 13px;
     }
 
-    /*.zdjecie img {*/
-    /*width: 150px;*/
-    /*}*/
     .bottomPhoto {
         width: 150px;
     }
@@ -633,17 +613,11 @@ p {
         box-sizing: border-box;
     }
 
-
     /*  MENUTOGGLE  */
     .menuToggle_Container {
-        /*border: 1px solid red;*/
-        /*width: 100%;*/
-        /*height: 50px;*/
-        /*background: rgba(0,0,0,0.5);*/
-        /*float: left;*/
     }
+
     #menuToggle {
-        /*border: 1px solid red;*/
         margin: auto;
         /*left: 0;*/
         right: 5%;
@@ -654,8 +628,6 @@ p {
         background: transparent;
         cursor: pointer;
         position: absolute;
-        /*top: 18px;*/
-        /*right: 25px;*/
         -webkit-transition: .3s ease-in-out;
         -moz-transition: .3s ease-in-out;
         -ms-transition: .3s ease-in-out;
@@ -663,13 +635,13 @@ p {
         transition: .3s ease-in-out;
     }
 
-
     /*  HAMBURGER  */
     #hamburger {
-        width:100%;
-        height:100%;
-        position:absolute;
+        width: 100%;
+        height: 100%;
+        position: absolute;
     }
+
     #hamburger span {
         width: 30px;
         height: 2px;
@@ -681,6 +653,7 @@ p {
         left: 0;
         right: 0;
     }
+
     #hamburger span:nth-child(1) {
         -webkit-transition-delay: .3s;
         -moz-transition-delay: .3s;
@@ -688,6 +661,7 @@ p {
         -o-transition-delay: .3s;
         transition-delay: .3s;
     }
+
     #hamburger span:nth-child(2) {
         -webkit-transition-delay: .425s;
         -moz-transition-delay: .425s;
@@ -695,6 +669,7 @@ p {
         -o-transition-delay: .425s;
         transition-delay: .425s;
     }
+
     #hamburger span:nth-child(3) {
         -webkit-transition-delay: .55s;
         -moz-transition-delay: .55s;
@@ -702,10 +677,12 @@ p {
         -o-transition-delay: .55s;
         transition-delay: .55s;
     }
+
     /*  HAMBURGER : OPEN */
     #menuToggle.open #hamburger span {
         width: 0%;
     }
+
     #menuToggle.open #hamburger span:nth-child(1) {
         -webkit-transition: 0.1s;
         -moz-transition: 0.1s;
@@ -713,6 +690,7 @@ p {
         -o-transition: 0.1s;
         transition: 0.1s;
     }
+
     #menuToggle.open #hamburger span:nth-child(2) {
         -webkit-transition-delay: .05s;
         -moz-transition-delay: .05s;
@@ -720,6 +698,7 @@ p {
         -o-transition-delay: .05s;
         transition-delay: .05s;
     }
+
     #menuToggle.open #hamburger span:nth-child(3) {
         -webkit-transition-delay: .15s;
         -moz-transition-delay: .15s;
@@ -728,18 +707,18 @@ p {
         transition-delay: .15s;
     }
 
-
     /*  CROSS  */
     #cross {
-        width:100%;
-        height:100%;
-        position:absolute;
+        width: 100%;
+        height: 100%;
+        position: absolute;
         -webkit-transform: rotate(45deg);
         -moz-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
         -o-transform: rotate(45deg);
         transform: rotate(45deg);
     }
+
     #cross span {
         background: #333;
         margin: 0 auto;
@@ -747,6 +726,7 @@ p {
         left: 0;
         right: 0;
     }
+
     #cross span:nth-child(1) {
         width: 2px;
         height: 0%;
@@ -759,6 +739,7 @@ p {
         left: 0;
         right: 0;
     }
+
     #cross span:nth-child(2) {
         width: 0%;
         height: 2px;
@@ -770,6 +751,7 @@ p {
         top: 14px;
         left: -1px;
     }
+
     /*  CROSS : OPEN  */
     #menuToggle.open #cross span:nth-child(1) {
         height: 34px;
@@ -779,6 +761,7 @@ p {
         -o-transition-delay: .5s;
         transition-delay: .5s;
     }
+
     #menuToggle.open #cross span:nth-child(2) {
         width: 34px;
         -webkit-transition-delay: .2s;
@@ -788,21 +771,15 @@ p {
         transition-delay: .2s;
     }
 
-
-
-
     /*  MENU LIST  */
     .nav {
         position: absolute;
-        /*margin-right: -6%;*/
         margin-top: 66px;
         z-index: -1;
         width: 100%;
-        /*height: 100px;*/
         background: #f4f4f4;
         float: right;
         overflow: hidden;
-        /*position: relative;*/
         right: -100%;
         -webkit-transition: .7s ease-in-out;
         -moz-transition: .7s ease-in-out;
@@ -810,33 +787,34 @@ p {
         -o-transition: .7s ease-in-out;
         transition: .7s ease-in-out;
     }
+
     .nav.open {
         position: absolute;
-        /*margin-right: -6%;*/
         margin-top: 66px;
         width: 100%;
-        /*height: 100px;*/
         right: 0;
     }
+
     .nav ul {
         float: left;
-        /*display: grid;*/
         margin: 0 auto;
         padding: 0;
         padding-top: 15px;
         padding-bottom: 15px;
     }
+
     .nav ul li {
         width: auto;
         float: left;
 
     }
-    .nav li{
+
+    .nav li {
         width: auto;
     }
+
     .nav li:first-child {
         width: 106px;
-        /*color: #3d3c3d;*/
     }
 
     .nav li:nth-child(2) {
@@ -854,8 +832,6 @@ p {
     .nav li:nth-child(5) {
         width: 52px;
     }
-
-
 
     body {
         font-size: 13px;
@@ -887,20 +863,20 @@ p {
     }
 
     .zdjecieLosiu img {
-        left:0;
-        right:0;
+        left: 0;
+        right: 0;
         margin: 0 auto;
     }
 
     .zdjecieDanka img {
-        left:0;
-        right:0;
+        left: 0;
+        right: 0;
         margin: 0 auto;
     }
 
     .zdjecieStodi img {
-        left:0;
-        right:0;
+        left: 0;
+        right: 0;
         margin: 0 auto;
     }
 
@@ -919,7 +895,6 @@ p {
     }
 
     .bottom {
-
         padding-right: 5%;
         padding-left: 5%;
     }
@@ -944,7 +919,6 @@ p {
 
     .opakownie {
         display: none;
-
     }
 
     .zNami {
@@ -974,7 +948,7 @@ p {
 and (min-device-width: 375px)
 and (max-device-width: 812px)
 and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: landscape){
+and (orientation: landscape) {
     .opisy {
         height: 1100px;
     }
