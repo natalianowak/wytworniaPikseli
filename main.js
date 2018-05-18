@@ -308,6 +308,16 @@ function removeClass() {
     $(".onglow").css("display", "none");
     $(".locomotiva").css("display", "none");
     $(".kopalnia").css("display", "none");
+    $(".jestesmy").css("display", "none");
+    $(".solpak").css("display", "none");
+    $(".guardian").css("display", "none");
+    $(".hcg").css("display", "none");
+    $(".helvetica").css("display", "none");
+    $(".jakaBox").css("display", "none");
+    $(".kete").css("display", "none");
+    $(".kitchoo").css("display", "none");
+    $(".miloo").css("display", "none");
+    $(".jakaBox2").css("display", "none");
 }
 $(function () {
     var selectedClass = "";
@@ -373,6 +383,114 @@ $(function () {
         choosenProjectClass = $(".kopalniaClick");
         console.log(choosenProjectClass + "kopalniaCkick on  to jest ");
         console.log(choosenProjectClass + "to jestwybrna klasa object jquery");
+        checkIfThereIsNextClass();
+        checkIfThereIsPrevClass();
+    });
+
+    $(".jestesmyClick").click(function () {
+        $("#portfolio").css("display", "none");
+        $(".navButton").css("display", "block");
+        $(".jestesmy").css("display", "block");
+        choosenProjectClass = $(".jestesmyClick");
+        console.log(choosenProjectClass );
+        console.log(choosenProjectClass);
+        checkIfThereIsNextClass();
+        checkIfThereIsPrevClass();
+    });
+    $(".solpakClick").click(function () {
+        $("#portfolio").css("display", "none");
+        $(".navButton").css("display", "block");
+        $(".solpak").css("display", "block");
+        choosenProjectClass = $(".solpakClick");
+        console.log(choosenProjectClass );
+        console.log(choosenProjectClass);
+        checkIfThereIsNextClass();
+        checkIfThereIsPrevClass();
+    });
+
+    $(".guardianClick").click(function () {
+        $("#portfolio").css("display", "none");
+        $(".navButton").css("display", "block");
+        $(".guardian").css("display", "block");
+        choosenProjectClass = $(".guardianClick");
+        console.log(choosenProjectClass );
+        console.log(choosenProjectClass);
+        checkIfThereIsNextClass();
+        checkIfThereIsPrevClass();
+    });
+
+    $(".hcgClick").click(function () {
+        $("#portfolio").css("display", "none");
+        $(".navButton").css("display", "block");
+        $(".hcg").css("display", "block");
+        choosenProjectClass = $(".hcgClick");
+        console.log(choosenProjectClass );
+        console.log(choosenProjectClass);
+        checkIfThereIsNextClass();
+        checkIfThereIsPrevClass();
+    });
+
+    $(".helveticaClick").click(function () {
+        $("#portfolio").css("display", "none");
+        $(".navButton").css("display", "block");
+        $(".helvetica").css("display", "block");
+        choosenProjectClass = $(".helveticaClick");
+        console.log(choosenProjectClass );
+        console.log(choosenProjectClass);
+        checkIfThereIsNextClass();
+        checkIfThereIsPrevClass();
+    });
+
+    $(".jakaBoxClick").click(function () {
+        $("#portfolio").css("display", "none");
+        $(".navButton").css("display", "block");
+        $(".jakaBox").css("display", "block");
+        choosenProjectClass = $(".jakaBoxClick");
+        console.log(choosenProjectClass );
+        console.log(choosenProjectClass);
+        checkIfThereIsNextClass();
+        checkIfThereIsPrevClass();
+    });
+
+    $(".keteClick").click(function () {
+        $("#portfolio").css("display", "none");
+        $(".navButton").css("display", "block");
+        $(".kete").css("display", "block");
+        choosenProjectClass = $(".keteClick");
+        console.log(choosenProjectClass );
+        console.log(choosenProjectClass);
+        checkIfThereIsNextClass();
+        checkIfThereIsPrevClass();
+    });
+
+    $(".kitchooClick").click(function () {
+        $("#portfolio").css("display", "none");
+        $(".navButton").css("display", "block");
+        $(".kitchoo").css("display", "block");
+        choosenProjectClass = $(".kitchooClick");
+        console.log(choosenProjectClass );
+        console.log(choosenProjectClass);
+        checkIfThereIsNextClass();
+        checkIfThereIsPrevClass();
+    });
+    $(".milooClick").click(function () {
+        $("#portfolio").css("display", "none");
+        $(".navButton").css("display", "block");
+        $(".miloo").css("display", "block");
+        choosenProjectClass = $(".milooClick");
+        console.log(choosenProjectClass );
+        console.log(choosenProjectClass);
+        checkIfThereIsNextClass();
+        checkIfThereIsPrevClass();
+    });
+
+    $(".jakaBox2Click").click(function () {
+        $("#portfolio").css("display", "none");
+        $(".navButton").css("display", "block");
+        $(".jakaBox2").css("display", "block");
+        choosenProjectClass = $(".jakaBox2Click");
+        console.log(choosenProjectClass );
+        console.log(choosenProjectClass);
         checkIfThereIsNextClass();
         checkIfThereIsPrevClass();
     });
