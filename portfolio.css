@@ -340,6 +340,7 @@ body {
     width: 60%;
     margin: 0 auto;
 }
+
 .jestesmy {
     display: none;
     margin-right: 19%;
@@ -351,12 +352,13 @@ body {
     width: 100%;
     margin-bottom: 1.9%;
 }
+
 .solpak {
-     display: none;
-     margin-right: 19%;
-     margin-left: 19%;
-     margin-top: 30px;
- }
+    display: none;
+    margin-right: 19%;
+    margin-left: 19%;
+    margin-top: 30px;
+}
 
 .solpak img {
     width: 100%;
@@ -618,8 +620,9 @@ p {
         padding-left: 25px;
         font-size: 16px;
     }
-    iframe{
-        height:280px;
+
+    iframe {
+        height: 280px;
     }
 }
 
@@ -629,15 +632,17 @@ p {
         padding-left: 19px;
         font-size: 16px;
     }
-    iframe{
-        height:250px;
+
+    iframe {
+        height: 250px;
     }
 }
 
 @media only screen and (max-width: 1100px) {
-    iframe{
-        height:220px;
+    iframe {
+        height: 220px;
     }
+
     body {
         font-size: 14px;
     }
@@ -708,7 +713,8 @@ p {
         padding-left: 14px;
         font-size: 14px;
     }
-    iframe{
+
+    iframe {
         /*height:200px;*/
     }
 }
@@ -763,6 +769,57 @@ p {
         margin-left: 10%;
     }
 
+    .jestesmy {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .solpak {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .guardian {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .hcg {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .helvetica {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .jakaBox {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .kete {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .kitchoo {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .miloo {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .jakaBox2 {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    /*//---------*/
     .opakownie {
         padding-left: 10%;
     }
@@ -1150,6 +1207,55 @@ p {
     }
 
     .kopalnia {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .jestesmy {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .solpak {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .guardian {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .hcg {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .helvetica {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .jakaBox {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .kete {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .kitchoo {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .miloo {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .jakaBox2 {
         margin-right: 5%;
         margin-left: 5%;
     }
