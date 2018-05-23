@@ -32,7 +32,7 @@
                 offset_left = $image.offset().left;
                 $spinner_img = $('<img>');
                 $placeholder = $('<img>').attr({
-                    src: 'img/ellipsis150.gif'
+                    src: '../img/ellipsis150.gif'
                 });
                 $placeholder.attr({
                     width: $image.attr('width')
