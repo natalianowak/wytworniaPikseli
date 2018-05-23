@@ -672,8 +672,8 @@ p {
 }
 
 #status {
-    width:150px;
-    height:150px;
+    width:200px;
+    height:200px;
     position:absolute;
     left:50%; /* wyśrodkowujemy w poziomie */
     top:50%; /* wyśrodkowujemy w pionie */
