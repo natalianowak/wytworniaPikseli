@@ -606,10 +606,10 @@ p {
     font-weight: 900;
 }
 
-/*//preloader style*/
-img[src="/preloader.gif"] {
-    width:128px;
-    height:128px;
+/*//preloader portfolio img style*/
+img[src="/ellipsis150.gif"] {
+    width:150px;
+    height:150px;
     display:block;
     margin:0 auto;
     margin-top: 60px;
