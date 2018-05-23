@@ -607,7 +607,7 @@ p {
 }
 
 /*//preloader portfolio img style*/
-img[src="/ellipsis150.gif"] {
+img[src="img/ellipsis150.gif"] {
     width:150px;
     height:150px;
     display:block;
