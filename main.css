@@ -57,7 +57,7 @@ video {
 }
 
 .blueSymbol {
-    z-index: 0;
+    z-index: -1;
     position: fixed;
     padding-left: 19%;
     width: 36%;
@@ -112,7 +112,7 @@ video {
 
 .nav {
     color: #3d3c3d;
-    width: 397px;
+    width: 444px;
     margin-top: 21px;
 }
 
@@ -140,13 +140,16 @@ video {
 }
 
 .nav li:nth-child(4) {
-    width: 75px;
+    width: 80px;
 }
 
 .nav li:nth-child(5) {
-    width: 58px;
+    width: 62px;
 }
-
+.nav li:nth-child(6) {
+    width: 44px;
+    margin-top: -3px;
+}
 .nav a {
     color: #3d3c3d;
     text-decoration: none;
@@ -191,7 +194,7 @@ video {
     position: absolute;
     top: 20%;
     text-align: justify;
-    padding-right: 50%;
+    padding-right: 45%;
 }
 
 .hasloReklamowe {
@@ -294,10 +297,10 @@ h3 {
     font-family: 'Open Sans';
 }
 
-.elipUklad {
-    display: inherit;
-    width: 50%;
-}
+/*.elipUklad {*/
+    /*display: inherit;*/
+    /*width: 50%;*/
+/*}*/
 
 #prjektowanieMargin {
     margin-top: 0;
@@ -308,7 +311,7 @@ h3 {
 }
 
 .elipMargin {
-    margin-right: 4%;
+    margin-right: 6%;
 }
 
 .kropka {
@@ -420,10 +423,15 @@ h3 {
 }
 
 .my {
-    align-items: flex-start;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    align-items: center;
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 85%;
+    height: 85%;
     display: flex;
     justify-content: space-between;
     top: 0px;
@@ -434,8 +442,8 @@ h3 {
     overflow: hidden;
     margin-top: 0%;
     z-index: 2;
-    height: 100%;
-    width: 33%;
+    height: 90%;
+    width: 30%;
     position: relative;
     background-image: url("img/losiuFoto.png");
     background-repeat: no-repeat;
@@ -454,8 +462,8 @@ h3 {
     overflow: hidden;
     margin-top: 0%;
     z-index: 2;
-    height: 100%;
-    width: 33%;
+    height: 90%;
+    width: 30%;
     position: relative;
     background-image: url("img/dankaFoto.png");
     background-repeat: no-repeat;
@@ -473,9 +481,9 @@ h3 {
 .stodi {
     overflow: hidden;
     margin-top: 0%;
-    height: 100%;
+    height: 90%;
     z-index: 2;
-    width: 33%;
+    width: 30%;
     position: relative;
     background-image: url("img/stodiFoto.png");
     background-repeat: no-repeat;
@@ -655,7 +663,23 @@ p {
     position: relative;
     overflow: hidden;
 }
-
+.section7{
+    padding-right: 19%;
+    padding-left: 19%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.right{
+  width: 30%;
+    text-align: right;
+}
+.left{
+    width: 80%;
+}
 
 
 /*preloader stona glowna start*/
@@ -726,11 +750,9 @@ p {
     .kropkiJasne {
         background-position: left 130px;
     }
-
-    .nav {
-        width: 380px;
+    .nav{
+    width: 415px;
     }
-
     .nav li:first-child {
         width: 113px;
     }
@@ -814,7 +836,7 @@ p {
     }
 
     .nav {
-        width: 375px;
+        width: 395px;
     }
 
     .nav li:first-child {
@@ -850,6 +872,11 @@ p {
     }
 
     .middleDownLeft {
+        font-size: 13px;
+    }
+    .section7{
+        padding-right: 10%;
+        padding-left: 10%;
         font-size: 13px;
     }
 }
@@ -1199,19 +1226,19 @@ p {
         top: 25%;
     }
 
-    .elipUklad {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
+    /*.elipUklad {*/
+        /*width: 100%;*/
+        /*display: flex;*/
+        /*justify-content: space-between;*/
+    /*}*/
 
-    .elipUklad:nth-child(3) {
-        margin-right: 0;
-    }
+    /*.elipUklad:nth-child(3) {*/
+        /*margin-right: 0;*/
+    /*}*/
 
-    .elipMargin {
-        margin-right: 0;
-    }
+    /*.elipMargin {*/
+        /*margin-right: 0;*/
+    /*}*/
 
     .co {
         top: 10%
@@ -1257,6 +1284,10 @@ p {
     .inline {
         margin-left: 0;
     }
+    .section7{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
 }
 
 @media only screen
@@ -1273,10 +1304,10 @@ and (orientation: landscape) {
         display: none;
     }
 
-    .elipUklad {
-        display: inherit;
-        width: 50%;
-    }
+    /*.elipUklad {*/
+        /*display: inherit;*/
+        /*width: 50%;*/
+    /*}*/
 
     .elipsy {
         position: absolute;

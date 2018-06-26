@@ -67,7 +67,7 @@ body {
 
 .nav {
     color: #3d3c3d;
-    width: 397px;
+    width: 444px;
     margin-top: 21px;
 }
 
@@ -95,11 +95,15 @@ body {
 }
 
 .nav li:nth-child(4) {
-    width: 75px;
+    width: 80px;
 }
 
 .nav li:nth-child(5) {
-    width: 58px;
+    width: 62px;
+}
+.nav li:nth-child(6) {
+    width: 44px;
+    margin-top: -3px;
 }
 
 .nav a {
@@ -431,7 +435,7 @@ p {
     }
 
     .nav {
-        width: 380px;
+        width: 415px;
     }
 
     .nav li:first-child {
@@ -525,7 +529,7 @@ p {
     }
 
     .nav {
-        width: 375px;
+        width: 395px;
     }
 
     .nav li:first-child {
