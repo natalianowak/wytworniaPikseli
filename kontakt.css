@@ -270,6 +270,23 @@ p {
 .heavy {
     font-weight: 900;
 }
+.section7{
+    padding-right: 19%;
+    padding-left: 19%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.right{
+    width: 30%;
+    text-align: right;
+}
+.left{
+    width: 80%;
+}
 
 @media only screen and (max-width: 1100px) {
     body {
@@ -386,6 +403,11 @@ p {
     }
 
     .middleDownLeft {
+        font-size: 13px;
+    }
+    .section7{
+        padding-right: 10%;
+        padding-left: 10%;
         font-size: 13px;
     }
 }
@@ -668,4 +690,8 @@ p {
     .inline{
         margin-left: 0;
     }
+        .section7{
+            padding-right: 5%;
+            padding-left: 5%;
+        }
 }
