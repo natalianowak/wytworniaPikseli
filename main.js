@@ -7,8 +7,6 @@ $(window).resize(function () {
 
 var map;
 var myLatlng = new google.maps.LatLng(49.9751544, 20.4217713);
-// var lat = 49.9751544;
-// var lng = 20.4217713;
 var zoom = 15;
 
 function initialize() {
@@ -133,173 +131,6 @@ var wow = new WOW(
 wow.init();
 
 
-$(document).ready(function () {
-    // console.log($(".expand1").height());
-    // console.log($(".expand1")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList);
-    // console.log($(".expand2").height());
-    // console.log($(".expand3").height());
-    // console.log($(".expand4").height());
-    // console.log($(".expand5").height());
-    // console.log($(".expand6").height());
-
-
-    // if ($(".expand1").height() >= 159) {
-    //     $(".expand1")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
-    //     $(".expand1").css(createHeight());
-    // }
-    // if ($(".expand2").height() >= 159) {
-    //     $(".expand2")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
-    //     $(".expand2").css(createHeight());
-    // }
-    // if ($(".expand3").height() >= 159) {
-    //     $(".expand3")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
-    //     $(".expand3").css(createHeight());
-    // }
-    // if ($(".expand4").height() >= 159) {
-    //     $(".expand4")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
-    //     $(".expand4").css(createHeight());
-    // }
-    // if ($(".expand5").height() >= 159) {
-    //     $(".expand5")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
-    //     $(".expand5").css(createHeight());
-    // }
-    // if ($(".expand6").height() >= 159) {
-    //     $(".expand6")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
-    //     $(".expand6").css(createHeight());
-    // }
-
-    // $(window).bind('resizeEnd', function() {
-    //     if($(".expand1").height() >= 159){
-    //         $(".expand1")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
-    //         $(".expand1").css( createHeight());
-    //     }
-    //     if($(".expand2").height() >= 159){
-    //         $(".expand2")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
-    //         $(".expand2").css(createHeight());
-    //     }
-    //     if($(".expand3").height() >= 159){
-    //         $(".expand3")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
-    //         $(".expand3").css(createHeight());
-    //     }
-    //     if($(".expand4").height() >= 159){
-    //         $(".expand4")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
-    //         $(".expand4").css(createHeight());
-    //     }
-    //     if($(".expand5").height() >= 159){
-    //         $(".expand5")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
-    //         $(".expand5").css(createHeight());
-    //     }
-    //     if($(".expand6").height() >= 159){
-    //         $(".expand6")[0].firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("hidden");
-    //         $(".expand6").css(createHeight());
-    //     }
-    // });
-
-
-    // $(".button1").click(function () {
-    //
-    //     $(".expand1").animate({
-    //         height: $(".expand1")[0].scrollHeight
-    //     }, 900);
-    //
-    //     $(".button1").css("display", "none");
-    //     $(".mniej1").css("display", "block");
-    //
-    // });
-    // $("p.button2").click(function () {
-    //     $("div.expand2").animate({
-    //         height: $("div.expand2")[0].scrollHeight
-    //     }, 900);
-    //
-    //     $("p.button2").css("display", "none");
-    //     $("p.mniej2").css("display", "block");
-    // });
-    //
-    // $("p.button3").click(function () {
-    //     $("div.expand3").animate({
-    //         height: $("div.expand3")[0].scrollHeight
-    //     }, 900);
-    //
-    //     $("p.button3").css("display", "none");
-    //     $("p.mniej3").css("display", "block");
-    // });
-    //
-    // $("p.button4").click(function () {
-    //     $("div.expand4").animate({
-    //         height: $("div.expand4")[0].scrollHeight
-    //     }, 900);
-    //
-    //     $("p.button4").css("display", "none");
-    //     $("p.mniej4").css("display", "block");
-    // });
-    // $("p.button5").click(function () {
-    //     $("div.expand5").animate({
-    //         height: $("div.expand5")[0].scrollHeight
-    //     }, 900);
-    //
-    //     $("p.button5").css("display", "none");
-    //     $("p.mniej5").css("display", "block");
-    // });
-    // $("p.button6").click(function () {
-    //     $("div.expand6").animate({
-    //         height: $("div.expand6")[0].scrollHeight
-    //     }, 900);
-    //
-    //     $("p.button6").css("display", "none");
-    //     $("p.mniej6").css("display", "block");
-    // });
-
-
-    // function createHeight() {
-    //     var hight;
-    //     if($(window).width() < 700) {
-    //         return  hight = {height: 111};
-    //     }
-    //     if ($(window).width() > 1100) {
-    //         return hight = {height: 126};
-    //     }
-    //     else{
-    //         return hight = {height: 122};
-    //     }
-    // }
-
-
-    // $(".mniej1").click(function () {
-    //     $(".expand1").animate(createHeight(), 900);
-    //     $(".mniej1").css("display", "none");
-    //     $(".button1").css("display", "block");
-    //
-    // });
-    // $("p.mniej2").click(function () {
-    //     $("div.expand2").animate(createHeight(), 900);
-    //     $("p.mniej2").css("display", "none");
-    //     $("p.button2").css("display", "block");
-    // });
-    //
-    // $("p.mniej3").click(function () {
-    //     $("div.expand3").animate(createHeight(), 900);
-    //     $("p.mniej3").css("display", "none");
-    //     $("p.button3").css("display", "block");
-    // });
-    //
-    // $("p.mniej4").click(function () {
-    //     $("div.expand4").animate(createHeight(), 900);
-    //     $("p.mniej4").css("display", "none");
-    //     $("p.button4").css("display", "block");
-    // });
-    // $("p.mniej5").click(function () {
-    //     $("div.expand5").animate(createHeight(), 900);
-    //     $("p.mniej5").css("display", "none");
-    //     $("p.button5").css("display", "block");
-    // });
-    // $("p.mniej6").click(function () {
-    //     $("div.expand6").animate(createHeight(), 900);
-    //     $("p.mniej6").css("display", "none");
-    //     $("p.button6").css("display", "block");
-    // });
-
-
-});
 var choosenCategory = "all";
 
 function removeClass() {
@@ -318,6 +149,7 @@ function removeClass() {
     $(".kitchoo").css("display", "none");
     $(".miloo").css("display", "none");
     $(".jakaBox2").css("display", "none");
+    $(".chwilaZapomnienia").css("display", "none");
 }
 $(function () {
     var selectedClass = "";
@@ -508,6 +340,17 @@ $(function () {
         checkIfThereIsNextClass();
         checkIfThereIsPrevClass();
     });
+    $(".chwilaZapomnieniaClick").click(function () {
+        $("#portfolio").css("display", "none");
+        $(".navButton").css("display", "block");
+        $('.portfolio-content img').imgPreload();
+        $(".chwilaZapomnienia").css("display", "block");
+        choosenProjectClass = $(".chwilaZapomnieniaClick");
+        console.log(choosenProjectClass );
+        console.log(choosenProjectClass);
+        checkIfThereIsNextClass();
+        checkIfThereIsPrevClass();
+    });
 
     function checkIfThereIsPrevClass() {
         var prevClass = $("." + choosenCategory).eq($("." + choosenCategory).index(choosenProjectClass) - 1);
@@ -578,7 +421,6 @@ $(function () {
             checkIfThereIsPrevClass();
         }
     });
-
 
 
 
