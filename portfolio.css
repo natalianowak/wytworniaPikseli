@@ -276,7 +276,7 @@ body {
 
 .text {
     position: absolute;
-    bottom: 5%;
+    bottom: 10%;
     padding-left: 19%;
     padding-right: 50%;
     color: white;
@@ -348,7 +348,9 @@ body {
     cursor: pointer;
 
 }
-
+.navButton button:focus {
+    outline: none;
+}
 .navButton button {
     float: right;
     background-color: white;
@@ -380,29 +382,33 @@ body {
     font-weight: bold
 }
 
-/*.portfolioSection p:nth-child(2){*/
-/*width:251px;*/
-/*text-align: center;*/
-/*}*/
-/*.portfolioSection p:nth-child(3){*/
-/*width:137px;*/
-/*text-align: center;*/
-/*}*/
-/*.portfolioSection p:nth-child(4){*/
-/*width:104px;*/
-/*text-align: center;*/
-/*}*/
-/*.portfolioSection p:nth-child(5){*/
-/*width:157px;*/
-/*text-align: center;*/
-/*}*/
 .portfolioSection p:hover {
     cursor: pointer;
     background: #009fe4;
     color: #eee;
     font-weight: bold;
 }
-
+.portfolio-content h2{
+    color: black;
+    font-family: "Raleway SemiBold";
+}
+.portfolio-content h6{
+    color: #009fe4;
+    font-family: "Myriad Pro", sans-serif;
+    padding-bottom: 8px;
+}
+#contentP{
+    color: black;
+    background-color: white;
+    padding: 0;
+    font-family: Raleway;
+    padding-bottom: 20px;
+}
+#contentP:hover{
+    color: black;
+    background-color: white;
+    font-weight: normal;
+}
 .content {
     display: inline;
     position: absolute;
@@ -415,37 +421,25 @@ body {
     width:100%;
 }
 
-.simplyPoland {
+.noBreak {
     display: none;
     margin-right: 19%;
     margin-left: 19%;
     margin-top: 30px;
 }
 
-.simplyPoland img {
+.noBreak img {
     width: 100%;
 }
 
-.onglow {
+.break {
     display: none;
     margin-right: 19%;
     margin-left: 19%;
     margin-top: 30px;
 }
 
-.onglow img {
-    width: 100%;
-    margin-bottom: 1.9%;
-}
-
-.locomotiva {
-    display: none;
-    margin-right: 19%;
-    margin-left: 19%;
-    margin-top: 30px;
-}
-
-.locomotiva img {
+.break img {
     width: 100%;
     margin-bottom: 1.9%;
 }
@@ -467,134 +461,6 @@ body {
     margin: 0 auto;
 }
 
-.jestesmy {
-    display: none;
-    margin-right: 19%;
-    margin-left: 19%;
-    margin-top: 30px;
-}
-
-.jestesmy img {
-    width: 100%;
-    margin-bottom: 1.9%;
-}
-
-.solpak {
-    display: none;
-    margin-right: 19%;
-    margin-left: 19%;
-    margin-top: 30px;
-}
-
-.solpak img {
-    width: 100%;
-    margin-bottom: 1.9%;
-}
-
-.guardian {
-    display: none;
-    margin-right: 19%;
-    margin-left: 19%;
-    margin-top: 30px;
-}
-
-.guardian img {
-    width: 100%;
-    margin-bottom: 1.9%;
-}
-
-.hcg {
-    display: none;
-    margin-right: 19%;
-    margin-left: 19%;
-    margin-top: 30px;
-}
-
-.hcg img {
-    width: 100%;
-    margin-bottom: 1.9%;
-}
-
-.helvetica {
-    display: none;
-    margin-right: 19%;
-    margin-left: 19%;
-    margin-top: 30px;
-}
-
-.helvetica img {
-    width: 100%;
-    margin-bottom: 1.9%;
-}
-
-.jakaBox {
-    display: none;
-    margin-right: 19%;
-    margin-left: 19%;
-    margin-top: 30px;
-}
-
-.jakaBox img {
-    width: 100%;
-    margin-bottom: 1.9%;
-}
-
-.kete {
-    display: none;
-    margin-right: 19%;
-    margin-left: 19%;
-    margin-top: 30px;
-}
-
-.kete img {
-    width: 100%;
-    margin-bottom: 1.9%;
-}
-
-.kitchoo {
-    display: none;
-    margin-right: 19%;
-    margin-left: 19%;
-    margin-top: 30px;
-}
-
-.kitchoo img {
-    width: 100%;
-    margin-bottom: 1.9%;
-}
-
-.miloo {
-    display: none;
-    margin-right: 19%;
-    margin-left: 19%;
-    margin-top: 30px;
-}
-
-.miloo img {
-    width: 100%;
-    margin-bottom: 1.9%;
-}
-
-.jakaBox2 {
-    display: none;
-    margin-right: 19%;
-    margin-left: 19%;
-    margin-top: 30px;
-}
-
-.jakaBox2 img {
-    width: 100%;
-    margin-bottom: 1.9%;
-}
-.chwilaZapomnienia{
-    display: none;
-    margin-right: 19%;
-    margin-left: 19%;
-    margin-top: 30px;
-}
-.chwilaZapomnienia img{
-    width: 100%;
-}
 
 iframe {
     width: 100%;
@@ -754,9 +620,14 @@ p {
     width: 30%;
     text-align: right;
 }
+.right img{
+     width: 150px;
+ }
 .left{
     width: 80%;
+    font-size: 12px;
 }
+
 
 /*//preloader portfolio img style*/
 img[src="img/ellipsis150.gif"] {
@@ -896,7 +767,7 @@ img[src="img/ellipsis150.gif"] {
 
     .text {
         padding-left: 10%;
-        bottom: 15%;
+        bottom: 20%;
     }
 
     .navButton {
@@ -913,72 +784,12 @@ img[src="img/ellipsis150.gif"] {
         padding-left: 9.56%;
     }
 
-    .simplyPoland {
+    .break {
         margin-right: 10%;
         margin-left: 10%;
     }
 
-    .locomotiva {
-        margin-right: 10%;
-        margin-left: 10%;
-    }
-
-    .onglow {
-        margin-right: 10%;
-        margin-left: 10%;
-    }
-
-    .kopalnia {
-        margin-right: 10%;
-        margin-left: 10%;
-    }
-
-    .jestesmy {
-        margin-right: 10%;
-        margin-left: 10%;
-    }
-
-    .solpak {
-        margin-right: 10%;
-        margin-left: 10%;
-    }
-
-    .guardian {
-        margin-right: 10%;
-        margin-left: 10%;
-    }
-
-    .hcg {
-        margin-right: 10%;
-        margin-left: 10%;
-    }
-
-    .helvetica {
-        margin-right: 10%;
-        margin-left: 10%;
-    }
-
-    .jakaBox {
-        margin-right: 10%;
-        margin-left: 10%;
-    }
-
-    .kete {
-        margin-right: 10%;
-        margin-left: 10%;
-    }
-
-    .kitchoo {
-        margin-right: 10%;
-        margin-left: 10%;
-    }
-
-    .miloo {
-        margin-right: 10%;
-        margin-left: 10%;
-    }
-
-    .jakaBox2 {
+    .noBreak {
         margin-right: 10%;
         margin-left: 10%;
     }
@@ -1360,71 +1171,12 @@ img[src="img/ellipsis150.gif"] {
         padding-left: 4.56%;
     }
 
-    .simplyPoland {
+    .break {
         margin-right: 5%;
         margin-left: 5%;
     }
 
-    .locomotiva {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-
-    .onglow {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-
-    .kopalnia {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-    .jestesmy {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-
-    .solpak {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-
-    .guardian {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-
-    .hcg {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-
-    .helvetica {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-
-    .jakaBox {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-
-    .kete {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-
-    .kitchoo {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-
-    .miloo {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-
-    .jakaBox2 {
+    .noBreak {
         margin-right: 5%;
         margin-left: 5%;
     }

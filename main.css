@@ -146,10 +146,12 @@ video {
 .nav li:nth-child(5) {
     width: 62px;
 }
+
 .nav li:nth-child(6) {
     width: 44px;
     margin-top: -3px;
 }
+
 .nav a {
     color: #3d3c3d;
     text-decoration: none;
@@ -298,8 +300,8 @@ h3 {
 }
 
 /*.elipUklad {*/
-    /*display: inherit;*/
-    /*width: 50%;*/
+/*display: inherit;*/
+/*width: 50%;*/
 /*}*/
 
 #prjektowanieMargin {
@@ -663,7 +665,8 @@ p {
     position: relative;
     overflow: hidden;
 }
-.section7{
+
+.section7 {
     padding-right: 19%;
     padding-left: 19%;
     padding-top: 0.7%;
@@ -673,38 +676,44 @@ p {
     display: flex;
     align-items: center;
 }
-.right{
-  width: 30%;
+
+.right {
+    width: 30%;
     text-align: right;
 }
-.left{
-    width: 80%;
+
+.right img {
+    width: 150px;
 }
 
+.left {
+    font-size: 12px;
+    width: 80%;
+}
 
 /*preloader stona glowna start*/
 
 #preloader {
     position: fixed;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background: rgb(255,255,255);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#757575',GradientType=1 );
-    z-index:999; /* makes sure it stays on top */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(255, 255, 255);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#757575', GradientType=1);
+    z-index: 999; /* makes sure it stays on top */
 }
 
 #status {
-    width:200px;
-    height:200px;
-    position:absolute;
-    left:50%; /* wyśrodkowujemy w poziomie */
-    top:50%; /* wyśrodkowujemy w pionie */
-    background-image:url(img/DoubleRing.gif); /* tutaj podaj ścieżkę do pliku z animacją */
-    background-repeat:no-repeat;
-    background-position:center;
-    margin:-64px 0 0 -64px; /* no bo chcemy idealnie wycentrować, nie? */
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 45%; /* wyśrodkowujemy w poziomie */
+    top: 50%; /* wyśrodkowujemy w pionie */
+    background-image: url(img/DoubleRing.gif); /* tutaj podaj ścieżkę do pliku z animacją */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -64px 0 0 -64px; /* no bo chcemy idealnie wycentrować, nie? */
 }
 
 /*preloader stop*/
@@ -750,9 +759,11 @@ p {
     .kropkiJasne {
         background-position: left 130px;
     }
-    .nav{
-    width: 415px;
+
+    .nav {
+        width: 415px;
     }
+
     .nav li:first-child {
         width: 113px;
     }
@@ -874,11 +885,13 @@ p {
     .middleDownLeft {
         font-size: 13px;
     }
-    .section7{
+
+    .section7 {
         padding-right: 10%;
         padding-left: 10%;
         font-size: 13px;
     }
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -1217,36 +1230,40 @@ p {
         padding-top: 6px
     }
 
+    .yellowSectionContent {
+        height: -webkit-fill-available;
+    }
+
     .elip {
         width: 25%;
+        margin: 0 auto;
     }
 
     .elipsy {
         display: block;
         top: 25%;
+        height: -webkit-fill-available;
+
     }
 
     /*.elipUklad {*/
-        /*width: 100%;*/
-        /*display: flex;*/
-        /*justify-content: space-between;*/
+    /*width: 100%;*/
+    /*display: flex;*/
+    /*justify-content: space-between;*/
     /*}*/
-
     /*.elipUklad:nth-child(3) {*/
-        /*margin-right: 0;*/
+    /*margin-right: 0;*/
     /*}*/
-
     /*.elipMargin {*/
-        /*margin-right: 0;*/
+    /*margin-right: 0;*/
     /*}*/
-
     .co {
         top: 10%
     }
 
-    .yellowSectionContent {
-        height: 400px;
-    }
+    /*.yellowSectionContent {*/
+        /*height: 400px;*/
+    /*}*/
 
     .blueSymbol {
         padding-left: 5%;
@@ -1284,9 +1301,26 @@ p {
     .inline {
         margin-left: 0;
     }
-    .section7{
+
+    .section7 {
         padding-right: 5%;
         padding-left: 5%;
+        text-align: center;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .right img {
+        display: none;
+    }
+
+    .left {
+        width: 100%;
+    }
+    #status {
+        left:40%;
     }
 }
 
@@ -1305,10 +1339,9 @@ and (orientation: landscape) {
     }
 
     /*.elipUklad {*/
-        /*display: inherit;*/
-        /*width: 50%;*/
+    /*display: inherit;*/
+    /*width: 50%;*/
     /*}*/
-
     .elipsy {
         position: absolute;
         top: 30%;
