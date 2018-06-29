@@ -975,7 +975,20 @@ p {
     .section7{
         padding-right: 5%;
         padding-left: 5%;
+        text-align: center;
     }
+    .right {
+        display: none;
+    }
+
+    .right img {
+        display: none;
+    }
+
+    .left {
+        width: 100%;
+    }
+
 }
 
 @media only screen

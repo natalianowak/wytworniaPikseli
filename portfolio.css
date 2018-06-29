@@ -31,8 +31,8 @@ body {
     overflow: hidden;
     /*min-width: 230px;*/
     /*max-width: 315px;*/
-    width: 98.5%;
-    height:98.5%;
+    width: 98%;
+    height:98%;
     color: #fff;
     text-align: left;
     font-size: 16px;
@@ -1240,6 +1240,18 @@ img[src="img/ellipsis150.gif"] {
     .section7{
         padding-right: 5%;
         padding-left: 5%;
+        text-align: center;
+    }
+    .right {
+        display: none;
+    }
+
+    .right img {
+        display: none;
+    }
+
+    .left {
+        width: 100%;
     }
 }
 
