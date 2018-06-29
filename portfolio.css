@@ -23,9 +23,9 @@ body {
     overflow: scroll;
 }
 /*------------------*/
-@import url(https://fonts.googleapis.com/css?family=Montserrat:200);
+/*@import url(https://fonts.googleapis.com/css?family=Montserrat:200);*/
 .snip1577 {
-    /*font-family: 'Montserrat', Arial, sans-serif;*/
+    font-family: "Raleway SemiBold", sans-serif;
     position: relative;
     display: inline-block;
     overflow: hidden;
@@ -311,22 +311,6 @@ body {
     /*background-color: #CC000000;*/
     cursor: pointer;
 }
-
-/*.graphics {*/
-    /*background: #00C5CD;*/
-/*}*/
-
-/*.foto {*/
-    /*background: #CC3232;*/
-/*}*/
-
-/*.video {*/
-    /*background: #ddd;*/
-/*}*/
-
-/*.websites {*/
-    /*background: #fbb900;*/
-/*}*/
 
 /*a[class*='lightcase-icon-'].lightcase-icon-next {*/
 /*color: black;*/
