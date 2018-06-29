@@ -25,7 +25,7 @@ body {
 /*------------------*/
 @import url(https://fonts.googleapis.com/css?family=Montserrat:200);
 .snip1577 {
-    font-family: 'Montserrat', Arial, sans-serif;
+    /*font-family: 'Montserrat', Arial, sans-serif;*/
     position: relative;
     display: inline-block;
     overflow: hidden;
@@ -47,11 +47,11 @@ body {
     transition: all 0.4s ease;
 }
 
-.snip1577 img {
-    max-width: 100%;
-    backface-visibility: hidden;
-    vertical-align: top;
-}
+/*.snip1577 img {*/
+    /*max-width: 100%;*/
+    /*backface-visibility: hidden;*/
+    /*vertical-align: top;*/
+/*}*/
 
 .snip1577:before,
 .snip1577:after {
