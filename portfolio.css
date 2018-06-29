@@ -311,21 +311,21 @@ body {
     cursor: pointer;
 }
 
-.graphics {
-    background: #00C5CD;
-}
+/*.graphics {*/
+    /*background: #00C5CD;*/
+/*}*/
 
-.foto {
-    background: #CC3232;
-}
+/*.foto {*/
+    /*background: #CC3232;*/
+/*}*/
 
-.video {
-    background: #ddd;
-}
+/*.video {*/
+    /*background: #ddd;*/
+/*}*/
 
-.websites {
-    background: #fbb900;
-}
+/*.websites {*/
+    /*background: #fbb900;*/
+/*}*/
 
 /*a[class*='lightcase-icon-'].lightcase-icon-next {*/
 /*color: black;*/
