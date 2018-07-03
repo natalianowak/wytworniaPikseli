@@ -133,6 +133,7 @@ wow.init();
 
 var choosenCategory = "all";
 
+// TU usun klasy:
 function removeClass() {
     $(".navButton").css("display", "none");
     $(".simplyPoland").css("display", "none");
@@ -351,6 +352,9 @@ $(function () {
         checkIfThereIsNextClass();
         checkIfThereIsPrevClass();
     });
+
+    // TU dodaj kolejne reALIZAJIE:
+
 
     function checkIfThereIsPrevClass() {
         var prevClass = $("." + choosenCategory).eq($("." + choosenCategory).index(choosenProjectClass) - 1);
