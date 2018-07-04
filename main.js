@@ -138,11 +138,12 @@ $(document).ready(function () {
     $('header a[href^="#"]').on('click', function (event) {
 
         var target = $($(this).attr('href'));
+        var headerHeight = $(".menuGorne").height();
 
         if (target.length) {
             event.preventDefault();
             $('html, body').animate({
-                scrollTop: target.offset().top
+                scrollTop: target.offset().top - headerHeight,
             }, 1000);
         }
     });
