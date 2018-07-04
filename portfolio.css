@@ -179,12 +179,13 @@ body {
 
 .logoTop {
     width: 121px;
-    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    /*transition: all 0.3s ease-in-out;*/
 }
 
 .nav {
     color: #3d3c3d;
-    width: 444px;
+    /*width: 444px;*/
     margin-top: 21px;
 }
 
@@ -198,30 +199,36 @@ body {
 .nav ul {
     margin: 0;
     display: flex;
+    width:550px;
+    justify-content: space-between;
 }
 
-.nav li:first-child {
-    width: 126px;
-    /*color: #3d3c3d;*/
-}
+/*.nav li:first-child {*/
+    /*width: 126px;*/
+    /*!*color: #3d3c3d;*!*/
+/*}*/
 
-.nav li:nth-child(2) {
-    width: 49px;
-}
+/*.nav li:nth-child(2) {*/
+    /*width: 49px;*/
+/*}*/
 
-.nav li:nth-child(3) {
-    width: 55px;
-}
+/*.nav li:nth-child(3) {*/
+    /*width: 55px;*/
+/*}*/
 
-.nav li:nth-child(4) {
-    width: 80px;
-}
+/*.nav li:nth-child(4) {*/
+    /*width: 80px;*/
+/*}*/
 
-.nav li:nth-child(5) {
-    width: 62px;
-}
+/*.nav li:nth-child(5) {*/
+    /*width: 62px;*/
+/*}*/
 .nav li:nth-child(6) {
-    width: 44px;
+    /*width: 44px;*/
+    margin-top: -3px;
+}
+.nav li:nth-child(7) {
+    /*width: 44px;*/
     margin-top: -3px;
 }
 
@@ -233,14 +240,14 @@ body {
 
 #active {
     color: #009fe4;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .nav a:hover {
-    color: #009fe4;
+    color: black;
     text-decoration: none;
     font-family: 'Raleway';
-    font-weight: 900;
+    font-weight: 600;
 
 }
 
@@ -379,7 +386,7 @@ body {
 }
 .portfolio-content h6{
     color: #009fe4;
-    font-family: "Myriad Pro", sans-serif;
+    font-family: "Raleway", sans-serif;
     padding-bottom: 8px;
 }
 #contentP{
@@ -550,9 +557,9 @@ iframe {
 
 .inline img {
     display: inline;
-    height: 22px;
+    height: 30px;
     margin-right: 3%;
-    width: 22px;
+    width: 30px;
 
 }
 
@@ -691,30 +698,30 @@ img[src="img/ellipsis150.gif"] {
         background-position: left 130px;
     }
 
-    .nav {
-        width: 415px;
-    }
+    /*.nav {*/
+        /*width: 415px;*/
+    /*}*/
 
-    .nav li:first-child {
-        width: 113px;
-        /*color: #3d3c3d;*/
-    }
+    /*.nav li:first-child {*/
+        /*width: 113px;*/
+        /*!*color: #3d3c3d;*!*/
+    /*}*/
 
-    .nav li:nth-child(2) {
-        width: 46px;
-    }
+    /*.nav li:nth-child(2) {*/
+        /*width: 46px;*/
+    /*}*/
 
-    .nav li:nth-child(3) {
-        width: 52px;
-    }
+    /*.nav li:nth-child(3) {*/
+        /*width: 52px;*/
+    /*}*/
 
-    .nav li:nth-child(4) {
-        width: 72px;
-    }
+    /*.nav li:nth-child(4) {*/
+        /*width: 72px;*/
+    /*}*/
 
-    .nav li:nth-child(5) {
-        width: 55px;
-    }
+    /*.nav li:nth-child(5) {*/
+        /*width: 55px;*/
+    /*}*/
 
     .tile {
         border: 3px #fff solid;
@@ -802,30 +809,30 @@ img[src="img/ellipsis150.gif"] {
         display: none
     }
 
-    .nav {
-        width: 395px;
-    }
+    /*.nav {*/
+        /*width: 395px;*/
+    /*}*/
 
-    .nav li:first-child {
-        width: 106px;
-        /*color: #3d3c3d;*/
-    }
+    /*.nav li:first-child {*/
+        /*width: 106px;*/
+        /*!*color: #3d3c3d;*!*/
+    /*}*/
 
-    .nav li:nth-child(2) {
-        width: 43px;
-    }
+    /*.nav li:nth-child(2) {*/
+        /*width: 43px;*/
+    /*}*/
 
-    .nav li:nth-child(3) {
-        width: 49px;
-    }
+    /*.nav li:nth-child(3) {*/
+        /*width: 49px;*/
+    /*}*/
 
-    .nav li:nth-child(4) {
-        width: 69px;
-    }
+    /*.nav li:nth-child(4) {*/
+        /*width: 69px;*/
+    /*}*/
 
-    .nav li:nth-child(5) {
-        width: 52px;
-    }
+    /*.nav li:nth-child(5) {*/
+        /*width: 52px;*/
+    /*}*/
 
     .zNami {
         padding-bottom: 20px;
@@ -1098,26 +1105,26 @@ img[src="img/ellipsis150.gif"] {
         width: auto;
     }
 
-    .nav li:first-child {
-        width: 106px;
-        /*color: #3d3c3d;*/
-    }
+    /*.nav li:first-child {*/
+        /*width: 106px;*/
+        /*!*color: #3d3c3d;*!*/
+    /*}*/
 
-    .nav li:nth-child(2) {
-        width: 43px;
-    }
+    /*.nav li:nth-child(2) {*/
+        /*width: 43px;*/
+    /*}*/
 
-    .nav li:nth-child(3) {
-        width: 49px;
-    }
+    /*.nav li:nth-child(3) {*/
+        /*width: 49px;*/
+    /*}*/
 
-    .nav li:nth-child(4) {
-        width: 69px;
-    }
+    /*.nav li:nth-child(4) {*/
+        /*width: 69px;*/
+    /*}*/
 
-    .nav li:nth-child(5) {
-        width: 52px;
-    }
+    /*.nav li:nth-child(5) {*/
+        /*width: 52px;*/
+    /*}*/
 
     body {
         font-size: 13px;

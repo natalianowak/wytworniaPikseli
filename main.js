@@ -131,9 +131,26 @@ var wow = new WOW(
 wow.init();
 
 
+// zjezdanie do sekcji kontakt
+
+$(document).ready(function () {
+
+    $('header a[href^="#"]').on('click', function (event) {
+
+        var target = $($(this).attr('href'));
+
+        if (target.length) {
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: target.offset().top
+            }, 1000);
+        }
+    });
+});
+
 var choosenCategory = "all";
 
-// TU usun klasy:
+
 function removeClass() {
     $(".navButton").css("display", "none");
     $(".simplyPoland").css("display", "none");
@@ -151,6 +168,8 @@ function removeClass() {
     $(".miloo").css("display", "none");
     $(".jakaBox2").css("display", "none");
     $(".chwilaZapomnienia").css("display", "none");
+    // TU usun klasy:
+
 }
 $(function () {
     var selectedClass = "";
@@ -448,11 +467,11 @@ $(function () {
 $(window).scroll(function () {
     if ($(window).scrollTop() >= 10) {
         $('.menuGorne').css('background', 'white');
-        $('.logoTop').css("width", "100px");
+        // $('.logoTop').css("width", "100px");
 
 
     } else {
-        $('.logoTop').css("width", "121px");
+        // $('.logoTop').css("width", "121px");
         $('.menuGorne').css('background', 'transparent');
 
     }
