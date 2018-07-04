@@ -109,7 +109,7 @@ video {
 .logoTop {
     width: 121px;
     cursor: pointer;
-    /*transition: all 0.3s ease-in-out;*/
+    transition: all 0.3s ease-in-out;
 }
 
 .nav {
@@ -648,6 +648,10 @@ h3 {
     align-items: center;
     margin-left: 17%;
 }
+.inline p a{
+    color: black;
+    text-decoration: none;
+}
 
 .inline img {
     display: inline;
@@ -1135,6 +1139,12 @@ p {
         width: auto;
         float: left;
 
+    }
+    .video{
+        display: none;
+    }
+    .longText{
+      padding-right: 5%;
     }
 
     /*.nav li {*/

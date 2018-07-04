@@ -236,6 +236,10 @@ body {
     align-items: center;
     margin-left: 17%;
 }
+.inline p a{
+    color: black;
+    text-decoration: none;
+}
 
 .inline img {
     display: inline;
@@ -828,6 +832,9 @@ p {
     }
     .nav li{
         width: auto;
+    }
+    .text{
+        padding-right: 5%;
     }
     /*.nav li:first-child {*/
         /*width: 106px;*/

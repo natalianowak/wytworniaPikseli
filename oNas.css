@@ -367,7 +367,10 @@ body {
     align-items: center;
     margin-left: 17%;
 }
-
+.inline p a{
+    color: black;
+    text-decoration: none;
+}
 .inline img {
     display: inline;
     height: 30px;
@@ -844,6 +847,9 @@ p {
         width: auto;
         float: left;
 
+    }
+    .text{
+        padding-right: 5%;
     }
 
     /*.nav li {*/

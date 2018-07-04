@@ -554,6 +554,10 @@ iframe {
     align-items: center;
     margin-left: 17%;
 }
+.inline p a{
+    color: black;
+    text-decoration: none;
+}
 
 .inline img {
     display: inline;
@@ -1103,6 +1107,9 @@ img[src="img/ellipsis150.gif"] {
 
     .nav li {
         width: auto;
+    }
+    .text{
+        padding-right: 5%;
     }
 
     /*.nav li:first-child {*/
