@@ -841,6 +841,8 @@ p {
         padding: 0;
         padding-top: 15px;
         padding-bottom: 15px;
+        padding-right: 5%;
+        padding-left: 5%;
     }
 
     .nav ul li {
@@ -848,10 +850,15 @@ p {
         float: left;
 
     }
+    .nav img{
+        width: 20px;
+    }
     .text{
         padding-right: 5%;
     }
-
+.nav a{
+    font-size:12px;
+}
     /*.nav li {*/
         /*width: auto;*/
     /*}*/

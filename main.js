@@ -107,9 +107,17 @@ function initialize() {
         icon: image
     });
 
+    marker.addListener('click', function() {
+        window.location = "https://www.google.pl/maps/dir/''/wytwornia+pikseli/@49.9751927,20.3519466,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47163b3a3f97e2d9:0x3eca72adb3d94805!2m2!1d20.4219862!2d49.9752138";
+    });
+
     map = new google.maps.Map(document.getElementById('map'), myOptions);
     // To add the marker to the map, call setMap();
     marker.setMap(map);
+
+
+
+
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);

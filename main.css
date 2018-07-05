@@ -436,10 +436,19 @@ h3 {
 .backgroundSection4 {
     width: 100%;
 }
+.backgroundSection44 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.backgroundColor{
+    background-color: #fbb900;
+}
 
 .section4Content {
     position: relative;
     width: 100%;
+
 }
 
 .my {
@@ -463,7 +472,7 @@ h3 {
     overflow: hidden;
     margin-top: 0%;
     z-index: 2;
-    height: 90%;
+    height: 88%;
     width: 30%;
     position: relative;
     background-image: url("img/losiuFoto.png");
@@ -484,7 +493,7 @@ h3 {
     overflow: hidden;
     margin-top: 0%;
     z-index: 2;
-    height: 90%;
+    height: 88%;
     width: 30%;
     position: relative;
     background-image: url("img/dankaFoto.png");
@@ -504,7 +513,7 @@ h3 {
     cursor: pointer;
     overflow: hidden;
     margin-top: 0%;
-    height: 90%;
+    height: 88%;
     z-index: 2;
     width: 30%;
     position: relative;
@@ -1133,12 +1142,17 @@ p {
         padding: 0;
         padding-top: 15px;
         padding-bottom: 15px;
+        padding-right: 5%;
+        padding-left: 5%;
     }
 
     .nav ul li {
         width: auto;
         float: left;
 
+    }
+    .nav img{
+        width: 20px;
     }
     .video{
         display: none;
@@ -1176,7 +1190,7 @@ p {
     }
 
     .nav a {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .logoTop {
