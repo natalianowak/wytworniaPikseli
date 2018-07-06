@@ -1380,11 +1380,12 @@ img[src="img/ellipsis150.gif"] {
     }
 
     .blueFotoSection h2 {
-        color: #009fe4;
+        color: #fbb900;
         font-family: Raleway;
         font-weight: 600;
         padding-right: 5%;
         padding-left: 5%;
+        font-size: 18px;
     }
 
     .blueFotoSection h3 {

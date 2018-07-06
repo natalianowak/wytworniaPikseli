@@ -1229,9 +1229,10 @@ p {
         color: black;
     }
     .fajneHaslo h3{
-        color: #009fe4;
+        color: #fbb900;
         font-family: Raleway;
         font-weight: 600;
+        font-size: 18px;
     }
     .longText{
         position: initial;
