@@ -161,6 +161,7 @@ var choosenCategory = "all";
 
 
 function removeClass() {
+    $(".navDolny").css("display", "none");
     $(".navButton").css("display", "none");
     $(".simplyPoland").css("display", "none");
     $(".onglow").css("display", "none");
@@ -208,6 +209,7 @@ $(function () {
     $(".simplyPolandClick").click(function () {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
+        $(".navDolny").css("display", "flex");
         $('.portfolio-content img').imgPreload();
         $(".simplyPoland").css("display", "block");
         choosenProjectClass = $(".simplyPolandClick");
@@ -219,6 +221,7 @@ $(function () {
     $(".onglowClick").click(function () {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
+        $(".navDolny").css("display", "flex");
         $('.portfolio-content img').imgPreload();
         $(".onglow").css("display", "block");
         choosenProjectClass = $(".onglowClick");
@@ -231,6 +234,7 @@ $(function () {
     $(".locomotivaClick").click(function () {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
+        $(".navDolny").css("display", "flex");
         $('.portfolio-content img').imgPreload();
         $(".locomotiva").css("display", "block");
         choosenProjectClass = $(".locomotivaClick");
@@ -243,6 +247,7 @@ $(function () {
     $(".kopalniaClick").click(function () {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
+        $(".navDolny").css("display", "flex");
         $('.portfolio-content img').imgPreload();
         $(".kopalnia").css("display", "block");
         choosenProjectClass = $(".kopalniaClick");
@@ -255,6 +260,7 @@ $(function () {
     $(".jestesmyClick").click(function () {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
+        $(".navDolny").css("display", "flex");
         $('.portfolio-content img').imgPreload();
         $(".jestesmy").css("display", "block");
         choosenProjectClass = $(".jestesmyClick");
@@ -266,6 +272,7 @@ $(function () {
     $(".solpakClick").click(function () {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
+        $(".navDolny").css("display", "flex");
         $('.portfolio-content img').imgPreload();
         $(".solpak").css("display", "block");
         choosenProjectClass = $(".solpakClick");
@@ -278,6 +285,7 @@ $(function () {
     $(".guardianClick").click(function () {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
+        $(".navDolny").css("display", "flex");
         $('.portfolio-content img').imgPreload();
         $(".guardian").css("display", "block");
         choosenProjectClass = $(".guardianClick");
@@ -290,6 +298,7 @@ $(function () {
     $(".hcgClick").click(function () {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
+        $(".navDolny").css("display", "flex");
         $('.portfolio-content img').imgPreload();
         $(".hcg").css("display", "block");
         choosenProjectClass = $(".hcgClick");
@@ -302,6 +311,7 @@ $(function () {
     $(".helveticaClick").click(function () {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
+        $(".navDolny").css("display", "flex");
         $('.portfolio-content img').imgPreload();
         $(".helvetica").css("display", "block");
         choosenProjectClass = $(".helveticaClick");
@@ -314,6 +324,7 @@ $(function () {
     $(".jakaBoxClick").click(function () {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
+        $(".navDolny").css("display", "flex");
         $('.portfolio-content img').imgPreload();
         $(".jakaBox").css("display", "block");
         choosenProjectClass = $(".jakaBoxClick");
@@ -326,6 +337,7 @@ $(function () {
     $(".keteClick").click(function () {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
+        $(".navDolny").css("display", "flex");
         $('.portfolio-content img').imgPreload();
         $(".kete").css("display", "block");
         choosenProjectClass = $(".keteClick");
@@ -338,6 +350,7 @@ $(function () {
     $(".kitchooClick").click(function () {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
+        $(".navDolny").css("display", "flex");
         $('.portfolio-content img').imgPreload();
         $(".kitchoo").css("display", "block");
         choosenProjectClass = $(".kitchooClick");
@@ -349,6 +362,7 @@ $(function () {
     $(".milooClick").click(function () {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
+        $(".navDolny").css("display", "flex");
         $('.portfolio-content img').imgPreload();
         $(".miloo").css("display", "block");
         choosenProjectClass = $(".milooClick");
@@ -361,6 +375,7 @@ $(function () {
     $(".jakaBox2Click").click(function () {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
+        $(".navDolny").css("display", "flex");
         $('.portfolio-content img').imgPreload();
         $(".jakaBox2").css("display", "block");
         choosenProjectClass = $(".jakaBox2Click");
@@ -372,6 +387,7 @@ $(function () {
     $(".chwilaZapomnieniaClick").click(function () {
         $("#portfolio").css("display", "none");
         $(".navButton").css("display", "block");
+        $(".navDolny").css("display", "flex");
         $('.portfolio-content img').imgPreload();
         $(".chwilaZapomnienia").css("display", "block");
         choosenProjectClass = $(".chwilaZapomnieniaClick");

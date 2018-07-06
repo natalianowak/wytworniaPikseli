@@ -377,7 +377,7 @@ body {
 
 .portfolioSection {
     margin-top: 40px;
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;*/
 }
 
 .portfolioSection p {
@@ -422,6 +422,10 @@ body {
 .portfolioNav p:nth-child(5) {
     width: 160px;
     text-align: center;
+}
+
+.navDolny {
+    display: none;
 }
 
 #active2 {
@@ -1427,6 +1431,10 @@ img[src="img/ellipsis150.gif"] {
         margin-left: 8.2%;
     }
 
+    .navDolny {
+        padding-top: 30px;
+    }
+
     .noBreak {
         margin-right: 5%;
         margin-left: 5%;
@@ -1445,9 +1453,11 @@ img[src="img/ellipsis150.gif"] {
         padding-right: 5%;
         padding-left: 5%;
     }
-.tile{
-    width: 33.3%;
-}
+
+    .tile {
+        width: 33.3%;
+    }
+
     .snip1577 figcaption {
         background-color: #00000085;
         width: 100%;
