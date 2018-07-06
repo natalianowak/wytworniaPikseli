@@ -22,6 +22,7 @@ body {
     height: auto;
     overflow: scroll;
 }
+
 /*------------------*/
 /*@import url(https://fonts.googleapis.com/css?family=Montserrat:200);*/
 .snip1577 {
@@ -32,7 +33,7 @@ body {
     /*min-width: 230px;*/
     /*max-width: 315px;*/
     width: 98%;
-    height:98%;
+    height: 98%;
     color: #fff;
     text-align: left;
     font-size: 16px;
@@ -82,21 +83,21 @@ body {
     padding: 15px 20px;
 }
 
-.snip1577 h3{
+.snip1577 h3 {
     margin: 0;
     font-size: 1.1em;
-    font-family:"Raleway SemiBold";
+    font-family: "Raleway SemiBold";
     font-weight: bold;
     opacity: 0;
 }
 
 /*.snip1577 a {*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*bottom: 0;*/
-    /*left: 0;*/
-    /*right: 0;*/
-    /*z-index: 1;*/
+/*position: absolute;*/
+/*top: 0;*/
+/*bottom: 0;*/
+/*left: 0;*/
+/*right: 0;*/
+/*z-index: 1;*/
 /*}*/
 
 .snip1577:hover img,
@@ -127,7 +128,7 @@ body {
 }
 
 .snip1577:hover h3,
-.snip1577.hover h3{
+.snip1577.hover h3 {
     opacity: 1;
 }
 
@@ -199,36 +200,37 @@ body {
 .nav ul {
     margin: 0;
     display: flex;
-    width:550px;
+    width: 550px;
     justify-content: space-between;
 }
 
-/*.nav li:first-child {*/
-    /*width: 126px;*/
-    /*!*color: #3d3c3d;*!*/
-/*}*/
+.nav li:first-child {
+    width: 126px;
+}
 
-/*.nav li:nth-child(2) {*/
-    /*width: 49px;*/
-/*}*/
+.nav li:nth-child(2) {
+    width: 49px;
+}
 
-/*.nav li:nth-child(3) {*/
-    /*width: 55px;*/
-/*}*/
+.nav li:nth-child(3) {
+    width: 55px;
+}
 
-/*.nav li:nth-child(4) {*/
-    /*width: 80px;*/
-/*}*/
+.nav li:nth-child(4) {
+    width: 80px;
+}
 
-/*.nav li:nth-child(5) {*/
-    /*width: 62px;*/
-/*}*/
+.nav li:nth-child(5) {
+    width: 62px;
+}
+
 .nav li:nth-child(6) {
-    /*width: 44px;*/
+    width: 44px;
     margin-top: -3px;
 }
+
 .nav li:nth-child(7) {
-    /*width: 44px;*/
+    width: 44px;
     margin-top: -3px;
 }
 
@@ -261,11 +263,12 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
 /*.portfolioNav:first-child{*/
-    /*width:30px*/
+/*width:30px*/
 /*}*/
 /*.portfolioNav:nth-child(2){*/
-    /*width:60px*/
+/*width:60px*/
 /*}*/
 
 .blueFotoSection {
@@ -339,7 +342,7 @@ body {
     /*height: 20px;*/
     width: 100%;
     display: none;
-    margin-top: 30px;
+    background-color: transparent;
     width: 100%;
 }
 
@@ -347,23 +350,29 @@ body {
     cursor: pointer;
 
 }
+
 .navButton button:focus {
     outline: none;
 }
+
 .navButton button {
     float: right;
-    background-color: white;
-   border: transparent;
+    background-color: transparent;
+    border: transparent;
 }
-.nextButton{
+
+.nextButton {
     right: 14%;
     float: right;
     position: fixed;
+    padding-top: 34px;
 }
-.prevButton{
+
+.prevButton {
     left: 14%;
     float: left;
     position: fixed;
+    padding-top: 34px;
 }
 
 .portfolioSection {
@@ -384,29 +393,34 @@ body {
     display: block;
     float: left;
 }
+
 /*wszystko*/
-.portfolioNav p:first-child{
+.portfolioNav p:first-child {
     text-align: center;
-     width:140px;
- }
+    width: 140px;
+}
+
 /*projektowanie*/
-.portfolioNav p:nth-child(2){
-    width:260px;
+.portfolioNav p:nth-child(2) {
+    width: 260px;
     text-align: center;
 }
+
 /*fotografia*/
-.portfolioNav p:nth-child(3){
-    width:140px;
+.portfolioNav p:nth-child(3) {
+    width: 140px;
     text-align: center;
 }
+
 /*Video*/
-.portfolioNav p:nth-child(4){
-    width:140px;
+.portfolioNav p:nth-child(4) {
+    width: 140px;
     text-align: center;
 }
+
 /*Strony*/
-.portfolioNav p:nth-child(5){
-    width:160px;
+.portfolioNav p:nth-child(5) {
+    width: 160px;
     text-align: center;
 }
 
@@ -422,27 +436,32 @@ body {
     color: #eee;
     font-weight: bold;
 }
-.portfolio-content h2{
+
+.portfolio-content h2 {
     color: black;
     font-family: "Raleway SemiBold";
 }
-.portfolio-content h6{
+
+.portfolio-content h6 {
     color: #009fe4;
     font-family: "Raleway", sans-serif;
     padding-bottom: 8px;
 }
-#contentP{
+
+#contentP {
     color: black;
     background-color: white;
     padding: 0;
     font-family: Raleway;
     padding-bottom: 20px;
 }
-#contentP:hover{
+
+#contentP:hover {
     color: black;
     background-color: white;
     font-weight: normal;
 }
+
 .content {
     display: inline;
     position: absolute;
@@ -451,8 +470,9 @@ body {
     right: 0;
     left: 0;
 }
-.content img{
-    width:100%;
+
+.content img {
+    width: 100%;
 }
 
 .noBreak {
@@ -494,7 +514,6 @@ body {
     width: 60%;
     margin: 0 auto;
 }
-
 
 iframe {
     width: 100%;
@@ -596,7 +615,8 @@ iframe {
     align-items: center;
     margin-left: 17%;
 }
-.inline p a{
+
+.inline p a {
     color: black;
     text-decoration: none;
 }
@@ -644,7 +664,8 @@ p {
 .heavy {
     font-weight: 900;
 }
-.section7{
+
+.section7 {
     padding-right: 19%;
     padding-left: 19%;
     padding-top: 0.7%;
@@ -654,58 +675,69 @@ p {
     display: flex;
     align-items: center;
 }
-.right{
+
+.mobile {
+    display: none;
+}
+
+.right {
     width: 30%;
     text-align: right;
 }
-.right img{
-     width: 150px;
- }
-.left{
+
+.right img {
+    width: 150px;
+}
+
+.left {
     width: 80%;
     font-size: 12px;
 }
 
-
 /*//preloader portfolio img style*/
 img[src="img/ellipsis150.gif"] {
-    width:150px;
-    height:150px;
-    display:block;
-    margin:0 auto;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
     margin-top: 60px;
     margin-bottom: 60px;
 }
-/*//preloader style koniec*/
 
+/*//preloader style koniec*/
 
 @media only screen and (max-width: 1400px) {
     .portfolioSection p {
         font-size: 16px;
     }
+
     /*wszystko*/
-    .portfolioNav p:first-child{
+    .portfolioNav p:first-child {
         text-align: center;
-        width:110px;
+        width: 110px;
     }
+
     /*projektowanie*/
-    .portfolioNav p:nth-child(2){
-        width:230px;
+    .portfolioNav p:nth-child(2) {
+        width: 230px;
         text-align: center;
     }
+
     /*fotografia*/
-    .portfolioNav p:nth-child(3){
-        width:110px;
+    .portfolioNav p:nth-child(3) {
+        width: 110px;
         text-align: center;
     }
+
     /*Video*/
-    .portfolioNav p:nth-child(4){
-        width:110px;
+    .portfolioNav p:nth-child(4) {
+        width: 110px;
         text-align: center;
     }
+
     /*Strony*/
-    .portfolioNav p:nth-child(5){
-        width:130px;
+    .portfolioNav p:nth-child(5) {
+        width: 130px;
         text-align: center;
     }
 }
@@ -728,32 +760,36 @@ img[src="img/ellipsis150.gif"] {
         /*padding-left: 19px;*/
         font-size: 16px;
     }
+
     /*wszystko*/
-    .portfolioNav p:first-child{
+    .portfolioNav p:first-child {
         text-align: center;
-        width:100px;
+        width: 100px;
     }
+
     /*projektowanie*/
-    .portfolioNav p:nth-child(2){
-        width:220px;
-        text-align: center;
-    }
-    /*fotografia*/
-    .portfolioNav p:nth-child(3){
-        width:100px;
-        text-align: center;
-    }
-    /*Video*/
-    .portfolioNav p:nth-child(4){
-        width:100px;
-        text-align: center;
-    }
-    /*Strony*/
-    .portfolioNav p:nth-child(5){
-        width:120px;
+    .portfolioNav p:nth-child(2) {
+        width: 220px;
         text-align: center;
     }
 
+    /*fotografia*/
+    .portfolioNav p:nth-child(3) {
+        width: 100px;
+        text-align: center;
+    }
+
+    /*Video*/
+    .portfolioNav p:nth-child(4) {
+        width: 100px;
+        text-align: center;
+    }
+
+    /*Strony*/
+    .portfolioNav p:nth-child(5) {
+        width: 120px;
+        text-align: center;
+    }
 
     iframe {
         height: 250px;
@@ -793,30 +829,25 @@ img[src="img/ellipsis150.gif"] {
         background-position: left 130px;
     }
 
-    /*.nav {*/
-        /*width: 415px;*/
-    /*}*/
+    .nav li:first-child {
+        width: 113px;
+    }
 
-    /*.nav li:first-child {*/
-        /*width: 113px;*/
-        /*!*color: #3d3c3d;*!*/
-    /*}*/
+    .nav li:nth-child(2) {
+        width: 46px;
+    }
 
-    /*.nav li:nth-child(2) {*/
-        /*width: 46px;*/
-    /*}*/
+    .nav li:nth-child(3) {
+        width: 52px;
+    }
 
-    /*.nav li:nth-child(3) {*/
-        /*width: 52px;*/
-    /*}*/
+    .nav li:nth-child(4) {
+        width: 72px;
+    }
 
-    /*.nav li:nth-child(4) {*/
-        /*width: 72px;*/
-    /*}*/
-
-    /*.nav li:nth-child(5) {*/
-        /*width: 55px;*/
-    /*}*/
+    .nav li:nth-child(5) {
+        width: 55px;
+    }
 
     .tile {
         border: 3px #fff solid;
@@ -827,62 +858,81 @@ img[src="img/ellipsis150.gif"] {
         /*padding-left: 14px;*/
         font-size: 16px;
     }
+
     /*wszystko*/
-    .portfolioNav p:first-child{
+    .portfolioNav p:first-child {
         text-align: center;
-        width:90px;
+        width: 90px;
     }
+
     /*projektowanie*/
-    .portfolioNav p:nth-child(2){
-        width:210px;
+    .portfolioNav p:nth-child(2) {
+        width: 210px;
         text-align: center;
     }
+
     /*fotografia*/
-    .portfolioNav p:nth-child(3){
-        width:90px;
+    .portfolioNav p:nth-child(3) {
+        width: 90px;
         text-align: center;
     }
+
     /*Video*/
-    .portfolioNav p:nth-child(4){
-        width:90px;
+    .portfolioNav p:nth-child(4) {
+        width: 90px;
         text-align: center;
     }
+
     /*Strony*/
-    .portfolioNav p:nth-child(5){
-        width:110px;
+    .portfolioNav p:nth-child(5) {
+        width: 110px;
         text-align: center;
+    }
+
+    .prevButton {
+        padding-top: 29px;
+    }
+
+    .nextButton {
+        padding-top: 29px;
     }
 }
 
 @media only screen and (max-width: 1000px) {
+
     .portfolioSection p {
         /*padding-right: 14px;*/
         /*padding-left: 14px;*/
         font-size: 14px;
     }
+
     /*wszystko*/
-    .portfolioNav p:first-child{
+    .portfolioNav p:first-child {
         text-align: center;
-        width:80px;
+        width: 80px;
     }
+
     /*projektowanie*/
-    .portfolioNav p:nth-child(2){
-        width:200px;
+    .portfolioNav p:nth-child(2) {
+        width: 200px;
         text-align: center;
     }
+
     /*fotografia*/
-    .portfolioNav p:nth-child(3){
-        width:80px;
+    .portfolioNav p:nth-child(3) {
+        width: 80px;
         text-align: center;
     }
+
     /*Video*/
-    .portfolioNav p:nth-child(4){
-        width:80px;
+    .portfolioNav p:nth-child(4) {
+        width: 80px;
         text-align: center;
     }
+
     /*Strony*/
-    .portfolioNav p:nth-child(5){
-        width:100px;
+    .portfolioNav p:nth-child(5) {
+        width: 100px;
         text-align: center;
     }
 
@@ -909,6 +959,14 @@ img[src="img/ellipsis150.gif"] {
 
     .navButton {
         padding-right: 10%;
+    }
+
+    .nextButton {
+        right: 4%;
+    }
+
+    .prevButton {
+        left: 4%;
     }
 
     .portfolioNav {
@@ -954,30 +1012,29 @@ img[src="img/ellipsis150.gif"] {
         display: none
     }
 
-    /*.nav {*/
-        /*width: 395px;*/
-    /*}*/
+    .nav ul {
+        width: 500px;
+    }
 
-    /*.nav li:first-child {*/
-        /*width: 106px;*/
-        /*!*color: #3d3c3d;*!*/
-    /*}*/
+    .nav li:first-child {
+        width: 106px;
+    }
 
-    /*.nav li:nth-child(2) {*/
-        /*width: 43px;*/
-    /*}*/
+    .nav li:nth-child(2) {
+        width: 43px;
+    }
 
-    /*.nav li:nth-child(3) {*/
-        /*width: 49px;*/
-    /*}*/
+    .nav li:nth-child(3) {
+        width: 49px;
+    }
 
-    /*.nav li:nth-child(4) {*/
-        /*width: 69px;*/
-    /*}*/
+    .nav li:nth-child(4) {
+        width: 69px;
+    }
 
-    /*.nav li:nth-child(5) {*/
-        /*width: 52px;*/
-    /*}*/
+    .nav li:nth-child(5) {
+        width: 52px;
+    }
 
     .zNami {
         padding-bottom: 20px;
@@ -1001,10 +1058,12 @@ img[src="img/ellipsis150.gif"] {
         /*padding-left: 12px;*/
         font-size: 16px;
     }
+
     .text {
         font-size: 13px;
     }
-    .section7{
+
+    .section7 {
         padding-right: 10%;
         padding-left: 10%;
         font-size: 13px;
@@ -1239,6 +1298,7 @@ img[src="img/ellipsis150.gif"] {
         padding-bottom: 15px;
         padding-right: 5%;
         padding-left: 5%;
+        width: 390px;
     }
 
     .nav ul li {
@@ -1246,40 +1306,50 @@ img[src="img/ellipsis150.gif"] {
         float: left;
 
     }
-    .nav img{
+
+    .nav img {
         width: 20px;
     }
 
     .nav li {
         width: auto;
     }
-    .nav a{
-        font-size:12px;
+
+    .nav a {
+        font-size: 12px;
     }
-    .text{
+
+    .text {
         padding-right: 5%;
     }
 
-    /*.nav li:first-child {*/
-        /*width: 106px;*/
-        /*!*color: #3d3c3d;*!*/
-    /*}*/
+    .nav li:first-child {
+        width: 106px;
+    }
 
-    /*.nav li:nth-child(2) {*/
-        /*width: 43px;*/
-    /*}*/
+    .nav li:nth-child(2) {
+        width: 43px;
+    }
 
-    /*.nav li:nth-child(3) {*/
-        /*width: 49px;*/
-    /*}*/
+    .nav li:nth-child(3) {
+        width: 49px;
+    }
 
-    /*.nav li:nth-child(4) {*/
-        /*width: 69px;*/
-    /*}*/
+    .nav li:nth-child(4) {
+        width: 69px;
+    }
 
-    /*.nav li:nth-child(5) {*/
-        /*width: 52px;*/
-    /*}*/
+    .nav li:nth-child(5) {
+        width: 52px;
+    }
+
+    .nav li:nth-child(6) {
+        width: 35px;
+    }
+
+    .nav li:nth-child(7) {
+        width: 35px;
+    }
 
     body {
         font-size: 13px;
@@ -1300,12 +1370,46 @@ img[src="img/ellipsis150.gif"] {
     }
 
     .text {
+        position: initial;
         padding-left: 5%;
         bottom: 15%;
     }
 
-    .navButton {
+    .blueFotoSection h2 {
+        color: #009fe4;
+        font-family: Raleway;
+        font-weight: 600;
         padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .blueFotoSection h3 {
+        color: black;
+        margin-top: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .navButton {
+        padding-right: 4%;
+    }
+
+    .nextButton {
+        right: 0;
+        padding-top: 32px;
+    }
+
+    .nextButton img {
+        width: 20px;
+    }
+
+    .prevButton {
+        left: 0;
+        padding-top: 32px;
+    }
+
+    .prevButton img {
+        width: 20px;
     }
 
     .portfolioNav {
@@ -1314,13 +1418,13 @@ img[src="img/ellipsis150.gif"] {
     }
 
     #portfolio {
-        padding-right: 4.56%;
-        padding-left: 4.56%;
+        padding-right: 4%;
+        padding-left: 4%;
     }
 
     .break {
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: 8.2%;
+        margin-left: 8.2%;
     }
 
     .noBreak {
@@ -1341,6 +1445,15 @@ img[src="img/ellipsis150.gif"] {
         padding-right: 5%;
         padding-left: 5%;
     }
+.tile{
+    width: 33.3%;
+}
+    .snip1577 figcaption {
+        background-color: #00000085;
+        width: 100%;
+        height: 40%;
+        text-align: center;
+    }
 
     .portfolioSection p {
         font-size: 9px;
@@ -1349,30 +1462,35 @@ img[src="img/ellipsis150.gif"] {
     }
 
     /*wszystko*/
-    .portfolioNav p:first-child{
+    .portfolioNav p:first-child {
         text-align: center;
-        width:45px;
+        width: 45px;
     }
+
     /*projektowanie*/
-    .portfolioNav p:nth-child(2){
-        width:105px;
+    .portfolioNav p:nth-child(2) {
+        width: 109px;
         text-align: center;
     }
+
     /*fotografia*/
-    .portfolioNav p:nth-child(3){
-        width:45px;
+    .portfolioNav p:nth-child(3) {
+        width: 45px;
         text-align: center;
     }
+
     /*Video*/
-    .portfolioNav p:nth-child(4){
-        width:25px;
+    .portfolioNav p:nth-child(4) {
+        width: 25px;
         text-align: center;
     }
+
     /*Strony*/
-    .portfolioNav p:nth-child(5){
-        width:55px;
+    .portfolioNav p:nth-child(5) {
+        width: 55px;
         text-align: center;
     }
+
     iframe {
         height: 150px;
     }
@@ -1423,6 +1541,14 @@ img[src="img/ellipsis150.gif"] {
         display: none;
     }
 
+    .mobile {
+        display: block;
+    }
+
+    .normal {
+        display: none;
+    }
+
     .left {
         width: 100%;
     }
@@ -1451,7 +1577,22 @@ and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: landscape) {
     .portfolioSection p {
         font-size: 10px;
-        /*padding-right: 25px;*/
-        /*padding-left: 25px;*/
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .nav ul {
+        width: 370px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .nav ul {
+        width: 320px;
+        font-size: 10px;
+    }
+
+    .nav a {
+        font-size: 10px;
     }
 }

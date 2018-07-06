@@ -85,31 +85,32 @@ body {
     justify-content: space-between;
 }
 
-/*.nav li:first-child {*/
-    /*width: 126px;*/
-/*}*/
+.nav li:first-child {
+    width: 126px;
+}
 
-/*.nav li:nth-child(2) {*/
-    /*width: 49px;*/
-/*}*/
+.nav li:nth-child(2) {
+    width: 49px;
+}
 
-/*.nav li:nth-child(3) {*/
-    /*width: 55px;*/
-/*}*/
+.nav li:nth-child(3) {
+    width: 55px;
+}
 
-/*.nav li:nth-child(4) {*/
-    /*width: 80px;*/
-/*}*/
+.nav li:nth-child(4) {
+    width: 80px;
+}
 
-/*.nav li:nth-child(5) {*/
-    /*width: 62px;*/
-/*}*/
+.nav li:nth-child(5) {
+    width: 62px;
+}
+
 .nav li:nth-child(6) {
-    /*width: 44px;*/
+    width: 44px;
     margin-top: -3px;
 }
 .nav li:nth-child(7) {
-    /*width: 44px;*/
+    width: 44px;
     margin-top: -3px;
 }
 
@@ -431,6 +432,9 @@ p {
 .right img{
     width: 150px;
 }
+.mobile{
+    display: none;
+}
 .left{
     width: 80%;
     font-size: 12px;
@@ -465,29 +469,25 @@ p {
         background-position: left 130px;
     }
 
-    /*.nav {*/
-        /*width: 415px;*/
-    /*}*/
+    .nav li:first-child {
+        width: 113px;
+    }
 
-    /*.nav li:first-child {*/
-        /*width: 113px;*/
-    /*}*/
+    .nav li:nth-child(2) {
+        width: 46px;
+    }
 
-    /*.nav li:nth-child(2) {*/
-        /*width: 46px;*/
-    /*}*/
+    .nav li:nth-child(3) {
+        width: 52px;
+    }
 
-    /*.nav li:nth-child(3) {*/
-        /*width: 52px;*/
-    /*}*/
+    .nav li:nth-child(4) {
+        width: 72px;
+    }
 
-    /*.nav li:nth-child(4) {*/
-        /*width: 72px;*/
-    /*}*/
-
-    /*.nav li:nth-child(5) {*/
-        /*width: 55px;*/
-    /*}*/
+    .nav li:nth-child(5) {
+        width: 55px;
+    }
 
     .bottomPhoto {
         width: 160px;
@@ -559,29 +559,29 @@ p {
         display: none
     }
 
-    /*.nav {*/
-        /*width: 395px;*/
-    /*}*/
+    .nav ul{
+        width: 500px;
+    }
 
-    /*.nav li:first-child {*/
-        /*width: 106px;*/
-    /*}*/
+    .nav li:first-child {
+        width: 106px;
+    }
 
-    /*.nav li:nth-child(2) {*/
-        /*width: 43px;*/
-    /*}*/
+    .nav li:nth-child(2) {
+        width: 43px;
+    }
 
-    /*.nav li:nth-child(3) {*/
-        /*width: 49px;*/
-    /*}*/
+    .nav li:nth-child(3) {
+        width: 49px;
+    }
 
-    /*.nav li:nth-child(4) {*/
-        /*width: 69px;*/
-    /*}*/
+    .nav li:nth-child(4) {
+        width: 69px;
+    }
 
-    /*.nav li:nth-child(5) {*/
-        /*width: 52px;*/
-    /*}*/
+    .nav li:nth-child(5) {
+        width: 52px;
+    }
 
     .zNami {
         padding-bottom: 20px;
@@ -843,6 +843,7 @@ p {
         padding-bottom: 15px;
         padding-right: 5%;
         padding-left: 5%;
+        width: 390px;
     }
 
     .nav ul li {
@@ -859,29 +860,31 @@ p {
 .nav a{
     font-size:12px;
 }
-    /*.nav li {*/
-        /*width: auto;*/
-    /*}*/
+    .nav li:first-child {
+        width: 106px;
+    }
 
-    /*.nav li:first-child {*/
-        /*width: 106px;*/
-    /*}*/
+    .nav li:nth-child(2) {
+        width: 43px;
+    }
 
-    /*.nav li:nth-child(2) {*/
-        /*width: 43px;*/
-    /*}*/
+    .nav li:nth-child(3) {
+        width: 49px;
+    }
 
-    /*.nav li:nth-child(3) {*/
-        /*width: 49px;*/
-    /*}*/
+    .nav li:nth-child(4) {
+        width: 69px;
+    }
 
-    /*.nav li:nth-child(4) {*/
-        /*width: 69px;*/
-    /*}*/
-
-    /*.nav li:nth-child(5) {*/
-        /*width: 52px;*/
-    /*}*/
+    .nav li:nth-child(5) {
+        width: 52px;
+    }
+    .nav li:nth-child(6) {
+        width: 35px;
+    }
+    .nav li:nth-child(7) {
+        width: 35px;
+    }
 
     body {
         font-size: 13px;
@@ -902,9 +905,22 @@ p {
     }
 
     .text {
+        position: initial;
         padding-left: 5%;
         bottom: 15%;
-
+    }
+    .blueFotoSection h2{
+        color: #009fe4;
+        font-family: Raleway;
+        font-weight: 600;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .blueFotoSection h3{
+        color: black;
+        margin-top: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
     }
 
     .opisy {
@@ -1000,6 +1016,12 @@ p {
     .right {
         display: none;
     }
+    .mobile{
+        display: block;
+    }
+    .normal{
+        display: none;
+    }
 
     .right img {
         display: none;
@@ -1018,5 +1040,19 @@ and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: landscape) {
     .opisy {
         height: 1100px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .nav ul{
+        width:370px;
+    }
+}
+@media only screen and (max-width: 340px) {
+    .nav ul {
+        width:320px;
+        font-size: 10px;
+    }
+    .nav a{
+        font-size: 10px;
     }
 }

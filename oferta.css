@@ -88,35 +88,34 @@ body {
     justify-content: space-between;
 }
 
-/*.nav li:first-child {*/
-    /*width: 126px;*/
-    /*!*color: #3d3c3d;*!*/
-/*}*/
+.nav li:first-child {
+    width: 126px;
+}
 
-/*.nav li:nth-child(2) {*/
-    /*width: 49px;*/
-/*}*/
+.nav li:nth-child(2) {
+    width: 49px;
+}
 
-/*.nav li:nth-child(3) {*/
-    /*width: 55px;*/
-/*}*/
+.nav li:nth-child(3) {
+    width: 55px;
+}
 
-/*.nav li:nth-child(4) {*/
-    /*width: 80px;*/
-/*}*/
+.nav li:nth-child(4) {
+    width: 80px;
+}
 
-/*.nav li:nth-child(5) {*/
-    /*width: 62px;*/
-/*}*/
+.nav li:nth-child(5) {
+    width: 62px;
+}
+
 .nav li:nth-child(6) {
-    /*width: 44px;*/
+    width: 44px;
     margin-top: -3px;
 }
 .nav li:nth-child(7) {
-    /*width: 44px;*/
+    width: 44px;
     margin-top: -3px;
 }
-
 
 .nav a {
     color: #3d3c3d;
@@ -413,6 +412,9 @@ p {
     display: flex;
     align-items: center;
 }
+.mobile{
+    display: none;
+}
 .right{
     width: 30%;
     text-align: right;
@@ -454,30 +456,25 @@ p {
         background-position: left 130px;
     }
 
-    /*.nav {*/
-        /*width: 415px;*/
-    /*}*/
+    .nav li:first-child {
+        width: 113px;
+    }
 
-    /*.nav li:first-child {*/
-        /*width: 113px;*/
-        /*!*color: #3d3c3d;*!*/
-    /*}*/
+    .nav li:nth-child(2) {
+        width: 46px;
+    }
 
-    /*.nav li:nth-child(2) {*/
-        /*width: 46px;*/
-    /*}*/
+    .nav li:nth-child(3) {
+        width: 52px;
+    }
 
-    /*.nav li:nth-child(3) {*/
-        /*width: 52px;*/
-    /*}*/
+    .nav li:nth-child(4) {
+        width: 72px;
+    }
 
-    /*.nav li:nth-child(4) {*/
-        /*width: 72px;*/
-    /*}*/
-
-    /*.nav li:nth-child(5) {*/
-        /*width: 55px;*/
-    /*}*/
+    .nav li:nth-child(5) {
+        width: 55px;
+    }
 
     .opisOferty {
         /*height: 122px;*/
@@ -544,31 +541,31 @@ p {
     .blueDolny {
         display: none
     }
+    .nav ul{
+        width: 500px;
+    }
 
-    /*.nav {*/
-        /*width: 395px;*/
-    /*}*/
 
-    /*.nav li:first-child {*/
-        /*width: 106px;*/
-        /*!*color: #3d3c3d;*!*/
-    /*}*/
 
-    /*.nav li:nth-child(2) {*/
-        /*width: 43px;*/
-    /*}*/
+    .nav li:first-child {
+        width: 106px;
+    }
 
-    /*.nav li:nth-child(3) {*/
-        /*width: 49px;*/
-    /*}*/
+    .nav li:nth-child(2) {
+        width: 43px;
+    }
 
-    /*.nav li:nth-child(4) {*/
-        /*width: 69px;*/
-    /*}*/
+    .nav li:nth-child(3) {
+        width: 49px;
+    }
 
-    /*.nav li:nth-child(5) {*/
-        /*width: 52px;*/
-    /*}*/
+    .nav li:nth-child(4) {
+        width: 69px;
+    }
+
+    .nav li:nth-child(5) {
+        width: 52px;
+    }
 
     .zNami {
         padding-bottom: 20px;
@@ -826,6 +823,7 @@ p {
         padding-bottom: 15px;
         padding-right: 5%;
         padding-left: 5%;
+        width: 390px;
     }
     .nav ul li {
         width: auto;
@@ -845,28 +843,50 @@ p {
     .text{
         padding-right: 5%;
     }
-    /*.nav li:first-child {*/
-        /*width: 106px;*/
-        /*!*color: #3d3c3d;*!*/
-    /*}*/
+    .nav li:first-child {
+        width: 106px;
+    }
 
-    /*.nav li:nth-child(2) {*/
-        /*width: 43px;*/
-    /*}*/
+    .nav li:nth-child(2) {
+        width: 43px;
+    }
 
-    /*.nav li:nth-child(3) {*/
-        /*width: 49px;*/
-    /*}*/
+    .nav li:nth-child(3) {
+        width: 49px;
+    }
 
-    /*.nav li:nth-child(4) {*/
-        /*width: 69px;*/
-    /*}*/
+    .nav li:nth-child(4) {
+        width: 69px;
+    }
 
-    /*.nav li:nth-child(5) {*/
-        /*width: 52px;*/
-    /*}*/
+    .nav li:nth-child(5) {
+        width: 52px;
+    }
+    .nav li:nth-child(6) {
+        width: 35px;
+    }
+    .nav li:nth-child(7) {
+        width: 35px;
+    }
 
-
+    .text {
+        position: initial;
+        padding-left: 5%;
+        bottom: 15%;
+    }
+    .blueFotoSection h2{
+        color: #009fe4;
+        font-family: Raleway;
+        font-weight: 600;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .blueFotoSection h3{
+        color: black;
+        margin-top: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
     body{
         font-size: 13px;
     }
@@ -925,10 +945,12 @@ p {
     .opisOferty {
          /*height: 111px;*/
     }
-
-
-
-
+    .mobile{
+        display: block;
+    }
+    .normal{
+        display: none;
+    }
     .kropkiJasne{
         background-position: left 60px;
         width: 15%;
@@ -969,5 +991,19 @@ p {
 
     .left {
         width: 100%;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .nav ul{
+        width:370px;
+    }
+}
+@media only screen and (max-width: 340px) {
+    .nav ul {
+        width:320px;
+        font-size: 10px;
+    }
+    .nav a{
+        font-size: 10px;
     }
 }

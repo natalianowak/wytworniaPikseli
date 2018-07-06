@@ -130,32 +130,32 @@ video {
     justify-content: space-between;
 }
 
-/*.nav li:first-child {*/
-    /*width: 126px;*/
-/*}*/
+.nav li:first-child {
+    width: 126px;
+}
 
-/*.nav li:nth-child(2) {*/
-    /*width: 49px;*/
-/*}*/
+.nav li:nth-child(2) {
+    width: 49px;
+}
 
-/*.nav li:nth-child(3) {*/
-    /*width: 55px;*/
-/*}*/
+.nav li:nth-child(3) {
+    width: 55px;
+}
 
-/*.nav li:nth-child(4) {*/
-    /*width: 80px;*/
-/*}*/
+.nav li:nth-child(4) {
+    width: 80px;
+}
 
-/*.nav li:nth-child(5) {*/
-    /*width: 62px;*/
-/*}*/
+.nav li:nth-child(5) {
+    width: 62px;
+}
 
 .nav li:nth-child(6) {
-    /*width: 44px;*/
+    width: 44px;
     margin-top: -3px;
 }
 .nav li:nth-child(7) {
-    /*width: 44px;*/
+    width: 44px;
     margin-top: -3px;
 }
 
@@ -273,7 +273,7 @@ h3 {
     color: #009fe4;
     padding-left: 19%;
     padding-right: 19%;
-    padding-bottom: 35px;
+    padding-bottom: 50px;
     width: 100%;
     text-align: right;
     display: block;
@@ -281,11 +281,20 @@ h3 {
 
 .dalejDiv a {
     color: #009fe4;
+    color: #009fe4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 140px;
+    float: right;
 }
 
 .dalejDiv a:hover {
     text-decoration: none;
     color: #009fe4;
+}
+.dalejDiv a:visited{
+    text-decoration: none;
 }
 
 .elipsy {
@@ -369,7 +378,7 @@ h3 {
     width: 54%;
     position: absolute;
     top: 25%;
-    bottom: 1px;
+    bottom: 0px;
     margin: auto;
     text-align: justify;
     z-index: 2;
@@ -418,10 +427,18 @@ h3 {
 
 .dalej2 a {
     color: white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 135px;
 }
 
 .dalej2 a:hover {
     color: white;
+    text-decoration: none;
+}
+.dalej2 a:visited{
     text-decoration: none;
 }
 
@@ -613,6 +630,9 @@ h3 {
 .skontaktuj {
     width: 100%
 }
+.mobile{
+    display: none;
+}
 
 .srodkowanieWpionie {
     width: 100%;
@@ -779,10 +799,6 @@ p {
         justify-content: space-between;
     }
 
-    .yellowSectionContent {
-        /*height: 270px;*/
-    }
-
     .middleDownRight {
         font-size: 19px
     }
@@ -795,29 +811,25 @@ p {
         background-position: left 130px;
     }
 
-    /*.nav {*/
-        /*!*width: 415px;*!*/
-    /*}*/
+    .nav li:first-child {
+        width: 113px;
+    }
 
-    /*.nav li:first-child {*/
-        /*width: 113px;*/
-    /*}*/
+    .nav li:nth-child(2) {
+        width: 46px;
+    }
 
-    /*.nav li:nth-child(2) {*/
-        /*width: 46px;*/
-    /*}*/
+    .nav li:nth-child(3) {
+        width: 52px;
+    }
 
-    /*.nav li:nth-child(3) {*/
-        /*width: 52px;*/
-    /*}*/
+    .nav li:nth-child(4) {
+        width: 72px;
+    }
 
-    /*.nav li:nth-child(4) {*/
-        /*width: 72px;*/
-    /*}*/
-
-    /*.nav li:nth-child(5) {*/
-        /*width: 55px;*/
-    /*}*/
+    .nav li:nth-child(5) {
+        width: 55px;
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -880,30 +892,30 @@ p {
     .podpis {
         font-size: 12px;
     }
+    .nav ul{
+        width: 500px;
+    }
 
-    /*.nav {*/
-        /*width: 395px;*/
-    /*}*/
 
-    /*.nav li:first-child {*/
-        /*width: 106px;*/
-    /*}*/
+    .nav li:first-child {
+        width: 106px;
+    }
 
-    /*.nav li:nth-child(2) {*/
-        /*width: 43px;*/
-    /*}*/
+    .nav li:nth-child(2) {
+        width: 43px;
+    }
 
-    /*.nav li:nth-child(3) {*/
-        /*width: 49px;*/
-    /*}*/
+    .nav li:nth-child(3) {
+        width: 49px;
+    }
 
-    /*.nav li:nth-child(4) {*/
-        /*width: 69px;*/
-    /*}*/
+    .nav li:nth-child(4) {
+        width: 69px;
+    }
 
-    /*.nav li:nth-child(5) {*/
-        /*width: 52px;*/
-    /*}*/
+    .nav li:nth-child(5) {
+        width: 52px;
+    }
 
     .zNami {
         padding-bottom: 20px;
@@ -1144,6 +1156,8 @@ p {
         padding-bottom: 15px;
         padding-right: 5%;
         padding-left: 5%;
+        width: 390px;
+
     }
 
     .nav ul li {
@@ -1161,29 +1175,31 @@ p {
       padding-right: 5%;
     }
 
-    /*.nav li {*/
-        /*width: auto;*/
-    /*}*/
+    .nav li:first-child {
+        width: 106px;
+    }
 
-    /*.nav li:first-child {*/
-        /*width: 106px;*/
-    /*}*/
+    .nav li:nth-child(2) {
+        width: 43px;
+    }
 
-    /*.nav li:nth-child(2) {*/
-        /*width: 43px;*/
-    /*}*/
+    .nav li:nth-child(3) {
+        width: 49px;
+    }
 
-    /*.nav li:nth-child(3) {*/
-        /*width: 49px;*/
-    /*}*/
+    .nav li:nth-child(4) {
+        width: 69px;
+    }
 
-    /*.nav li:nth-child(4) {*/
-        /*width: 69px;*/
-    /*}*/
-
-    /*.nav li:nth-child(5) {*/
-        /*width: 52px;*/
-    /*}*/
+    .nav li:nth-child(5) {
+        width: 52px;
+    }
+    .nav li:nth-child(6) {
+        width: 35px;
+    }
+    .nav li:nth-child(7) {
+        width: 35px;
+    }
 
     body {
         font-size: 13px;
@@ -1200,6 +1216,25 @@ p {
     .baseline {
         padding-right: 5%;
         padding-left: 5%;
+    }
+    .section1Text{
+        padding-left: 19%;
+        width: 100%;
+        /*top: 30%;*/
+        flex-direction: column;
+        z-index: 0;
+
+    }
+    .fajneHaslo h2{
+        color: black;
+    }
+    .fajneHaslo h3{
+        color: #009fe4;
+        font-family: Raleway;
+        font-weight: 600;
+    }
+    .longText{
+        position: initial;
     }
 
     .section1Text {
@@ -1218,6 +1253,9 @@ p {
 
     .dalejDiv {
         padding-right: 5.5%;
+    }
+    .dalejDiv a {
+        width:120px;
     }
 
     .textSection3 {
@@ -1329,13 +1367,41 @@ p {
     .zNami {
         display: none;
     }
+    .my{
+        display: block;
+        height: 23%;
+        margin-top: 3%;
+    }
+    .backgroundSection44{
+        position: inherit;
+    }
+    .losiu{
+        margin-left: 0;
+        margin: auto;
+        margin-bottom: 6%;
+        height: 130%;
+        width: 45%;
+    }
+    .stodi{
+        margin-left: 0;
+        margin: auto;
+        height: 130%;
+        width: 45%;
+    }
+    .danka{
+        margin-left: 0;
+        margin: auto;
+        margin-bottom: 6%;
+        height: 130%;
+        width: 45%;
+    }
 
     .bottom {
         display: flex;
         flex-direction: column;
     }
 
-    .middleDownLeft {
+    .middleDownLeft{
         width: 100%;
     }
 
@@ -1364,6 +1430,12 @@ p {
 
     .left {
         width: 100%;
+    }
+    .mobile{
+        display: block;
+    }
+    .normal{
+        display: none;
     }
     #status {
         left:40%;
@@ -1409,5 +1481,20 @@ and (orientation: landscape) {
 
     .yellowSectionContent {
         /*height: 300px;*/
+    }
+}
+@media only screen and (max-width: 640px) {
+.nav ul{
+    width:370px;
+}
+}
+
+@media only screen and (max-width: 340px) {
+    .nav ul {
+        width:320px;
+        font-size: 10px;
+    }
+    .nav a{
+        font-size: 10px;
     }
 }
