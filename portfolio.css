@@ -433,6 +433,11 @@ body {
     color: #eee;
     font-weight: bold
 }
+#active22 {
+    background: #009fe4;
+    color: #eee;
+    font-weight: bold
+}
 
 .portfolioSection p:hover {
     cursor: pointer;
@@ -1437,8 +1442,8 @@ img[src="img/ellipsis150.gif"] {
     }
 
     .noBreak {
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: 8.2%;
+        margin-left: 8.2%;
     }
 
     .opakownie {
@@ -1570,6 +1575,7 @@ img[src="img/ellipsis150.gif"] {
         font-family: "Raleway SemiBold";
         font-weight: bold;
         opacity: 1;
+        display: -webkit-inline-box;
     }
 
     .snip1577 figcaption {

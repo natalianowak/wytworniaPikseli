@@ -193,6 +193,8 @@ $(function () {
         console.log(selectedClass);
         choosenCategory = selectedClass;
        $(this).attr("id","active2"); //dodoanie niebieskiego donavwybranej kategori
+    // $(".navDolny p"+"[rel='+selectedClass+']").attr("id","active22"); //dodaj activ do navdolengo
+    //     console.log("to jest this" + selectedClass);
         $("#portfolio").fadeTo(100, 0.1);  //znikaja kwadraty
         $("#portfolio div").not("." + selectedClass).fadeOut(); //pojawiaja sie te ktore maja wybrana klase np allwebsite graphic
         setTimeout(function () {
@@ -202,6 +204,9 @@ $(function () {
         }, 500);
     });
 });
+
+
+
 
 var choosenProjectClass = "";
 $(function () {
@@ -214,8 +219,8 @@ $(function () {
         $(".simplyPoland").css("display", "block");
         choosenProjectClass = $(".simplyPolandClick");
         console.log(choosenProjectClass);
-        checkIfThereIsNextClass();
-        checkIfThereIsPrevClass();
+        // checkIfThereIsNextClass();
+        // checkIfThereIsPrevClass();
     });
 
     $(".onglowClick").click(function () {
@@ -226,8 +231,8 @@ $(function () {
         $(".onglow").css("display", "block");
         choosenProjectClass = $(".onglowClick");
         console.log(choosenProjectClass);
-        checkIfThereIsNextClass();
-        checkIfThereIsPrevClass();
+        // checkIfThereIsNextClass();
+        // checkIfThereIsPrevClass();
     });
 
 
@@ -239,8 +244,8 @@ $(function () {
         $(".locomotiva").css("display", "block");
         choosenProjectClass = $(".locomotivaClick");
         console.log(choosenProjectClass);
-        checkIfThereIsNextClass();
-        checkIfThereIsPrevClass();
+        // checkIfThereIsNextClass();
+        // checkIfThereIsPrevClass();
     });
 
 
@@ -253,8 +258,8 @@ $(function () {
         choosenProjectClass = $(".kopalniaClick");
         console.log(choosenProjectClass + "kopalniaCkick on  to jest ");
         console.log(choosenProjectClass + "to jestwybrna klasa object jquery");
-        checkIfThereIsNextClass();
-        checkIfThereIsPrevClass();
+        // checkIfThereIsNextClass();
+        // checkIfThereIsPrevClass();
     });
 
     $(".jestesmyClick").click(function () {
@@ -266,8 +271,8 @@ $(function () {
         choosenProjectClass = $(".jestesmyClick");
         console.log(choosenProjectClass );
         console.log(choosenProjectClass);
-        checkIfThereIsNextClass();
-        checkIfThereIsPrevClass();
+        // checkIfThereIsNextClass();
+        // checkIfThereIsPrevClass();
     });
     $(".solpakClick").click(function () {
         $("#portfolio").css("display", "none");
@@ -278,8 +283,8 @@ $(function () {
         choosenProjectClass = $(".solpakClick");
         console.log(choosenProjectClass );
         console.log(choosenProjectClass);
-        checkIfThereIsNextClass();
-        checkIfThereIsPrevClass();
+        // checkIfThereIsNextClass();
+        // checkIfThereIsPrevClass();
     });
 
     $(".guardianClick").click(function () {
@@ -291,8 +296,8 @@ $(function () {
         choosenProjectClass = $(".guardianClick");
         console.log(choosenProjectClass );
         console.log(choosenProjectClass);
-        checkIfThereIsNextClass();
-        checkIfThereIsPrevClass();
+        // checkIfThereIsNextClass();
+        // checkIfThereIsPrevClass();
     });
 
     $(".hcgClick").click(function () {
@@ -304,8 +309,8 @@ $(function () {
         choosenProjectClass = $(".hcgClick");
         console.log(choosenProjectClass );
         console.log(choosenProjectClass);
-        checkIfThereIsNextClass();
-        checkIfThereIsPrevClass();
+        // checkIfThereIsNextClass();
+        // checkIfThereIsPrevClass();
     });
 
     $(".helveticaClick").click(function () {
@@ -317,8 +322,8 @@ $(function () {
         choosenProjectClass = $(".helveticaClick");
         console.log(choosenProjectClass );
         console.log(choosenProjectClass);
-        checkIfThereIsNextClass();
-        checkIfThereIsPrevClass();
+        // checkIfThereIsNextClass();
+        // checkIfThereIsPrevClass();
     });
 
     $(".jakaBoxClick").click(function () {
@@ -330,8 +335,8 @@ $(function () {
         choosenProjectClass = $(".jakaBoxClick");
         console.log(choosenProjectClass );
         console.log(choosenProjectClass);
-        checkIfThereIsNextClass();
-        checkIfThereIsPrevClass();
+        // checkIfThereIsNextClass();
+        // checkIfThereIsPrevClass();
     });
 
     $(".keteClick").click(function () {
@@ -343,8 +348,8 @@ $(function () {
         choosenProjectClass = $(".keteClick");
         console.log(choosenProjectClass );
         console.log(choosenProjectClass);
-        checkIfThereIsNextClass();
-        checkIfThereIsPrevClass();
+        // checkIfThereIsNextClass();
+        // checkIfThereIsPrevClass();
     });
 
     $(".kitchooClick").click(function () {
@@ -356,8 +361,8 @@ $(function () {
         choosenProjectClass = $(".kitchooClick");
         console.log(choosenProjectClass );
         console.log(choosenProjectClass);
-        checkIfThereIsNextClass();
-        checkIfThereIsPrevClass();
+        // checkIfThereIsNextClass();
+        // checkIfThereIsPrevClass();
     });
     $(".milooClick").click(function () {
         $("#portfolio").css("display", "none");
@@ -368,8 +373,8 @@ $(function () {
         choosenProjectClass = $(".milooClick");
         console.log(choosenProjectClass );
         console.log(choosenProjectClass);
-        checkIfThereIsNextClass();
-        checkIfThereIsPrevClass();
+        // checkIfThereIsNextClass();
+        // checkIfThereIsPrevClass();
     });
 
     $(".jakaBox2Click").click(function () {
@@ -381,8 +386,8 @@ $(function () {
         choosenProjectClass = $(".jakaBox2Click");
         console.log(choosenProjectClass );
         console.log(choosenProjectClass);
-        checkIfThereIsNextClass();
-        checkIfThereIsPrevClass();
+        // checkIfThereIsNextClass();
+        // checkIfThereIsPrevClass();
     });
     $(".chwilaZapomnieniaClick").click(function () {
         $("#portfolio").css("display", "none");
@@ -393,29 +398,29 @@ $(function () {
         choosenProjectClass = $(".chwilaZapomnieniaClick");
         console.log(choosenProjectClass );
         console.log(choosenProjectClass);
-        checkIfThereIsNextClass();
-        checkIfThereIsPrevClass();
+        // checkIfThereIsNextClass();
+        // checkIfThereIsPrevClass();
     });
 
     // TU dodaj kolejne reALIZAJIE:
 
 
-    function checkIfThereIsPrevClass() {
-        var prevClass = $("." + choosenCategory).eq($("." + choosenCategory).index(choosenProjectClass) - 1);
-        if(prevClass[0].classList[3] === undefined){
-            $(".prevButton").css("color","red");
-        }else {
-            $(".prevButton").css("color","black");
-        }
-    }
-    function checkIfThereIsNextClass() {
-        var nextClass = $("." + choosenCategory).eq($("." + choosenCategory).index(choosenProjectClass) + 1);
-        if(nextClass[0].classList[3] === undefined){
-            $(".nextButton").css("color","red");
-        }else {
-            $(".nextButton").css("color","black");
-        }
-    }
+    // function checkIfThereIsPrevClass() {
+    //     var prevClass = $("." + choosenCategory).eq($("." + choosenCategory).index(choosenProjectClass) - 1);
+    //     if(prevClass[0].classList[3] === undefined){
+    //         $(".prevButton").css("cursor","not-allowed");
+    //     }else {
+    //         $(".prevButton").css("cursor","pointer");
+    //     }
+    // }
+    // function checkIfThereIsNextClass() {
+    //     var nextClass = $("." + choosenCategory).eq($("." + choosenCategory).index(choosenProjectClass) + 1);
+    //     if(nextClass[0].classList[3] === undefined){
+    //         $(".nextButton img").css("cursor","not-allowed");
+    //     }else {
+    //         $(".nextButton img").css("cursor","pointer");
+    //     }
+    // }
 
     $(".closeButton").click(function () {
         removeClass();
