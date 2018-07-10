@@ -1441,26 +1441,25 @@ p {
     #status {
         left:40%;
     }
+    .section7{
+        position: relative;
+    }
 }
 
 @media only screen
 and (min-device-width: 375px)
 and (max-device-width: 812px)
 and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: landscape) {
+and(orientation: landscape) {
     /* Landscape styles */
     .section1Text {
-        top: 42%;
+        top: 50vh;
     }
 
     .blueSymbol {
         display: none;
     }
 
-    /*.elipUklad {*/
-    /*display: inherit;*/
-    /*width: 50%;*/
-    /*}*/
     .elipsy {
         position: absolute;
         top: 30%;
@@ -1483,11 +1482,18 @@ and (orientation: landscape) {
     .yellowSectionContent {
         /*height: 300px;*/
     }
+    .nav ul{
+        width:500px;
+    }
+
 }
 @media only screen and (max-width: 640px) {
 .nav ul{
-    width:370px;
+    width:500px;
 }
+    .section1Text {
+        top: 50vh;
+    }
 }
 
 @media only screen and (max-width: 340px) {
