@@ -1,0 +1,11 @@
+/*//preloader portfolio img style*/
+img[src="img/ellipsis150.gif"] {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/*//preloader style koniec*/

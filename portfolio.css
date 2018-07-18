@@ -37,7 +37,20 @@ body {
     color: #fff;
     text-align: left;
     font-size: 16px;
-    background: #000;
+    background: white;
+    transition: all 1s;
+}
+
+@keyframes example {
+    from {background-color: white;}
+    to {background-color: black;}
+}
+
+.snip1577:hover{
+    animation-name: example;
+    animation-duration: 0.4s;
+    animation-timing-function: ease;
+    background: black;
 }
 
 .snip1577 *,
@@ -50,6 +63,9 @@ body {
 }
 
 .snip1577 img {
+    -webkit-transform: translateZ(0);
+    min-width: 100%;
+    width: 100%;
     max-width: 100%;
     /*backface-visibility: hidden;*/
     vertical-align: top;
@@ -707,17 +723,6 @@ p {
     font-size: 12px;
 }
 
-/*//preloader portfolio img style*/
-img[src="img/ellipsis150.gif"] {
-    width: 150px;
-    height: 150px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
-/*//preloader style koniec*/
 
 @media only screen and (max-width: 1400px) {
     .portfolioSection p {

@@ -1,0 +1,22 @@
+/*preloader stona glowna start*/
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(255, 255, 255);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#757575', GradientType=1);
+    z-index: 999; /* makes sure it stays on top */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#status {
+    width: 200px;
+    height: 200px;
+    background-image: url(img/DoubleRing.gif); /* tutaj podaj ścieżkę do pliku z animacją */
+    background-repeat: no-repeat;
+    background-position: center;
+}
