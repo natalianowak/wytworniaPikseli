@@ -5,6 +5,27 @@ $(window).resize(function () {
     }, 500);
 });
 
+var isMobile = {
+    Android: function() {
+        return navigator.userAgent.match(/Android/i);
+    },
+    BlackBerry: function() {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
+    Opera: function() {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    Windows: function() {
+        return navigator.userAgent.match(/IEMobile/i);
+    },
+    any: function() {
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+    }
+};
+
 var map;
 var myLatlng = new google.maps.LatLng(49.9751544, 20.4217713);
 var zoom = 15;
@@ -108,7 +129,7 @@ function initialize() {
     });
 
     marker.addListener('click', function () {
-        window.location = "https://www.google.pl/maps/dir/''/wytwornia+pikseli/@49.9751927,20.3519466,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47163b3a3f97e2d9:0x3eca72adb3d94805!2m2!1d20.4219862!2d49.9752138";
+        window.location = "https://www.google.pl/maps/dir//Wytw%C3%B3rnia+Pikseli,+Karosek+27,+32-700+Bochnia/@49.9753031,20.3519464,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47163b3a3f97e2d9:0x3eca72adb3d94805!2m2!1d20.4219862!2d49.9752138";
     });
 
     map = new google.maps.Map(document.getElementById('map'), myOptions);
@@ -509,5 +530,19 @@ $(window).scroll(function () {
         $('#status').fadeOut(); // efekt zanikania animowanej grafiki
         $('#preloader').delay(200).fadeOut('slow'); // efekt zanikania warstwy zakrywającej stronę
         $('body').delay(200).css({'overflow': 'visible'}); // dopóki nasz div#preloader jest widoczny nie ma możliwości przewijania strony
+    });
+})(jQuery);
+
+(function ($) {
+    $(function() {
+        if (isMobile.any() || window.innerWidth<700) {
+            return;
+        }
+
+        var video = '<video class="video normal" autoplay muted loop>' +
+            '<source class="videofilm" src="img/wytwornia_pikseli_film_naglowek_720p_max19.mp4">' +
+        '</video>';
+
+        $('#video-container').html(video);
     });
 })(jQuery);

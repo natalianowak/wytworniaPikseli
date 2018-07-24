@@ -1204,7 +1204,7 @@ p {
         color: black;
     }
     .fajneHaslo h3{
-        color: #fbb900;
+        color: #009fe4;
         font-family: Raleway;
         font-weight: 600;
         font-size: 18px;
@@ -1231,7 +1231,10 @@ p {
         padding-right: 5.5%;
     }
     .dalejDiv a {
-        width:120px;
+        width:110px;
+    }
+    .dalej2 a{
+        width:110px;
     }
 
     .textSection3 {
@@ -1262,6 +1265,7 @@ p {
 
     .section3 {
         background-image: none;
+        height: 310px;
     }
 
     .textSection3 {
@@ -1298,33 +1302,14 @@ p {
         width: 25%;
         margin: 0 auto;
     }
-
     .elipsy {
         display: block;
         top: 25%;
-        /*height: -webkit-fill-available;*/
-
     }
 
-    /*.elipUklad {*/
-    /*width: 100%;*/
-    /*display: flex;*/
-    /*justify-content: space-between;*/
-    /*}*/
-    /*.elipUklad:nth-child(3) {*/
-    /*margin-right: 0;*/
-    /*}*/
-    /*.elipMargin {*/
-    /*margin-right: 0;*/
-    /*}*/
     .co {
         top: 10%
     }
-
-    /*.yellowSectionContent {*/
-        /*height: 400px;*/
-    /*}*/
-
     .blueSymbol {
         padding-left: 5%;
         bottom: -7%;
@@ -1478,5 +1463,8 @@ and(orientation: landscape) {
     }
     .nav a{
         font-size: 10px;
+    }
+    .section3{
+        height:310px;
     }
 }

@@ -22,35 +22,64 @@ body {
     height: auto;
     overflow: scroll;
 }
-
-/*------------------*/
+/*snippa*/
 /*@import url(https://fonts.googleapis.com/css?family=Montserrat:200);*/
-.snip1577 {
-    font-family: "Raleway SemiBold", sans-serif;
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-    /*min-width: 230px;*/
-    /*max-width: 315px;*/
+
+
+/* This is the parent container class
+the position is set to relative for absolute positioning inside */
+.img-hover-text {
     width: 100%;
-    height: 100%;
-    color: #fff;
-    text-align: left;
+    margin: auto;
+    position: relative;
+    font-size:16px;
+    /*background: #00000085;*/
+}
+
+/* The image inside of the .img-hover-text will fill the width of its parent */
+.img-hover-text img {
+    width: 100%;
+    transition: .5s;
+
+}
+
+/* The caption text inside of the .img-hover-text */
+.img-hover-text figcaption {
+    font-family: "Raleway SemiBold", sans-serif;
+    font-size:16px;
+    color: white;
+    /* Position absolute to remove it from the flow of the document and absolutely position it within the .img-hover-text container */
+    position: absolute;
+    width: 80%;
+    /* Position this elements bottom away from the bottom of the .img-hover-text container by 10% of the  .img-hover-text containers height */
+    bottom: 10%;
+    /* Position this elements left side away from the left side of the .img-hover-text container by 10% of the .img-hover-text containers width */
+    left: 10%;
+    padding: 10px;
+    /* Factor padding and border size into declared width */
+    box-sizing: border-box;
+    /* Opacity 0 so the element cannot be seen unless user is hovering cursor */
+    opacity: 0;
+    /* Transition all properties by half a second */
+    transition: .5s;
+
+}
+
+figcaption h3{
     font-size: 16px;
-    background: white;
+}
+
+/* :hover pseudo selector used on parent container to then target figcaption child */
+.img-hover-text:hover figcaption {
+    /* Makes the element completely visible */
+    opacity: 1;
     transition: all 1s;
 }
 
-@keyframes example {
-    from {background-color: white;}
-    to {background-color: black;}
-}
-
-.snip1577:hover{
-    animation-name: example;
-    animation-duration: 0.4s;
-    animation-timing-function: ease;
-    background: black;
+.img-hover-text:hover img {
+    filter: brightness(30%);
+    -webkit-filter: brightness(30%);
+    transition: all 1s;
 }
 
 .snip1577 *,
@@ -60,15 +89,12 @@ body {
     box-sizing: border-box;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
+
 }
 
 .snip1577 img {
-    -webkit-transform: translateZ(0);
-    min-width: 100%;
-    width: 100%;
     max-width: 100%;
-    /*backface-visibility: hidden;*/
-    vertical-align: top;
+    transition: all 1s;
 }
 
 .snip1577:before,
@@ -92,38 +118,6 @@ body {
     width: 1px;
 }
 
-.snip1577 figcaption {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    padding: 15px 20px;
-}
-
-.snip1577 h3 {
-    margin: 0;
-    font-size: 1.1em;
-    font-family: "Raleway SemiBold";
-    font-weight: bold;
-    opacity: 0;
-}
-
-/*.snip1577 a {*/
-/*position: absolute;*/
-/*top: 0;*/
-/*bottom: 0;*/
-/*left: 0;*/
-/*right: 0;*/
-/*z-index: 1;*/
-/*}*/
-
-.snip1577:hover img,
-.snip1577.hover img {
-    zoom: 1;
-    filter: alpha(opacity=20);
-    -webkit-opacity: 0.3;
-    opacity: 0.3;
-}
-
 .snip1577:hover:before,
 .snip1577.hover:before,
 .snip1577:hover:after,
@@ -142,18 +136,6 @@ body {
 .snip1577.hover:after {
     height: 40px;
 }
-
-.snip1577:hover h3,
-.snip1577.hover h3 {
-    opacity: 1;
-}
-
-.snip1577:hover h3,
-.snip1577.hover h3 {
-    -webkit-transition-delay: 0.3s;
-    transition-delay: 0.3s;
-}
-
 /*-----------------------*/
 
 .menuGorne {
@@ -166,15 +148,15 @@ body {
 .firstSection {
     height: 84px;
 }
+.white{
+    background-color: white;
+}
 
 /*ten jasniejszy pasek u gory*/
 .belkaGorna {
     z-index: 3;
     position: fixed;
     width: 100%;
-    /*background-image: url("img/menuGórne2.png");*/
-    /*background-repeat: repeat-x;*/
-    /*background-size: cover;*/
 }
 
 /*div z logo i nav*/
@@ -280,13 +262,6 @@ body {
     justify-content: space-between;
 }
 
-/*.portfolioNav:first-child{*/
-/*width:30px*/
-/*}*/
-/*.portfolioNav:nth-child(2){*/
-/*width:60px*/
-/*}*/
-
 .blueFotoSection {
     position: relative;
     height: 350px;
@@ -339,23 +314,10 @@ body {
 }
 
 .tile:hover {
-    /*opacity: 0.3;*/
-    /*background-color: #CC000000;*/
     cursor: pointer;
 }
 
-/*a[class*='lightcase-icon-'].lightcase-icon-next {*/
-/*color: black;*/
-/*}*/
-/*[class*='lightcase-icon-'].lightcase-icon-close {*/
-/*color: black;*/
-/*}*/
-/*[class*='lightcase-icon-'].lightcase-icon-prev {*/
-/*color: black;*/
-/*}*/
 .navButton {
-    /*padding-right: 19%;*/
-    /*height: 20px;*/
     width: 100%;
     display: none;
     background-color: transparent;
@@ -762,8 +724,6 @@ p {
 
 @media only screen and (max-width: 1300px) {
     .portfolioSection p {
-        /*padding-right: 25px;*/
-        /*padding-left: 25px;*/
         font-size: 16px;
     }
 
@@ -872,8 +832,6 @@ p {
     }
 
     .portfolioSection p {
-        /*padding-right: 14px;*/
-        /*padding-left: 14px;*/
         font-size: 16px;
     }
 
@@ -919,8 +877,6 @@ p {
 @media only screen and (max-width: 1000px) {
 
     .portfolioSection p {
-        /*padding-right: 14px;*/
-        /*padding-left: 14px;*/
         font-size: 14px;
     }
 
@@ -1072,8 +1028,6 @@ p {
     }
 
     .portfolioSection p {
-        /*padding-right: 12px;*/
-        /*padding-left: 12px;*/
         font-size: 16px;
     }
 
@@ -1114,17 +1068,10 @@ p {
 
     /*  MENUTOGGLE  */
     .menuToggle_Container {
-        /*border: 1px solid red;*/
-        /*width: 100%;*/
-        /*height: 50px;*/
-        /*background: rgba(0,0,0,0.5);*/
-        /*float: left;*/
     }
 
     #menuToggle {
-        /*border: 1px solid red;*/
         margin: auto;
-        /*left: 0;*/
         right: 5%;
         bottom: 0;
         top: 0;
@@ -1133,8 +1080,6 @@ p {
         background: transparent;
         cursor: pointer;
         position: absolute;
-        /*top: 18px;*/
-        /*right: 25px;*/
         -webkit-transition: .3s ease-in-out;
         -moz-transition: .3s ease-in-out;
         -ms-transition: .3s ease-in-out;
@@ -1485,8 +1430,6 @@ p {
 
     .portfolioSection p {
         font-size: 9px;
-        /*padding-right: 5px;*/
-        /*padding-left: 5px;*/
     }
 
     /*wszystko*/
@@ -1595,6 +1538,42 @@ p {
         left: 0;
         bottom: 0;
         padding: 5px 5px;
+    }
+
+    .img-hover-text figcaption {
+        font-family: "Raleway SemiBold", sans-serif;
+        font-size:16px;
+        color: white;
+        /* Position absolute to remove it from the flow of the document and absolutely position it within the .img-hover-text container */
+        position: absolute;
+        width: 100%;
+        /* Position this elements bottom away from the bottom of the .img-hover-text container by 10% of the  .img-hover-text containers height */
+        bottom: 0;
+        /* Position this elements left side away from the left side of the .img-hover-text container by 10% of the .img-hover-text containers width */
+        left: 0;
+        background: #00000085;
+        /*background-color: #00000085;*/
+        /*padding: 10px;*/
+        /* Factor padding and border size into declared width */
+        box-sizing: border-box;
+        /* Opacity 0 so the element cannot be seen unless user is hovering cursor */
+        opacity: 1;
+        /* Transition all properties by half a second */
+        transition: .5s;
+    }
+    .img-hover-text:hover img {
+        /* darkens the image */
+        filter: brightness(100%);
+        transition: all 1s;
+    }
+    .snip1577:hover:before,
+    .snip1577.hover:before {
+        width: 0px;
+    }
+
+    .snip1577:hover:after,
+    .snip1577.hover:after {
+        height: 0px;
     }
 
 }
