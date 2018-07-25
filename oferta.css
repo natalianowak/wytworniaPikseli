@@ -874,6 +874,9 @@ p {
         padding-left: 5%;
         bottom: 15%;
     }
+    .blueFotoSection{
+        height:310px;
+    }
     .blueFotoSection h2{
         color: #fbb900;
         font-family: Raleway;
@@ -883,7 +886,8 @@ p {
         font-size: 18px;
     }
     .blueFotoSection h3{
-        color: black;
+        color: white;
+        font-weight: 700;
         margin-top: 10%;
         padding-right: 5%;
         padding-left: 5%;

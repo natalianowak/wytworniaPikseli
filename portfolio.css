@@ -1338,6 +1338,9 @@ p {
         bottom: 15%;
     }
 
+    .blueFotoSection{
+        height:310px;
+    }
     .blueFotoSection h2 {
         color: #fbb900;
         font-family: Raleway;
@@ -1348,7 +1351,8 @@ p {
     }
 
     .blueFotoSection h3 {
-        color: black;
+        color: white;
+        font-weight: 700;
         margin-top: 10%;
         padding-right: 5%;
         padding-left: 5%;
