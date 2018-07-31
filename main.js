@@ -170,8 +170,20 @@ $(document).ready(function () {
     });
 });
 
-var choosenCategory = "all";
+/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+    }else {
+        document.getElementById("navbar").style.top = "-84px";
+    }
+    prevScrollpos = currentScrollPos;
+};
 
+
+var choosenCategory = "all";
 
 function removeClass() {
     $(".navDolny").css("display", "none");
@@ -453,7 +465,14 @@ $(function () {
             $("#portfolio").fadeTo(500, 1);
         }, 500);
     });
+    function topFunction() {
+        // document.body.scrollTop = 0; // For Safari
+        // document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 
+        $('html, body').animate({
+            scrollTop: $(".portfolioNav").offset().top
+        }, 100);
+    }
 
     $(".prevButton").click(function () {
         console.log("nacisnietyPrev");
@@ -466,6 +485,7 @@ $(function () {
             console.log(prevClassFunction + " taka klasa bedzie odpalona");
             removeClass();
             $("#portfolio").css("display", "none");
+            topFunction();
             $(".navButton").css("display", "block");
             $(".navDolny").css("display", "flex");
             $("." + prevClassFunction).css("display", "block");
@@ -488,6 +508,7 @@ $(function () {
             console.log(nextClassfunction + " taka klasa bedzie odpalona");
             removeClass();
             $("#portfolio").css("display", "none");
+         topFunction();
             $(".navButton").css("display", "block");
             $(".navDolny").css("display", "flex");
             $("." + nextClassfunction).css("display", "block");

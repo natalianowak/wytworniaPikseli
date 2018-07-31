@@ -67,6 +67,7 @@ the position is set to relative for absolute positioning inside */
 
 figcaption h3{
     font-size: 16px;
+line-height: 140%;
 }
 
 /* :hover pseudo selector used on parent container to then target figcaption child */
@@ -223,12 +224,12 @@ figcaption h3{
 }
 
 .nav li:nth-child(6) {
-    width: 44px;
+    width: 40px;
     margin-top: -3px;
 }
 
 .nav li:nth-child(7) {
-    width: 44px;
+    width: 32px;
     margin-top: -3px;
 }
 
@@ -1224,6 +1225,9 @@ p {
     }
 
     /*  MENU LIST  */
+    .menuGorne{
+        height:70px;
+    }
     .nav {
         position: absolute;
         /*margin-right: -6%;*/
@@ -1319,7 +1323,7 @@ p {
     }
 
     .logoTop {
-        width: 100px;
+        width: 95px;
     }
 
     .baseline {

@@ -1,15 +1,14 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 
 /*@font-face {*/
-    /*font-family: 'Raleway Medium';*/
-    /*font-style: normal;*/
-    /*font-weight: 500;*/
-    /*src: local('Raleway Medium'), local('Raleway-Medium'), url(https://fonts.googleapis.com/css?family=Raleway) format('woff2');*/
-    /*unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;*/
+/*font-family: 'Raleway Medium';*/
+/*font-style: normal;*/
+/*font-weight: 500;*/
+/*src: local('Raleway Medium'), local('Raleway-Medium'), url(https://fonts.googleapis.com/css?family=Raleway) format('woff2');*/
+/*unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;*/
 /*}*/
-
 
 html {
     height: auto;
@@ -41,6 +40,10 @@ video {
 
 .heavy {
     font-weight: 900;
+}
+
+.heavyblack {
+    font-weight: 700;
 }
 
 .contain {
@@ -151,11 +154,12 @@ video {
 }
 
 .nav li:nth-child(6) {
-    width: 44px;
+    width: 40px;
     margin-top: -3px;
 }
+
 .nav li:nth-child(7) {
-    width: 44px;
+    width: 32px;
     margin-top: -3px;
 }
 
@@ -163,6 +167,7 @@ video {
     color: #3d3c3d;
     text-decoration: none;
 }
+
 .nav a:hover {
     color: black;
     text-decoration: none;
@@ -174,8 +179,6 @@ video {
     color: #009fe4;
     font-weight: 900;
 }
-
-
 
 .yellowSectionContent {
     position: relative;
@@ -285,15 +288,39 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 140px;
+    /*width: 140px;*/
     float: right;
+
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+.dalejDiv a span {
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .dalejDiv a:hover {
     text-decoration: none;
     color: #009fe4;
+
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
 }
-.dalejDiv a:visited{
+
+.dalejDiv a:visited {
     text-decoration: none;
 }
 
@@ -307,15 +334,28 @@ h3 {
 
 .elip {
     opacity: 1;
-    transform: scale(1, 1);
     cursor: pointer;
-    transition: all 1s;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
 }
 
 .elip:hover {
     opacity: 1;
-    transform: scale(1.05, 1.07);
-    transition: all 1s;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+
 }
 
 .elip p {
@@ -431,14 +471,36 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 135px;
+    /*width: 135px;*/
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+.dalej2 a span {
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .dalej2 a:hover {
     color: white;
     text-decoration: none;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
 }
-.dalej2 a:visited{
+
+.dalej2 a:visited {
     text-decoration: none;
 }
 
@@ -453,12 +515,14 @@ h3 {
 .backgroundSection4 {
     width: 100%;
 }
+
 .backgroundSection44 {
     position: absolute;
     top: 0;
     width: 100%;
 }
-.backgroundColor{
+
+.backgroundColor {
     background-color: #fbb900;
 }
 
@@ -489,14 +553,14 @@ h3 {
     overflow: hidden;
     margin-top: 0%;
     z-index: 2;
-    height: 88%;
+    height: 100%;
     width: 30%;
     position: relative;
     background-image: url("img/losiuFoto.png");
     background-repeat: no-repeat;
     background-size: 100%;
     transition: all 1s;
-    box-shadow: 8px 10px 50px -20px;
+    /*box-shadow: 8px 10px 50px -20px;*/
 }
 
 .losiu:hover {
@@ -510,14 +574,14 @@ h3 {
     overflow: hidden;
     margin-top: 0%;
     z-index: 2;
-    height: 88%;
+    height: 100%;
     width: 30%;
     position: relative;
     background-image: url("img/dankaFoto.png");
     background-repeat: no-repeat;
     background-size: 100%;
     transition: all 1s;
-    box-shadow: 8px 10px 50px -20px;
+    /*box-shadow: 8px 10px 50px -20px;*/
 }
 
 .danka:hover {
@@ -530,14 +594,14 @@ h3 {
     cursor: pointer;
     overflow: hidden;
     margin-top: 0%;
-    height: 88%;
+    height: 100%;
     z-index: 2;
     width: 30%;
     position: relative;
     background-image: url("img/stodiFoto.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    box-shadow: 8px 10px 50px -20px;
+    /*box-shadow: 8px 10px 50px -20px;*/
     transition: all 1s;
 }
 
@@ -553,15 +617,16 @@ h3 {
     text-align: center;
     position: absolute;
     bottom: 0;
-    height: 17%;
+    height: 19%;
     right: 0;
     left: 0;
     transform: scale(1, 1);
 }
 
 .podpisLosiu {
+    height: 100%;
     width: 100%;
-    opacity: 0.5;
+    /*opacity: 0.5;*/
     position: relative;
 }
 
@@ -630,7 +695,8 @@ h3 {
 .skontaktuj {
     width: 100%
 }
-.mobile{
+
+.mobile {
     display: none;
 }
 
@@ -677,7 +743,8 @@ h3 {
     align-items: center;
     margin-left: 17%;
 }
-.inline p a{
+
+.inline p a {
     color: black;
     text-decoration: none;
 }
@@ -867,10 +934,10 @@ p {
     .podpis {
         font-size: 12px;
     }
-    .nav ul{
+
+    .nav ul {
         width: 500px;
     }
-
 
     .nav li:first-child {
         width: 106px;
@@ -1099,6 +1166,12 @@ p {
     }
 
     /*  MENU LIST  */
+.firstSection{
+    height:380px;
+}
+    .menuGorne{
+        height:70px;
+    }
     .nav {
         position: absolute;
         /*margin-right: -6%;*/
@@ -1140,14 +1213,17 @@ p {
         float: left;
 
     }
-    .nav img{
+
+    .nav img {
         width: 20px;
     }
-    .video{
+
+    .video {
         display: none;
     }
-    .longText{
-      padding-right: 5%;
+
+    .longText {
+        padding-right: 5%;
     }
 
     .nav li:first-child {
@@ -1169,9 +1245,11 @@ p {
     .nav li:nth-child(5) {
         width: 52px;
     }
+
     .nav li:nth-child(6) {
         width: 35px;
     }
+
     .nav li:nth-child(7) {
         width: 35px;
     }
@@ -1185,14 +1263,15 @@ p {
     }
 
     .logoTop {
-        width: 100px;
+        width: 95px;
     }
 
     .baseline {
         padding-right: 5%;
         padding-left: 5%;
     }
-    .section1Text{
+
+    .section1Text {
         padding-left: 19%;
         width: 100%;
         /*top: 30%;*/
@@ -1200,16 +1279,19 @@ p {
         z-index: 0;
 
     }
-    .fajneHaslo h2{
+
+    .fajneHaslo h2 {
         color: black;
     }
-    .fajneHaslo h3{
+
+    .fajneHaslo h3 {
         color: #009fe4;
         font-family: Raleway;
         font-weight: 600;
         font-size: 18px;
     }
-    .longText{
+
+    .longText {
         position: initial;
     }
 
@@ -1230,11 +1312,13 @@ p {
     .dalejDiv {
         padding-right: 5.5%;
     }
+
     .dalejDiv a {
-        width:110px;
+        /*width:110px;*/
     }
-    .dalej2 a{
-        width:110px;
+
+    .dalej2 a {
+        /*width:110px;*/
     }
 
     .textSection3 {
@@ -1244,6 +1328,10 @@ p {
     .pionoweKropki {
         padding-right: 5%;
         width: 5.51%;
+    }
+
+    .podpis {
+        height: 25%;
     }
 
     .opakownie {
@@ -1302,6 +1390,7 @@ p {
         width: 25%;
         margin: 0 auto;
     }
+
     .elipsy {
         display: block;
         top: 25%;
@@ -1310,6 +1399,7 @@ p {
     .co {
         top: 10%
     }
+
     .blueSymbol {
         padding-left: 5%;
         bottom: -7%;
@@ -1328,28 +1418,33 @@ p {
     .zNami {
         display: none;
     }
-    .my{
+
+    .my {
         display: block;
         height: 23%;
         margin-top: 3%;
     }
-    .backgroundSection44{
+
+    .backgroundSection44 {
         position: inherit;
     }
-    .losiu{
+
+    .losiu {
         margin-left: 0;
         margin: auto;
         margin-bottom: 6%;
         height: 130%;
         width: 45%;
     }
-    .stodi{
+
+    .stodi {
         margin-left: 0;
         margin: auto;
         height: 130%;
         width: 45%;
     }
-    .danka{
+
+    .danka {
         margin-left: 0;
         margin: auto;
         margin-bottom: 6%;
@@ -1362,7 +1457,7 @@ p {
         flex-direction: column;
     }
 
-    .middleDownLeft{
+    .middleDownLeft {
         width: 100%;
     }
 
@@ -1392,17 +1487,29 @@ p {
     .left {
         width: 100%;
     }
-    .mobile{
+
+    .mobile {
         display: block;
     }
-    .normal{
+
+    .normal {
         display: none;
     }
+
     #status {
-        left:40%;
+        left: 40%;
     }
-    .section7{
+
+    .section7 {
         position: relative;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .nav ul {
+        /*width:500px;*/
+    }
+    .section1Text {
+        /*top: 50vh;*/
     }
 }
 
@@ -1442,29 +1549,30 @@ and(orientation: landscape) {
     .yellowSectionContent {
         /*height: 300px;*/
     }
-    .nav ul{
-        width:500px;
+
+    .nav ul {
+        width: 500px;
     }
 
 }
-@media only screen and (max-width: 640px) {
-.nav ul{
-    /*width:500px;*/
-}
-    .section1Text {
-        top: 50vh;
-    }
-}
+
+
 
 @media only screen and (max-width: 340px) {
     .nav ul {
-        width:320px;
+        width: 320px;
         font-size: 10px;
     }
-    .nav a{
+
+    .nav a {
         font-size: 10px;
     }
-    .section3{
-        height:310px;
+
+    .section3 {
+        height: 310px;
+    }
+    .name {
+        font-size: 11px;
+        padding-bottom: 11px;
     }
 }
