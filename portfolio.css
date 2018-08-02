@@ -1041,6 +1041,66 @@ p {
         padding-left: 10%;
         font-size: 13px;
     }
+    /*wszystko*/
+    .portfolioNav p:first-child {
+        text-align: center;
+        width: 92px;
+    }
+
+    /*projektowanie*/
+    .portfolioNav p:nth-child(2) {
+        width: 202px;
+        text-align: center;
+    }
+
+    /*fotografia*/
+    .portfolioNav p:nth-child(3) {
+        width: 120px;
+        text-align: center;
+    }
+
+    /*Video*/
+    .portfolioNav p:nth-child(4) {
+        width: 93px;
+        text-align: center;
+    }
+
+    /*Strony*/
+    .portfolioNav p:nth-child(5) {
+        width: 114px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 800px) {
+    /*wszystko*/
+    .portfolioNav p:first-child {
+        text-align: center;
+        width: 85px;
+    }
+
+    /*projektowanie*/
+    .portfolioNav p:nth-child(2) {
+        width: 195px;
+        text-align: center;
+    }
+
+    /*fotografia*/
+    .portfolioNav p:nth-child(3) {
+        width: 92px;
+        text-align: center;
+    }
+
+    /*Video*/
+    .portfolioNav p:nth-child(4) {
+        width: 62px;
+        text-align: center;
+    }
+
+    /*Strony*/
+    .portfolioNav p:nth-child(5) {
+        width: 106px;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -1226,7 +1286,7 @@ p {
 
     /*  MENU LIST  */
     .menuGorne{
-        height:70px;
+        height:84px;
     }
     .nav {
         position: absolute;
@@ -1440,35 +1500,35 @@ p {
         font-size: 9px;
     }
 
-    /*wszystko*/
-    .portfolioNav p:first-child {
-        text-align: center;
-        width: 45px;
-    }
+    /*!*wszystko*!*/
+    /*.portfolioNav p:first-child {*/
+        /*text-align: center;*/
+        /*width: 46px;*/
+    /*}*/
 
-    /*projektowanie*/
-    .portfolioNav p:nth-child(2) {
-        width: 109px;
-        text-align: center;
-    }
+    /*!*projektowanie*!*/
+    /*.portfolioNav p:nth-child(2) {*/
+        /*width: 112px;*/
+        /*text-align: center;*/
+    /*}*/
 
-    /*fotografia*/
-    .portfolioNav p:nth-child(3) {
-        width: 45px;
-        text-align: center;
-    }
+    /*!*fotografia*!*/
+    /*.portfolioNav p:nth-child(3) {*/
+        /*width: 53px;*/
+        /*text-align: center;*/
+    /*}*/
 
-    /*Video*/
-    .portfolioNav p:nth-child(4) {
-        width: 25px;
-        text-align: center;
-    }
+    /*!*Video*!*/
+    /*.portfolioNav p:nth-child(4) {*/
+        /*width: 31px;*/
+        /*text-align: center;*/
+    /*}*/
 
-    /*Strony*/
-    .portfolioNav p:nth-child(5) {
-        width: 55px;
-        text-align: center;
-    }
+    /*!*Strony*!*/
+    /*.portfolioNav p:nth-child(5) {*/
+        /*width: 60px;*/
+        /*text-align: center;*/
+    /*}*/
 
     iframe {
         height: 150px;
@@ -1600,6 +1660,35 @@ and (orientation: landscape) {
     .nav ul {
         width: 370px;
     }
+    /*wszystko*/
+    .portfolioNav p:first-child {
+        text-align: center;
+        width: 46px;
+    }
+
+    /*projektowanie*/
+    .portfolioNav p:nth-child(2) {
+        width: 112px;
+        text-align: center;
+    }
+
+    /*fotografia*/
+    .portfolioNav p:nth-child(3) {
+        width: 53px;
+        text-align: center;
+    }
+
+    /*Video*/
+    .portfolioNav p:nth-child(4) {
+        width: 31px;
+        text-align: center;
+    }
+
+    /*Strony*/
+    .portfolioNav p:nth-child(5) {
+        width: 60px;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 340px) {
@@ -1610,5 +1699,40 @@ and (orientation: landscape) {
 
     .nav a {
         font-size: 10px;
+    }
+    .portfolioNav{
+        display: block;
+    }
+    .portfolioNav p{
+        margin-right: 15px;
+    }
+    /*wszystko*/
+    .portfolioNav p:first-child {
+        text-align: center;
+        width: 60px;
+    }
+
+    /*projektowanie*/
+    .portfolioNav p:nth-child(2) {
+        width: 120px;
+        text-align: center;
+    }
+
+    /*fotografia*/
+    .portfolioNav p:nth-child(3) {
+        width: 60px;
+        text-align: center;
+    }
+
+    /*Video*/
+    .portfolioNav p:nth-child(4) {
+        width: 40px;
+        text-align: center;
+    }
+
+    /*Strony*/
+    .portfolioNav p:nth-child(5) {
+        width: 65px;
+        text-align: center;
     }
 }

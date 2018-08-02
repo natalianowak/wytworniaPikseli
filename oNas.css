@@ -937,21 +937,16 @@ p {
     }
 
     .zdjecieLosiu img {
-        left: 0;
-        right: 0;
-        margin: 0 auto;
+
+        left:5%;
     }
 
     .zdjecieDanka img {
-        left: 0;
-        right: 0;
-        margin: 0 auto;
+        left:5%;
     }
 
     .zdjecieStodi img {
-        left: 0;
-        right: 0;
-        margin: 0 auto;
+        left:5%;
     }
 
     .zdjecie {
@@ -974,6 +969,8 @@ p {
     }
 
     .osoba {
+        height:auto;
+        margin-bottom: 30px;
         flex-direction: column;
         display: block;
     }
