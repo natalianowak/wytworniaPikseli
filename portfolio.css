@@ -1102,6 +1102,40 @@ p {
         text-align: center;
     }
 }
+/*@media only screen and (orientation:landscape) {*/
+    /*.portfolioSection p {*/
+        /*font-size: 10px;*/
+    /*}*/
+    /*!*wszystko*!*/
+    /*.portfolioNav p:first-child {*/
+        /*text-align: center;*/
+        /*width: 75px;*/
+    /*}*/
+
+    /*!*projektowanie*!*/
+    /*.portfolioNav p:nth-child(2) {*/
+        /*width: 112px;*/
+        /*text-align: center;*/
+    /*}*/
+
+    /*!*fotografia*!*/
+    /*.portfolioNav p:nth-child(3) {*/
+        /*width: 53px;*/
+        /*text-align: center;*/
+    /*}*/
+
+    /*!*Video*!*/
+    /*.portfolioNav p:nth-child(4) {*/
+        /*width: 31px;*/
+        /*text-align: center;*/
+    /*}*/
+
+    /*!*Strony*!*/
+    /*.portfolioNav p:nth-child(5) {*/
+        /*width: 60px;*/
+        /*text-align: center;*/
+    /*}*/
+/*}*/
 
 @media only screen and (max-width: 700px) {
     /*  ALL TRANSITIONS */
@@ -1325,7 +1359,7 @@ p {
         padding-bottom: 15px;
         padding-right: 5%;
         padding-left: 5%;
-        width: 390px;
+        width: 100%;
     }
 
     .nav ul li {
@@ -1500,35 +1534,35 @@ p {
         font-size: 9px;
     }
 
-    /*!*wszystko*!*/
-    /*.portfolioNav p:first-child {*/
-        /*text-align: center;*/
-        /*width: 46px;*/
-    /*}*/
+    /*wszystko*/
+    .portfolioNav p:first-child {
+        text-align: center;
+        width: 60px;
+    }
 
-    /*!*projektowanie*!*/
-    /*.portfolioNav p:nth-child(2) {*/
-        /*width: 112px;*/
-        /*text-align: center;*/
-    /*}*/
+    /*projektowanie*/
+    .portfolioNav p:nth-child(2) {
+        width: 127px;
+        text-align: center;
+    }
 
-    /*!*fotografia*!*/
-    /*.portfolioNav p:nth-child(3) {*/
-        /*width: 53px;*/
-        /*text-align: center;*/
-    /*}*/
+    /*fotografia*/
+    .portfolioNav p:nth-child(3) {
+        width: 68px;
+        text-align: center;
+    }
 
-    /*!*Video*!*/
-    /*.portfolioNav p:nth-child(4) {*/
-        /*width: 31px;*/
-        /*text-align: center;*/
-    /*}*/
+    /*Video*/
+    .portfolioNav p:nth-child(4) {
+        width: 56px;
+        text-align: center;
+    }
 
-    /*!*Strony*!*/
-    /*.portfolioNav p:nth-child(5) {*/
-        /*width: 60px;*/
-        /*text-align: center;*/
-    /*}*/
+    /*Strony*/
+    .portfolioNav p:nth-child(5) {
+        width: 82px;
+        text-align: center;
+    }
 
     iframe {
         height: 150px;
@@ -1646,54 +1680,80 @@ p {
 
 }
 
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 812px)
-and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: landscape) {
-    .portfolioSection p {
-        font-size: 10px;
-    }
-}
+
 
 @media only screen and (max-width: 640px) {
     .nav ul {
-        width: 370px;
+        width: 100%;
     }
     /*wszystko*/
     .portfolioNav p:first-child {
         text-align: center;
-        width: 46px;
+        width: 75px;
     }
 
     /*projektowanie*/
     .portfolioNav p:nth-child(2) {
-        width: 112px;
+        width: 137px;
         text-align: center;
     }
 
     /*fotografia*/
     .portfolioNav p:nth-child(3) {
-        width: 53px;
+        width: 80px;
         text-align: center;
     }
 
     /*Video*/
     .portfolioNav p:nth-child(4) {
-        width: 31px;
+        width: 59px;
         text-align: center;
     }
 
     /*Strony*/
     .portfolioNav p:nth-child(5) {
-        width: 60px;
+        width: 80px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 540px) {
+    .nav ul {
+        width: 100%;
+    }
+    /*wszystko*/
+    .portfolioNav p:first-child {
+        text-align: center;
+        width: 48px;
+    }
+
+    /*projektowanie*/
+    .portfolioNav p:nth-child(2) {
+        width: 110px;
+        text-align: center;
+    }
+
+    /*fotografia*/
+    .portfolioNav p:nth-child(3) {
+        width: 58px;
+        text-align: center;
+    }
+
+    /*Video*/
+    .portfolioNav p:nth-child(4) {
+        width: 40px;
+        text-align: center;
+    }
+
+    /*Strony*/
+    .portfolioNav p:nth-child(5) {
+        width: 59px;
         text-align: center;
     }
 }
 
 @media only screen and (max-width: 340px) {
     .nav ul {
-        width: 320px;
+        width: 100%;
         font-size: 10px;
     }
 
@@ -1738,5 +1798,7 @@ and (orientation: landscape) {
     .nav.open{
         margin-top: 65px;
     }
+
+
 
 }
