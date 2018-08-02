@@ -978,6 +978,10 @@ p {
     .opisy {
         height: 1330px;
     }
+    .bottomPhoto{
+        display: none;
+    }
+
 
     .opisOsoby p {
         font-size: 13px;
@@ -1059,5 +1063,8 @@ and (orientation: landscape) {
     }
     .nav a{
         font-size: 10px;
+    }
+    .nav.open {
+        margin-top: 65px;
     }
 }

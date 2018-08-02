@@ -1603,4 +1603,8 @@ and(orientation: landscape) {
         font-size: 11px;
         padding-bottom: 11px;
     }
+
+    /*.nav.open {*/
+        /*margin-top: 65px;*/
+    /*}*/
 }
