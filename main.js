@@ -224,6 +224,7 @@ $(function () {
         $('.portfolioNav [data-rel~="' + selectedClass + '"]').css("background-color", "#009fe4").css("color", "white").css("font-weight", "bold");
         console.log($(this));
 
+
         //dzialanie portfolio
         $("#portfolio").fadeTo(100, 0.1);  //znikaja kwadraty
         $("#portfolio div").not("." + selectedClass).fadeOut(); //pojawiaja sie te ktore maja wybrana klase np allwebsite graphic
@@ -231,6 +232,8 @@ $(function () {
             $("." + selectedClass).fadeIn();
             $("." + selectedClass + " .content").fadeIn();
             $("#portfolio").fadeTo(500, 1);
+
+
         }, 500);
     });
 
@@ -466,12 +469,10 @@ $(function () {
         }, 500);
     });
     function topFunction() {
-        // document.body.scrollTop = 0; // For Safari
-        // document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-
-        $('html, body').animate({
-            scrollTop: $(".portfolioNav").offset().top
-        }, 100);
+        // $('html, body').animate({
+        //     scrollTop: $(".portfolioNav").offset().top
+        // }, 10);
+        document.location.href="#portfolioNav";
     }
 
     $(".prevButton").click(function () {
@@ -567,3 +568,19 @@ $(window).scroll(function () {
         $('#video-container').html(video);
     });
 })(jQuery);
+
+//
+// $(document).ready(function () {
+//
+//     $("#portfolio").on("swipeleft", function () {
+//         if ($(this).next().length > 0) {
+//             $(".prevButton").click();
+//         }
+//     }).on("swiperight", function () {
+//         if ($(this).prev().length > 0) {
+//             $(".nextButton").click();
+//         }
+//     });
+// });
+
+

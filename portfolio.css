@@ -1324,15 +1324,13 @@ p {
     }
     .nav {
         position: absolute;
-        /*margin-right: -6%;*/
-        margin-top: 66px;
+        bottom:-48px;
         z-index: -1;
+        height:47px;
         width: 100%;
-        /*height: 100px;*/
         background: #f4f4f4;
         float: right;
         overflow: hidden;
-        /*position: relative;*/
         right: -100%;
         -webkit-transition: .7s ease-in-out;
         -moz-transition: .7s ease-in-out;
@@ -1342,11 +1340,10 @@ p {
     }
 
     .nav.open {
+        height:47px;
         position: absolute;
-        /*margin-right: -6%;*/
-        margin-top: 66px;
+        bottom:-48px;
         width: 100%;
-        /*height: 100px;*/
         right: 0;
     }
 

@@ -40,7 +40,7 @@ body {
     position: fixed;
 
     width: 100%;
-    /*background-image: url("img/menuGórne2.png");*/
+    /*background-image: url("img/menuGorne2.png");*/
     /*background-repeat: repeat-x;*/
     /*background-size: cover;*/
 }
@@ -788,20 +788,18 @@ p {
 
 
     /*  MENU LIST  */
-    .menuGorne{
-        height:84px;
-    }
+    /*.menuGorne{*/
+        /*height:84px;*/
+    /*}*/
     .nav {
         position: absolute;
-        /*margin-right: -6%;*/
-        margin-top: 66px;
+        bottom:-48px;
         z-index: -1;
+        height:47px;
         width: 100%;
-        /*height: 100px;*/
         background: #f4f4f4;
         float: right;
         overflow: hidden;
-        /*position: relative;*/
         right: -100%;
         -webkit-transition: .7s ease-in-out;
         -moz-transition: .7s ease-in-out;
@@ -809,12 +807,12 @@ p {
         -o-transition: .7s ease-in-out;
         transition: .7s ease-in-out;
     }
+
     .nav.open {
+        height:47px;
         position: absolute;
-        /*margin-right: -6%;*/
-        margin-top: 66px;
+        bottom:-48px;
         width: 100%;
-        /*height: 100px;*/
         right: 0;
     }
     .nav ul {
@@ -826,7 +824,7 @@ p {
         padding-bottom: 15px;
         padding-right: 5%;
         padding-left: 5%;
-        width: 370px;
+        width: 100%;
     }
     .nav ul li {
         width: auto;
@@ -1002,13 +1000,13 @@ p {
     }
 }
 @media only screen and (max-width: 640px) {
-    .nav ul{
-        width:370px;
-    }
+    /*.nav ul{*/
+        /*width:370px;*/
+    /*}*/
 }
 @media only screen and (max-width: 340px) {
     .nav ul {
-        width:320px;
+        /*width:320px;*/
         font-size: 10px;
     }
     .nav a{

@@ -158,12 +158,12 @@ video {
 }
 
 .nav li:nth-child(6) {
-    width: 40px;
+    width: 20px;
     margin-top: -3px;
 }
 
 .nav li:nth-child(7) {
-    width: 32px;
+    width: 20px;
     margin-top: -3px;
 }
 
@@ -332,7 +332,8 @@ h3 {
     width: 100%;
     padding-left: 19%;
     padding-right: 19%;
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
 }
 
 .elip-first-row {
@@ -1178,18 +1179,18 @@ p {
 
     /*  MENU LIST  */
     .firstSection {
-        height: 380px;
+        height: 280px;
     }
 
-    .menuGorne {
-        height: 70px;
-    }
+    /*.menuGorne {*/
+        /*height: 70px;*/
+    /*}*/
 
     .nav {
         position: absolute;
-        /*margin-right: -6%;*/
-        margin-top: 59px;
+        bottom:-48px;
         z-index: -1;
+        height:47px;
         width: 100%;
         background: #f4f4f4;
         float: right;
@@ -1203,8 +1204,9 @@ p {
     }
 
     .nav.open {
+        height:47px;
         position: absolute;
-        margin-top: 59px;
+        bottom:-48px;
         width: 100%;
         right: 0;
     }
@@ -1217,7 +1219,7 @@ p {
         padding-bottom: 15px;
         padding-right: 5%;
         padding-left: 5%;
-        width: 370px;
+        width: 100%;
 
     }
 
@@ -1260,11 +1262,11 @@ p {
     }
 
     .nav li:nth-child(6) {
-        width: 35px;
+        width: 28px;
     }
 
     .nav li:nth-child(7) {
-        width: 35px;
+        width: 28px;
     }
 
     body {
@@ -1290,7 +1292,7 @@ p {
         flex-direction: column;
         z-index: 0;
         padding-left: 5%;
-        /*top: 85%;*/
+        top: 34%;
     }
 
     .fajneHaslo h2 {
@@ -1386,12 +1388,12 @@ p {
     }
 
     .name {
-        font-size: 12px;
-        padding-bottom: 11px;
+        font-size: 11px;
+        padding-bottom: 12px;
     }
 
     .position {
-        font-size: 12px;
+        font-size: 11px;
         padding-top: 6px
     }
 
@@ -1533,13 +1535,10 @@ p {
 }
 
 @media only screen and (max-width: 640px) {
-    .nav ul {
-        /*width:500px;*/
-    }
+/*.nav ul{*/
+    /*width: 370px;*/
+/*}*/
 
-    .section1Text {
-        /*top: 50vh;*/
-    }
 }
 
 @media only screen
@@ -1579,15 +1578,15 @@ and(orientation: landscape) {
         /*height: 300px;*/
     }
 
-    .nav ul {
-        width: 500px;
-    }
+    /*.nav ul {*/
+        /*width: 500px;*/
+    /*}*/
 
 }
 
 @media only screen and (max-width: 340px) {
     .nav ul {
-        width: 320px;
+        /*width: 320px;*/
         font-size: 10px;
     }
 
@@ -1600,8 +1599,11 @@ and(orientation: landscape) {
     }
 
     .name {
-        font-size: 11px;
-        padding-bottom: 11px;
+        font-size: 10px;
+        padding-bottom: 12px;
+    }
+    .position{
+        font-size: 10px;
     }
 
     /*.nav.open {*/

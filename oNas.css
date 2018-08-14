@@ -812,13 +812,14 @@ p {
     }
 
     /*  MENU LIST  */
-    .menuGorne{
-        height:70px;
-    }
+    /*.menuGorne{*/
+        /*height:70px;*/
+    /*}*/
     .nav {
         position: absolute;
-        margin-top: 66px;
+        bottom:-48px;
         z-index: -1;
+        height:47px;
         width: 100%;
         background: #f4f4f4;
         float: right;
@@ -832,8 +833,9 @@ p {
     }
 
     .nav.open {
+        height:47px;
         position: absolute;
-        margin-top: 66px;
+        bottom:-48px;
         width: 100%;
         right: 0;
     }
@@ -846,7 +848,7 @@ p {
         padding-bottom: 15px;
         padding-right: 5%;
         padding-left: 5%;
-        width: 390px;
+        width: 100%;
     }
 
     .nav ul li {
@@ -1052,13 +1054,13 @@ and (orientation: landscape) {
     }
 }
 @media only screen and (max-width: 640px) {
-    .nav ul{
-        width:370px;
-    }
+    /*.nav ul{*/
+        /*width:370px;*/
+    /*}*/
 }
 @media only screen and (max-width: 340px) {
     .nav ul {
-        width:320px;
+        /*width:320px;*/
         font-size: 10px;
     }
     .nav a{
